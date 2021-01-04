@@ -15,16 +15,19 @@ Repo 預設提供 2017 以後的資料, 視情況擴充 0 - 0
 Usage: crawler.py [OPTIONS]
 
 Options:
-  -f, --fromY INTEGER  crawler start year  [default: 2017]
-  -t, --toY INTEGER    crawler end year  [default: 2021]
-  -c, --cookie TEXT    For crawling http://gpe3.acm-icpc.tw necessary cookie,
-                       please login first and get the ACMICPCTW cookie value
-                       [required]
+  -s, --startY INTEGER  crawler start year  [default: 2017]
+  -e, --endY INTEGER    crawler end year  [default: 2021]
+  -c, --cookie TEXT     For crawling http://gpe3.acm-icpc.tw necessary cookie,
+                        please login first and get the ACMICPCTW cookie value
+                        [required]
 
-  --help               Show this message and exit.
+  -f, --filename TEXT   customized dump filename  [default: data.json]
+  --help                Show this message and exit.
 ```
 
-基本上就是去抓資料, 寫的比較簡單, 沒做沒抓到資料或是欄位不對處理該怎麼辦 :P
+基本上就是去抓資料, 寫的比較簡單, 沒做沒抓到資料或是欄位不對處理該怎麼辦 
+
+當然還有測試:P
 
 ### Analysis & Calculation
 

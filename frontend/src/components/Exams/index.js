@@ -27,13 +27,31 @@ function Exams({ className, ExamData }) {
     <div className={className}>
 
       <Container style={{ marginTop: '7em' }}>
-        <Header as='h1'>題目一覽</Header>
+        <Message>
+          <Message.Header>想要排序？</Message.Header>
+          <Message.List>
+            <Message.Item>點擊欄位名稱就可以了～</Message.Item>
+            <Message.Item>目前提供 AC 率、OnSite 次數、題目 Access 次數排序</Message.Item>
+          </Message.List>
+        </Message>
+        <Header as='h1'>考試一覽</Header>
         <Divider />
 
         <Accordion>
           {Object.keys(ExamData).sort((a, b) => { return b - a; }).map((key, i) => {
             return (
               <div key={i}>
+                <Accordion.Title
+                  active={activeIndex === i}
+                  index={i}
+                  onClick={handleClick}
+                >
+                  <Icon name='dropdown' />
+                  {ExamData[key].examTime}: {ExamData[key].examName}
+                </Accordion.Title>
+                <Accordion.Content active={activeIndex === i} style={{ padding: '1rem 2rem' }}>
+                  <Problem problems={ExamData[key].problems} />
+                </Accordion.Content>
               </div>
             )
           })}

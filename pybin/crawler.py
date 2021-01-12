@@ -62,7 +62,7 @@ def parseExam(cid):
     trs = table.find_all('tr')[1:]
 
     # store the cids & exams information
-    problems = {}
+    problems = []
 
     # parse each problem
     for tr in trs:
@@ -82,13 +82,14 @@ def parseExam(cid):
         problemAccess = int(problemInfo[8].text.strip())
 
         # append to rows list
+        problem['pid'] = problemInfoId
         problem['name'] = problemName
         problem['subs'] = problemSubs
         problem['ACs'] = problemACs
         problem['AcceptRate'] = problemAcceptRate
         problem['onsite'] = problemOnSite
         problem['access'] = problemAccess
-        problems[problemInfoId] = problem
+        problems.append(problem)
     return problems
 
 

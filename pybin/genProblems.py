@@ -40,8 +40,35 @@ def main(filename, net, startY, endY, out):
 
     # dump to array json for frontend
     uniq_problems_array = []
+
+    # follow intuition to caculate rating?
+    ac_avg = 0
+    onsite_avg = 0
+    access_avg = 0
+
     for key in uniq_problems_sort:
         uniq_problems_array.append(uniq_problems[key])
+        ac_avg = ac_avg + uniq_problems[key]['AcceptRate']
+        onsite_avg = onsite_avg + uniq_problems[key]['onsite']
+        access_avg = access_avg + uniq_problems[key]['access']
+
+    p_len = len(uniq_problems_array)
+    ac_avg = ac_avg/p_len
+    onsite_avg = onsite_avg/p_len
+    access_avg = access_avg/p_len
+
+    # 就 隨直覺 其實應該要有更好的評估方法
+    for problem in uniq_problems_array:
+        rating_val = problem['AcceptRate']/ac_avg*0.8 + \
+            problem['onsite']/onsite_avg*0.6 + problem['access']/access_avg*0.3
+        if rating_val > 2:
+            problem['rating'] = 3
+        elif rating_val > 1.4:
+            problem['rating'] = 2
+        elif rating_val > 0.9:
+            problem['rating'] = 1
+        else:
+            problem['rating'] = 0
 
     # write file
     with open(out, 'w') as outfile:

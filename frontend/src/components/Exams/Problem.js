@@ -76,7 +76,7 @@ const Problem = ({
                 <Table.Cell singleLine>
                   <a href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
                 </Table.Cell>
-                <Table.Cell Cell textAlign='right'>
+                <Table.Cell textAlign='right'>
                   <Header as='h5'>{problem.AcceptRate}%
             <Header.Subheader>{problem.ACs}/{problem.subs}
                     </Header.Subheader>

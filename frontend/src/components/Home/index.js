@@ -33,21 +33,22 @@ function Home({ className }) {
         <Container text>
           <Header
             as='h1'
-            content='GPE Analysis'
             inverted
+            // icon="ambulance"
+            icon
             className="h1-content"
-          />
-          <Header
-            as='h2'
-            content='救救 GPE'
-            inverted
-            style={{
-              fontSize: '1.5em',
-              fontWeight: 'normal',
-              marginTop: '0.5em',
-            }}
-          />
-          <Button primary size='huge' onClick={onScrollDown}>
+            textAlign='center'
+          >
+            <Icon name='ambulance' />
+            {/* <Icon name='ambulance' /> */}
+            <Header.Content>
+              GPE Helper
+            </Header.Content>
+            <Header.Subheader>
+              拯救你我的程式檢定考試
+            </Header.Subheader>
+          </Header>
+          <Button primary size='huge' onClick={onScrollDown} style={{ marginTop: '20px', marginBottom: '15px' }}>
             Get Started
           <Icon name='right arrow' />
           </Button>
@@ -61,7 +62,7 @@ function Home({ className }) {
                 <Image src='/afraid.gif' style={{ width: '100px' }} />
                 作者的廢話
             </Header>
-              <p style={{ fontSize: '1.33em' }}>
+              <div style={{ fontSize: '1.33em' }}>
                 <p>不好好寫扣和練 GPE 在這邊寫奇怪的東西啊= =</p>
                 <p>
                   總之是個小專案 統計一下近來學校舉辦的程式檢定考題型和相關出題頻率
@@ -72,7 +73,7 @@ function Home({ className }) {
                 <p>
                   然後保佑我 GPE 能過..
               </p>
-              </p>
+              </div>
             </Grid.Column>
           </Grid.Row>
         </Grid>
@@ -138,7 +139,7 @@ export default styled(Home)`
     }
     .ui.header.h1-content {
       font-size: 4em;
-      margin-top: 3em;    
-    }     
+      margin-top: 2em;    
+    }   
   }
 `;

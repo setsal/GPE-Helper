@@ -87,6 +87,10 @@ function Problems({ className, ProblemData }) {
                 sorted={state.column === 'access' ? state.direction : null}
                 onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'access' })}
                 textAlign='right'>Access</Table.HeaderCell>
+              <Table.HeaderCell width={2} 
+                sorted={state.column === 'LastAppearance' ? state.direction : null}
+                onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'LastAppearance' })}
+                textAlign='right'>LastAppearance</Table.HeaderCell>                
             </Table.Row>
           </Table.Header>
           <Table.Body>
@@ -111,6 +115,9 @@ function Problems({ className, ProblemData }) {
                   <Table.Cell textAlign='right'>
                     {problem.access}
                   </Table.Cell>
+                  <Table.Cell textAlign='right'>
+                    {problem.LastAppearance}
+                  </Table.Cell>                  
                 </Table.Row>
               )
             })}

@@ -24,14 +24,20 @@ def main(filename, net, startY, endY, out):
     else:
         with open(filename) as f:
             data = json.load(f)
-
+    
     logging.info('Load data successfully')
 
     for key in data:
-        # before 2019
-        if data[key]['timestamp'] > datetime.datetime(startY, 1, 1).timestamp() and data[key]['timestamp'] < datetime.datetime(endY, 1, 1).timestamp():
+        # before 2019       
+        if data[key]['timestamp'] > datetime.datetime(startY, 1, 1).timestamp() and data[key]['timestamp'] < datetime.datetime(endY, 12, 31).timestamp():
             for problem in data[key]['problems']:
-                uniq_problems[problem['pid']] = problem
+                if problem['pid'] in uniq_problems:
+                    if ( uniq_problems[problem['pid']]['LastAppearance'] <  data[key]['timestamp']):
+                        logging.info("PID: %d duplicate and update timestamp %s to %s", problem['pid'], uniq_problems[problem['pid']]['LastAppearance'],  data[key]['timestamp'] )
+                        uniq_problems[problem['pid']]['LastAppearance'] =  data[key]['timestamp']
+                else:
+                    uniq_problems[problem['pid']] = problem                    
+                    uniq_problems[problem['pid']]['LastAppearance'] =  data[key]['timestamp']
 
     logging.info('Fetch %d uniq problems', len(uniq_problems))
 
@@ -59,6 +65,7 @@ def main(filename, net, startY, endY, out):
 
     # 就 隨直覺 其實應該要有更好的評估方法
     for problem in uniq_problems_array:
+        problem['LastAppearance'] = datetime.datetime.fromtimestamp(problem['LastAppearance']).strftime('%Y-%m-%d') # 順便做 懶得前端渲染轉換 :P
         rating_val = problem['AcceptRate']/ac_avg*0.8 + \
             problem['onsite']/onsite_avg*0.6 + problem['access']/access_avg*0.3
         if rating_val > 2:

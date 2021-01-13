@@ -51,7 +51,7 @@ function Problems({ className, ProblemData }) {
           <Message.Header>想要排序？</Message.Header>
           <Message.List>
             <Message.Item>點擊欄位名稱就可以了～</Message.Item>
-            <Message.Item>目前提供 ProblemID、AC 率、OnSite 次數、題目 Access 次數排序</Message.Item>
+            <Message.Item>目前提供 ProblemID、AC 率、OnSite 次數、題目 Access 次數、歷史出現次數、歷史出現時間排序</Message.Item>
             <Message.Item>另外提供亂算的不負責任題目練習推薦度0 - 0</Message.Item>
           </Message.List>
         </Message>
@@ -87,6 +87,10 @@ function Problems({ className, ProblemData }) {
                 sorted={state.column === 'access' ? state.direction : null}
                 onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'access' })}
                 textAlign='right'>Access</Table.HeaderCell>
+              <Table.HeaderCell width={1} 
+                sorted={state.column === 'Appearance' ? state.direction : null}
+                onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'Appearance' })}
+                textAlign='right'>Appearance</Table.HeaderCell>                  
               <Table.HeaderCell width={2} 
                 sorted={state.column === 'LastAppearance' ? state.direction : null}
                 onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'LastAppearance' })}
@@ -115,6 +119,9 @@ function Problems({ className, ProblemData }) {
                   <Table.Cell textAlign='right'>
                     {problem.access}
                   </Table.Cell>
+                  <Table.Cell textAlign='right'>
+                    {problem.Appearance}
+                  </Table.Cell>                   
                   <Table.Cell textAlign='right'>
                     {problem.LastAppearance}
                   </Table.Cell>                  

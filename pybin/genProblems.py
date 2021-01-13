@@ -32,12 +32,14 @@ def main(filename, net, startY, endY, out):
         if data[key]['timestamp'] > datetime.datetime(startY, 1, 1).timestamp() and data[key]['timestamp'] < datetime.datetime(endY, 12, 31).timestamp():
             for problem in data[key]['problems']:
                 if problem['pid'] in uniq_problems:
+                    uniq_problems[problem['pid']]['Appearance'] = uniq_problems[problem['pid']]['Appearance'] + 1
                     if ( uniq_problems[problem['pid']]['LastAppearance'] <  data[key]['timestamp']):
                         logging.info("PID: %d duplicate and update timestamp %s to %s", problem['pid'], uniq_problems[problem['pid']]['LastAppearance'],  data[key]['timestamp'] )
                         uniq_problems[problem['pid']]['LastAppearance'] =  data[key]['timestamp']
                 else:
                     uniq_problems[problem['pid']] = problem                    
                     uniq_problems[problem['pid']]['LastAppearance'] =  data[key]['timestamp']
+                    uniq_problems[problem['pid']]['Appearance'] = 1
 
     logging.info('Fetch %d uniq problems', len(uniq_problems))
 

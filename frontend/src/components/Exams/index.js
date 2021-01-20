@@ -15,7 +15,6 @@ function Exams({ className, ExamData }) {
 
   const [activeIndex, setActiveIndex] = useState(0)
 
-
   function handleClick(e, titleProps) {
     const { index } = titleProps
     const newIndex = activeIndex === index ? -1 : index
@@ -25,7 +24,6 @@ function Exams({ className, ExamData }) {
 
   return (
     <div className={className}>
-
       <Container style={{ marginTop: '7em' }}>
         <Message>
           <Message.Header>想要排序？</Message.Header>
@@ -38,23 +36,26 @@ function Exams({ className, ExamData }) {
         <Divider />
 
         <Accordion>
-          {Object.keys(ExamData).sort((a, b) => { return b - a; }).map((key, i) => {
-            return (
-              <div key={i}>
-                <Accordion.Title
-                  active={activeIndex === i}
-                  index={i}
-                  onClick={handleClick}
-                >
-                  <Icon name='dropdown' />
-                  {ExamData[key].examTime}: {ExamData[key].examName}
-                </Accordion.Title>
-                <Accordion.Content active={activeIndex === i} style={{ padding: '1rem 2rem' }}>
-                  <Problem problems={ExamData[key].problems} />
-                </Accordion.Content>
-              </div>
-            )
-          })}
+          {!ExamData
+            ? <h1>Fetch Data Error</h1>
+            :
+            Object.keys(ExamData).sort((a, b) => { return b - a; }).map((key, i) => {
+              return (
+                <div key={i}>
+                  <Accordion.Title
+                    active={activeIndex === i}
+                    index={i}
+                    onClick={handleClick}
+                  >
+                    <Icon name='dropdown' />
+                    {ExamData[key].examTime}: {ExamData[key].examName}
+                  </Accordion.Title>
+                  <Accordion.Content active={activeIndex === i} style={{ padding: '1rem 2rem' }}>
+                    <Problem problems={ExamData[key].problems} />
+                  </Accordion.Content>
+                </div>
+              )
+            })}
         </Accordion>
       </Container>
     </div>

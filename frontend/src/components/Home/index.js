@@ -71,7 +71,7 @@ function Home({ className }) {
                   資料來源皆來自於 gpe3.acm-icpc.tw
               </p>
                 <p>
-                  然後保佑我 GPE 能過..
+                  然後保佑我 GPE 能過.. (耶 過惹🙂)
               </p>
               </div>
             </Grid.Column>

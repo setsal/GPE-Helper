@@ -19,11 +19,21 @@ function App() {
 
   const fetchData = () => {
     Promise.all([
-      fetch('/data.json'),
+      fetch('/exams.json'),
       fetch('/problems.json')
     ])
       .then(([res1, res2]) => Promise.all([res1.json(), res2.json()]))
       .then(([data1, data2]) => {
+        var pidData = JSON.parse(localStorage.getItem('gpe-favorite'));
+        if (pidData) {
+          pidData.forEach(pid => {
+            var found = data2.find(s => s['pid'] === pid); // 方便但效能好差 XD
+            if (found) {
+              found['favorite'] = 1
+            }
+            return
+          });
+        }
         setData({ ExamData: data1, ProblemData: data2 });
       }).catch(function (error) {
         console.log(error);
@@ -40,7 +50,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/exams" component={() => <Exams ExamData={data.ExamData} />} />
             <Route path="/problems" component={() => <Problems ProblemData={data.ProblemData} />} />
-            <Route component={NoMatch} />
+            <Route path="*" component={NoMatch} />
           </Switch>
         </div>
         <Footer />

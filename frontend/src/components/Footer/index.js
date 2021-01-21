@@ -33,10 +33,10 @@ function Footer({ className }) {
           <Divider inverted section />
           <Image centered size='mini' src='/logo192.png' />
           <List horizontal inverted divided link size='small'>
-            <List.Item as='a' href='#'>
+            <List.Item as='a' href='https://github.com/setsal/GPE-Helper' target="_blank">
               Github Repo
           </List.Item>
-            <List.Item as='a' href='#'>
+            <List.Item as='a' href='https://github.com/setsal/GPE-Helper' target="_blank">
               LICENSE
           </List.Item>
           </List>

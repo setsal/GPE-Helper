@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO,
 
 @click.command()
 @click.option('--net/--no-net', help='use the online data', default=True, show_default=True)
-@click.option('-f', '--filename', 'filename', help='local data', type=str, default="data.json", show_default=True)
+@click.option('-f', '--filename', 'filename', help='local data', type=str, default="exams.json", show_default=True)
 @click.option('-s', '--startY', 'startY', help='gen file start year', type=int, default=2019, show_default=True)
 @click.option('-e', '--endY', 'endY', help='gen file end year', type=int, default=datetime.datetime.now().year, show_default=True)
 @click.option('-d', '--dir', 'dir', help='output dir', type=click.Path(exists=True, dir_okay=True), required=True)

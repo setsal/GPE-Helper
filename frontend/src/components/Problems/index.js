@@ -9,7 +9,9 @@ import {
   Message,
   Divider,
   Input,
-  Button
+  Button,
+  Icon,
+  Label
 } from 'semantic-ui-react';
 import _ from 'lodash'
 
@@ -87,7 +89,6 @@ function Problems({ className, ProblemData }) {
       pidList.push(pid)
     }
     localStorage.setItem('gpe-favorite', JSON.stringify(pidList));
-    console.log(state.data)
   }
 
   return (
@@ -95,16 +96,17 @@ function Problems({ className, ProblemData }) {
 
       <Container style={{ marginTop: '6em' }}>
         <Message>
-          <Message.Header>想要排序？</Message.Header>
+          <Message.Header>想要排序?</Message.Header>
           <Message.List>
             <Message.Item>點擊欄位名稱就可以了～</Message.Item>
-            <Message.Item>目前提供 ProblemID、AC 率、OnSite 次數、題目 Access 次數、歷史出現次數、歷史出現時間排序</Message.Item>
+            <Message.Item>目前提供 ProblemID、AC 率、OnSite 次數、題目 Access 次數、2019~現在正式考試出現次數、最後出現時間排序</Message.Item>
             <Message.Item>另外提供亂統計的不負責任題目練習推薦度0 - 0</Message.Item>
+            <Message.Item>P.S. 純前端網站，我的最愛功能透過瀏覽器儲存實現，如果你清掉資料或換台電腦，我的最愛就會消失囉😌</Message.Item>
           </Message.List>
         </Message>
 
         <div style={{ padding: '10px 0 35px 0' }}>
-          <Header as='h1' style={{ float: 'left' }}>題目一覽</Header>
+          <Header as='h1' style={{ float: 'left' }}><Icon name='rocket' />題目一覽</Header>
           <Input
             placeholder="Enter Problem Name"
             name="filter"
@@ -162,14 +164,18 @@ function Problems({ className, ProblemData }) {
             </Table.Row>
           </Table.Header>
           <Table.Body>
-            {!state.data
-              ? <h1>Fetch Data Error</h1>
-              :
+            {state.data &&
               state.data.map((problem, i) => {
                 return (
                   <Table.Row key={i}>
                     <Table.Cell singleLine>
-                      <a href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
+                      <a className="problem-name" href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
+                      &nbsp;&nbsp;
+                      <div className="category">
+                        {problem.category.map(item => {
+                          return <Label circular size='small'>{item} </Label>
+                        })}
+                      </div>
                     </Table.Cell>
                     <Table.Cell textAlign='center'>
                       <Rating rating={problem.rating} maxRating={3} />
@@ -213,4 +219,11 @@ function Problems({ className, ProblemData }) {
 }
 
 export default styled(Problems)`
+.problem-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.category {
+  display: inline;
+}
 `;

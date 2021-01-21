@@ -74,7 +74,9 @@ def parseExam(cid):
 
         problemInfoId = problemInfo[4].find_all('a')[0]['href'].split('&id=')[
             1]  # problem id 有可能為 string...所以不轉型
-        problemName = problemInfo[0].text.strip()
+        problemName = problemInfoId + ': ' + \
+            problemInfo[0].text.strip().split(
+                ':')[1].lstrip()  # linter for error data
         problemSubs = int(problemInfo[1].text.strip())
         problemACs = int(problemInfo[4].text.strip())
         problemAcceptRate = float(problemInfo[2].text.strip())
@@ -97,7 +99,7 @@ def parseExam(cid):
 @click.option('-s', '--startY', 'startY', help='crawler start year', type=int, default=2017, show_default=True)
 @click.option('-e', '--endY', 'endY', help='crawler end year', type=int, default=datetime.datetime.now().year, show_default=True)
 @click.option('-c', '--cookie', 'cookie', help='For crawling http://gpe3.acm-icpc.tw necessary cookie, please login first and get the ACMICPCTW cookie value', type=str, required=True)
-@click.option('-f', '--filename', 'filename', help='customized dump filename', type=str, default="data.json", show_default=True)
+@click.option('-f', '--filename', 'filename', help='customized dump filename', type=str, default="exams.json", show_default=True)
 def main(startY, endY, cookie, filename):
     # input year validate
     if (startY > datetime.datetime.now().year or endY > datetime.datetime.now().year or endY < startY):

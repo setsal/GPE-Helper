@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {
   Header,
   Table,
+  Label
 } from 'semantic-ui-react';
 import _ from 'lodash'
 
@@ -74,7 +75,13 @@ const Problem = ({
             return (
               <Table.Row key={i}>
                 <Table.Cell singleLine>
-                  <a href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
+                  <a className="problem-name" href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
+                      &nbsp;&nbsp;
+                      <div className="category">
+                    {problem.category.map(item => {
+                      return <Label circular size='small'>{item} </Label>
+                    })}
+                  </div>
                 </Table.Cell>
                 <Table.Cell textAlign='right'>
                   <Header as='h5'>{problem.AcceptRate}%
@@ -98,4 +105,11 @@ const Problem = ({
 }
 
 export default styled(Problem)`
+.problem-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.category {
+  display: inline;
+}
 `;

@@ -34,13 +34,11 @@ function Home({ className }) {
           <Header
             as='h1'
             inverted
-            // icon="ambulance"
             icon
             className="h1-content"
             textAlign='center'
           >
             <Icon name='ambulance' />
-            {/* <Icon name='ambulance' /> */}
             <Header.Content>
               GPE Helper
             </Header.Content>
@@ -65,13 +63,13 @@ function Home({ className }) {
               <div style={{ fontSize: '1.33em' }}>
                 <p>不好好寫扣和練 GPE 在這邊寫奇怪的東西啊= =</p>
                 <p>
-                  總之是個小專案 統計一下近來學校舉辦的程式檢定考題型和相關出題頻率
+                  總之是個小專案，統計一下近來學校舉辦的程式檢定考題型和相關出題頻率
               </p>
                 <p>
-                  資料來源皆來自於 gpe3.acm-icpc.tw
+                  資料來源皆來自於學校的 gpe3.acm-icpc.tw，題目分類來自於 zero judge，然後保佑我 GPE 能過.. (耶 過惹🧐)
               </p>
                 <p>
-                  然後保佑我 GPE 能過.. (耶 過惹🙂)
+                  如果覺得這專案很有趣或有小小幫助到你，歡迎給我星星⭐支持
               </p>
               </div>
             </Grid.Column>
@@ -82,32 +80,30 @@ function Home({ className }) {
         <Segment style={{ padding: '3em 0em' }} vertical>
           <Container text>
             <Header as='h3' style={{ fontSize: '2em' }}>
-              考試一覽
+              <Icon name='rocket' />題目一覽
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              列出每次學校舉辦 GPE 檢定考試之題目<br />
-              提供相關 onsite次數, AC率排序等功能
+              整理 2019 年～今之歷史題目，方便練習重點題目<br />
+              除了各種排序功能，也有我的最愛功能方便你練習😉<br />
+              考古題練起來～
             </p>
-            <Button as={Link} size='large' to='/exams'>
+            <Button as={Link} size='large' to='/problems'>
               Read More
             </Button>
-
             <Divider
               as='h4'
               className='header'
               style={{ margin: '3em 0em', textTransform: 'uppercase' }}
             >
             </Divider>
-
             <Header as='h3' style={{ fontSize: '2em' }}>
-              題目一覽
+              <Icon name='flag checkered' />考試一覽
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              整理 2017 年～今之歷史題目, 方便不重複的練習題目<br />
-              當然基本相關排序功能也有<br />
-              考古題練起來～
+              列出 2017 ~ 今每次學校舉辦 GPE 檢定考試之題目<br />
+              提供相關 onsite 次數，AC 率排序等功能
             </p>
-            <Button as={Link} size='large' to='/problems'>
+            <Button as={Link} size='large' to='/exams'>
               Read More
             </Button>
           </Container>

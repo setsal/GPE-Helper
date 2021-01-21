@@ -1,0 +1,4201 @@
+{
+    "10395": {
+        "timestamp": 1610899200.0,
+        "examTime": "2021-01-18",
+        "examName": "Jan 18 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10422",
+                "name": "10422 Is This Integration ?",
+                "subs": 472,
+                "ACs": 190,
+                "AcceptRate": 40.25,
+                "onsite": 3,
+                "access": 2362,
+                "category": []
+            },
+            {
+                "pid": "10551",
+                "name": "10551 Bee Maja",
+                "subs": 812,
+                "ACs": 290,
+                "AcceptRate": 35.71,
+                "onsite": 20,
+                "access": 3570,
+                "category": []
+            },
+            {
+                "pid": "10644",
+                "name": "10644 The Tourist Guide",
+                "subs": 170,
+                "ACs": 44,
+                "AcceptRate": 25.88,
+                "onsite": 5,
+                "access": 1577,
+                "category": []
+            },
+            {
+                "pid": "22161",
+                "name": "22161 Euclid Problem",
+                "subs": 350,
+                "ACs": 55,
+                "AcceptRate": 15.71,
+                "onsite": 5,
+                "access": 1106,
+                "category": [
+                    "\u6578\u8ad6",
+                    "\u8f3e\u8f49\u76f8\u9664\u6cd5"
+                ]
+            },
+            {
+                "pid": "10655",
+                "name": "10655 Sumsets",
+                "subs": 2506,
+                "ACs": 341,
+                "AcceptRate": 13.61,
+                "onsite": 17,
+                "access": 9033,
+                "category": []
+            },
+            {
+                "pid": "22181",
+                "name": "22181 Dollars",
+                "subs": 664,
+                "ACs": 155,
+                "AcceptRate": 23.34,
+                "onsite": 19,
+                "access": 3960,
+                "category": [
+                    "\u627e\u96f6\u554f\u984c"
+                ]
+            }
+        ]
+    },
+    "10385": {
+        "timestamp": 1609862400.0,
+        "examTime": "2021-01-06",
+        "examName": "Jan 6 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10679",
+                "name": "10679 Irreducible Basic Fractions",
+                "subs": 837,
+                "ACs": 128,
+                "AcceptRate": 15.29,
+                "onsite": 11,
+                "access": 3281,
+                "category": []
+            },
+            {
+                "pid": "2009-24",
+                "name": "2009-24 Unique lines",
+                "subs": 1139,
+                "ACs": 144,
+                "AcceptRate": 12.64,
+                "onsite": 41,
+                "access": 5734,
+                "category": []
+            },
+            {
+                "pid": "23551",
+                "name": "23551 Largest Square",
+                "subs": 2315,
+                "ACs": 469,
+                "AcceptRate": 20.26,
+                "onsite": 15,
+                "access": 5675,
+                "category": []
+            },
+            {
+                "pid": "24941",
+                "name": "24941 Uncompress",
+                "subs": 457,
+                "ACs": 149,
+                "AcceptRate": 32.6,
+                "onsite": 21,
+                "access": 3484,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406"
+                ]
+            },
+            {
+                "pid": "10621",
+                "name": "10621 Luggage",
+                "subs": 1148,
+                "ACs": 278,
+                "AcceptRate": 24.22,
+                "onsite": 18,
+                "access": 5673,
+                "category": [
+                    "DP",
+                    "\u5b50\u96c6\u548c\u554f\u984c"
+                ]
+            },
+            {
+                "pid": "10658",
+                "name": "10658 Is Bigger Smarter?",
+                "subs": 248,
+                "ACs": 15,
+                "AcceptRate": 6.05,
+                "onsite": 6,
+                "access": 1277,
+                "category": []
+            }
+        ]
+    },
+    "10375": {
+        "timestamp": 1608048000.0,
+        "examTime": "2020-12-16",
+        "examName": "Dec 16 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "25081",
+                "name": "25081 Solving Maze Problems",
+                "subs": 226,
+                "ACs": 32,
+                "AcceptRate": 14.16,
+                "onsite": 2,
+                "access": 1872,
+                "category": []
+            },
+            {
+                "pid": "10471",
+                "name": "10471 COUNTING CHAOS",
+                "subs": 486,
+                "ACs": 118,
+                "AcceptRate": 24.28,
+                "onsite": 10,
+                "access": 2237,
+                "category": []
+            },
+            {
+                "pid": "10520",
+                "name": "10520 Conformity",
+                "subs": 1524,
+                "ACs": 421,
+                "AcceptRate": 27.62,
+                "onsite": 32,
+                "access": 8850,
+                "category": []
+            },
+            {
+                "pid": "10602",
+                "name": "10602 Longest Paths",
+                "subs": 260,
+                "ACs": 44,
+                "AcceptRate": 16.92,
+                "onsite": 6,
+                "access": 2340,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "10603",
+                "name": "10603 Cutting Sticks",
+                "subs": 232,
+                "ACs": 77,
+                "AcceptRate": 33.19,
+                "onsite": 9,
+                "access": 1982,
+                "category": []
+            },
+            {
+                "pid": "10642",
+                "name": "10642 Marbles",
+                "subs": 500,
+                "ACs": 86,
+                "AcceptRate": 17.2,
+                "onsite": 8,
+                "access": 2280,
+                "category": [
+                    "\u6578\u8ad6",
+                    "\u8f3e\u8f49\u76f8\u9664\u6cd5"
+                ]
+            }
+        ]
+    },
+    "10365": {
+        "timestamp": 1606665600.0,
+        "examTime": "2020-11-30",
+        "examName": "Nov 30 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "24461",
+                "name": "24461 Sum of Consecutive Prime Numbers",
+                "subs": 604,
+                "ACs": 351,
+                "AcceptRate": 58.11,
+                "onsite": 11,
+                "access": 3545,
+                "category": []
+            },
+            {
+                "pid": "2009-24",
+                "name": "2009-24 Unique lines",
+                "subs": 1139,
+                "ACs": 144,
+                "AcceptRate": 12.64,
+                "onsite": 41,
+                "access": 5734,
+                "category": []
+            },
+            {
+                "pid": "2015-02",
+                "name": "2015-02 Recursion and Mod",
+                "subs": 1790,
+                "ACs": 185,
+                "AcceptRate": 10.34,
+                "onsite": 8,
+                "access": 3557,
+                "category": [
+                    "\u8cbb\u6c0f\u6578\u5217"
+                ]
+            },
+            {
+                "pid": "2008-19",
+                "name": "2008-19 Set partition",
+                "subs": 569,
+                "ACs": 47,
+                "AcceptRate": 8.26,
+                "onsite": 30,
+                "access": 4123,
+                "category": []
+            },
+            {
+                "pid": "10636",
+                "name": "10636 Gopher II",
+                "subs": 75,
+                "ACs": 9,
+                "AcceptRate": 12.0,
+                "onsite": 2,
+                "access": 468,
+                "category": []
+            }
+        ]
+    },
+    "10355": {
+        "timestamp": 1605024000.0,
+        "examTime": "2020-11-11",
+        "examName": "Nov 11 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10531",
+                "name": "10531 Zipf's Law",
+                "subs": 1179,
+                "ACs": 142,
+                "AcceptRate": 12.04,
+                "onsite": 27,
+                "access": 4067,
+                "category": []
+            },
+            {
+                "pid": "2015-04",
+                "name": "2015-04 The N-th Element",
+                "subs": 1014,
+                "ACs": 13,
+                "AcceptRate": 1.28,
+                "onsite": 8,
+                "access": 2203,
+                "category": [
+                    "\u5b57\u4e32",
+                    "\u6392\u5217",
+                    "\u905e\u8ff4"
+                ]
+            },
+            {
+                "pid": "2008-37",
+                "name": "2008-37 Prefix expression evaluation",
+                "subs": 1080,
+                "ACs": 219,
+                "AcceptRate": 20.28,
+                "onsite": 39,
+                "access": 5102,
+                "category": []
+            },
+            {
+                "pid": "24941",
+                "name": "24941 Uncompress",
+                "subs": 457,
+                "ACs": 149,
+                "AcceptRate": 32.6,
+                "onsite": 21,
+                "access": 3484,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406"
+                ]
+            },
+            {
+                "pid": "10604",
+                "name": "10604 Packing polygons",
+                "subs": 57,
+                "ACs": 11,
+                "AcceptRate": 19.3,
+                "onsite": 3,
+                "access": 769,
+                "category": []
+            },
+            {
+                "pid": "10606",
+                "name": "10606 How Big Is It?",
+                "subs": 479,
+                "ACs": 47,
+                "AcceptRate": 9.81,
+                "onsite": 34,
+                "access": 4849,
+                "category": [
+                    "Circle",
+                    "Geometry",
+                    "Math"
+                ]
+            }
+        ]
+    },
+    "10345": {
+        "timestamp": 1603209600.0,
+        "examTime": "2020-10-21",
+        "examName": "Oct 21 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10437",
+                "name": "10437 Zeros and Ones",
+                "subs": 1494,
+                "ACs": 414,
+                "AcceptRate": 27.71,
+                "onsite": 7,
+                "access": 4429,
+                "category": []
+            },
+            {
+                "pid": "11041",
+                "name": "11041 Children's Game",
+                "subs": 2357,
+                "ACs": 440,
+                "AcceptRate": 18.67,
+                "onsite": 19,
+                "access": 6556,
+                "category": []
+            },
+            {
+                "pid": "22161",
+                "name": "22161 Euclid Problem",
+                "subs": 350,
+                "ACs": 55,
+                "AcceptRate": 15.71,
+                "onsite": 5,
+                "access": 1106,
+                "category": [
+                    "\u6578\u8ad6",
+                    "\u8f3e\u8f49\u76f8\u9664\u6cd5"
+                ]
+            },
+            {
+                "pid": "11017",
+                "name": "11017 Longest Common Subsequence",
+                "subs": 1276,
+                "ACs": 250,
+                "AcceptRate": 19.59,
+                "onsite": 12,
+                "access": 3772,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "10608",
+                "name": "10608 Minimal coverage",
+                "subs": 934,
+                "ACs": 118,
+                "AcceptRate": 12.63,
+                "onsite": 25,
+                "access": 3338,
+                "category": []
+            },
+            {
+                "pid": "23671",
+                "name": "23671 Camel trading",
+                "subs": 1340,
+                "ACs": 269,
+                "AcceptRate": 20.07,
+                "onsite": 18,
+                "access": 4825,
+                "category": []
+            }
+        ]
+    },
+    "10335": {
+        "timestamp": 1602000000.0,
+        "examTime": "2020-10-07",
+        "examName": "Oct 7 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "21944",
+                "name": "21944 Power Crisis",
+                "subs": 1980,
+                "ACs": 451,
+                "AcceptRate": 22.78,
+                "onsite": 27,
+                "access": 7183,
+                "category": []
+            },
+            {
+                "pid": "22151",
+                "name": "22151 Big Mod",
+                "subs": 2090,
+                "ACs": 283,
+                "AcceptRate": 13.54,
+                "onsite": 18,
+                "access": 3960,
+                "category": []
+            },
+            {
+                "pid": "11192",
+                "name": "11192 Simple Minded Hashing",
+                "subs": 242,
+                "ACs": 92,
+                "AcceptRate": 38.02,
+                "onsite": 5,
+                "access": 1703,
+                "category": []
+            },
+            {
+                "pid": "10655",
+                "name": "10655 Sumsets",
+                "subs": 2506,
+                "ACs": 341,
+                "AcceptRate": 13.61,
+                "onsite": 17,
+                "access": 9033,
+                "category": []
+            },
+            {
+                "pid": "24731",
+                "name": "24731 Roads in the North",
+                "subs": 249,
+                "ACs": 55,
+                "AcceptRate": 22.09,
+                "onsite": 16,
+                "access": 2241,
+                "category": []
+            },
+            {
+                "pid": "22181",
+                "name": "22181 Dollars",
+                "subs": 664,
+                "ACs": 155,
+                "AcceptRate": 23.34,
+                "onsite": 19,
+                "access": 3960,
+                "category": [
+                    "\u627e\u96f6\u554f\u984c"
+                ]
+            }
+        ]
+    },
+    "10325": {
+        "timestamp": 1599753600.0,
+        "examTime": "2020-09-11",
+        "examName": "Sep 11 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11019",
+                "name": "11019 Die Game",
+                "subs": 3224,
+                "ACs": 1048,
+                "AcceptRate": 32.51,
+                "onsite": 15,
+                "access": 12677,
+                "category": [
+                    "\u6a21\u64ec"
+                ]
+            },
+            {
+                "pid": "10610",
+                "name": "10610 Curling up the cube",
+                "subs": 98,
+                "ACs": 19,
+                "AcceptRate": 19.39,
+                "onsite": 5,
+                "access": 1175,
+                "category": []
+            },
+            {
+                "pid": "10607",
+                "name": "10607 Joseph's Cousin",
+                "subs": 1258,
+                "ACs": 261,
+                "AcceptRate": 20.75,
+                "onsite": 13,
+                "access": 7624,
+                "category": []
+            },
+            {
+                "pid": "24931",
+                "name": "24931 Extend to Palindromes",
+                "subs": 1853,
+                "ACs": 259,
+                "AcceptRate": 13.98,
+                "onsite": 21,
+                "access": 5499,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406",
+                    "\u8ff4\u6587"
+                ]
+            },
+            {
+                "pid": "10637",
+                "name": "10637 Tight words",
+                "subs": 166,
+                "ACs": 47,
+                "AcceptRate": 28.31,
+                "onsite": 6,
+                "access": 1312,
+                "category": []
+            },
+            {
+                "pid": "2008-06",
+                "name": "2008-06 Parser and evaluator",
+                "subs": 185,
+                "ACs": 17,
+                "AcceptRate": 9.19,
+                "onsite": 51,
+                "access": 3172,
+                "category": []
+            }
+        ]
+    },
+    "10315": {
+        "timestamp": 1599148800.0,
+        "examTime": "2020-09-04",
+        "examName": "Sep 4 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "24911",
+                "name": "24911 Robot Instructions",
+                "subs": 2419,
+                "ACs": 906,
+                "AcceptRate": 37.45,
+                "onsite": 12,
+                "access": 6174,
+                "category": [
+                    "\u6a21\u64ec"
+                ]
+            },
+            {
+                "pid": "2015-09",
+                "name": "2015-09 Longest Increasing Subsequence",
+                "subs": 1240,
+                "ACs": 263,
+                "AcceptRate": 21.21,
+                "onsite": 8,
+                "access": 3477,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "2008-37",
+                "name": "2008-37 Prefix expression evaluation",
+                "subs": 1080,
+                "ACs": 219,
+                "AcceptRate": 20.28,
+                "onsite": 39,
+                "access": 5102,
+                "category": []
+            },
+            {
+                "pid": "22171",
+                "name": "22171 Dungeon Master",
+                "subs": 708,
+                "ACs": 174,
+                "AcceptRate": 24.58,
+                "onsite": 15,
+                "access": 3820,
+                "category": []
+            },
+            {
+                "pid": "24731",
+                "name": "24731 Roads in the North",
+                "subs": 249,
+                "ACs": 55,
+                "AcceptRate": 22.09,
+                "onsite": 16,
+                "access": 2241,
+                "category": []
+            },
+            {
+                "pid": "22181",
+                "name": "22181 Dollars",
+                "subs": 664,
+                "ACs": 155,
+                "AcceptRate": 23.34,
+                "onsite": 19,
+                "access": 3960,
+                "category": [
+                    "\u627e\u96f6\u554f\u984c"
+                ]
+            }
+        ]
+    },
+    "10305": {
+        "timestamp": 1595174400.0,
+        "examTime": "2020-07-20",
+        "examName": "July 20 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "2015-08",
+                "name": "2015-08 Climbing Stairs",
+                "subs": 2432,
+                "ACs": 142,
+                "AcceptRate": 5.84,
+                "onsite": 7,
+                "access": 5184,
+                "category": []
+            },
+            {
+                "pid": "24931",
+                "name": "24931 Extend to Palindromes",
+                "subs": 1853,
+                "ACs": 259,
+                "AcceptRate": 13.98,
+                "onsite": 21,
+                "access": 5499,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406",
+                    "\u8ff4\u6587"
+                ]
+            },
+            {
+                "pid": "2009-24",
+                "name": "2009-24 Unique lines",
+                "subs": 1139,
+                "ACs": 144,
+                "AcceptRate": 12.64,
+                "onsite": 41,
+                "access": 5734,
+                "category": []
+            },
+            {
+                "pid": "10501",
+                "name": "10501 Safe Salutations",
+                "subs": 2190,
+                "ACs": 351,
+                "AcceptRate": 16.03,
+                "onsite": 6,
+                "access": 7169,
+                "category": []
+            },
+            {
+                "pid": "2008-19",
+                "name": "2008-19 Set partition",
+                "subs": 569,
+                "ACs": 47,
+                "AcceptRate": 8.26,
+                "onsite": 30,
+                "access": 4123,
+                "category": []
+            },
+            {
+                "pid": "23781",
+                "name": "23781 Making Change",
+                "subs": 246,
+                "ACs": 46,
+                "AcceptRate": 18.7,
+                "onsite": 19,
+                "access": 2203,
+                "category": [
+                    "DP",
+                    "Greedy",
+                    "\u627e\u96f6\u554f\u984c",
+                    "\u6709\u9650\u80cc\u5305"
+                ]
+            }
+        ]
+    },
+    "10295": {
+        "timestamp": 1594569600.0,
+        "examTime": "2020-07-13",
+        "examName": "July 13 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11028",
+                "name": "11028 Digit Primes",
+                "subs": 435,
+                "ACs": 138,
+                "AcceptRate": 31.72,
+                "onsite": 6,
+                "access": 1537,
+                "category": [
+                    "\u5340\u9593\u554f\u984c",
+                    "\u8cea\u6578"
+                ]
+            },
+            {
+                "pid": "10409",
+                "name": "10409 A mid-summer night\u00e2\u0080\u0099s dream",
+                "subs": 3684,
+                "ACs": 673,
+                "AcceptRate": 18.27,
+                "onsite": 18,
+                "access": 14631,
+                "category": []
+            },
+            {
+                "pid": "2015-02",
+                "name": "2015-02 Recursion and Mod",
+                "subs": 1790,
+                "ACs": 185,
+                "AcceptRate": 10.34,
+                "onsite": 8,
+                "access": 3557,
+                "category": [
+                    "\u8cbb\u6c0f\u6578\u5217"
+                ]
+            },
+            {
+                "pid": "2009-24",
+                "name": "2009-24 Unique lines",
+                "subs": 1139,
+                "ACs": 144,
+                "AcceptRate": 12.64,
+                "onsite": 41,
+                "access": 5734,
+                "category": []
+            },
+            {
+                "pid": "2008-28",
+                "name": "2008-28 Longest monotonically increasing subsequence",
+                "subs": 390,
+                "ACs": 68,
+                "AcceptRate": 17.44,
+                "onsite": 33,
+                "access": 3261,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "23681",
+                "name": "23681 Bachet's Game",
+                "subs": 173,
+                "ACs": 79,
+                "AcceptRate": 45.66,
+                "onsite": 8,
+                "access": 1729,
+                "category": [
+                    "\u80cc\u5305"
+                ]
+            }
+        ]
+    },
+    "10285": {
+        "timestamp": 1593532800.0,
+        "examTime": "2020-07-01",
+        "examName": "July 1 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10437",
+                "name": "10437 Zeros and Ones",
+                "subs": 1494,
+                "ACs": 414,
+                "AcceptRate": 27.71,
+                "onsite": 7,
+                "access": 4429,
+                "category": []
+            },
+            {
+                "pid": "10520",
+                "name": "10520 Conformity",
+                "subs": 1524,
+                "ACs": 421,
+                "AcceptRate": 27.62,
+                "onsite": 32,
+                "access": 8850,
+                "category": []
+            },
+            {
+                "pid": "10535",
+                "name": "10535 Prime Distance",
+                "subs": 816,
+                "ACs": 124,
+                "AcceptRate": 15.2,
+                "onsite": 6,
+                "access": 4698,
+                "category": []
+            },
+            {
+                "pid": "10610",
+                "name": "10610 Curling up the cube",
+                "subs": 98,
+                "ACs": 19,
+                "AcceptRate": 19.39,
+                "onsite": 5,
+                "access": 1175,
+                "category": []
+            },
+            {
+                "pid": "10601",
+                "name": "10601 Eternal Truths",
+                "subs": 246,
+                "ACs": 40,
+                "AcceptRate": 16.26,
+                "onsite": 13,
+                "access": 1814,
+                "category": []
+            },
+            {
+                "pid": "10603",
+                "name": "10603 Cutting Sticks",
+                "subs": 232,
+                "ACs": 77,
+                "AcceptRate": 33.19,
+                "onsite": 9,
+                "access": 1982,
+                "category": []
+            }
+        ]
+    },
+    "10275": {
+        "timestamp": 1592323200.0,
+        "examTime": "2020-06-17",
+        "examName": "June 17 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "22821",
+                "name": "22821 Oil Deposits",
+                "subs": 1815,
+                "ACs": 492,
+                "AcceptRate": 27.11,
+                "onsite": 16,
+                "access": 5489,
+                "category": []
+            },
+            {
+                "pid": "11174",
+                "name": "11174 Homer Simpson",
+                "subs": 3586,
+                "ACs": 448,
+                "AcceptRate": 12.49,
+                "onsite": 11,
+                "access": 8232,
+                "category": [
+                    "DP\u3001Greedy"
+                ]
+            },
+            {
+                "pid": "10503",
+                "name": "10503 Show the Sequence",
+                "subs": 933,
+                "ACs": 130,
+                "AcceptRate": 13.93,
+                "onsite": 18,
+                "access": 6218,
+                "category": []
+            },
+            {
+                "pid": "2015-03",
+                "name": "2015-03 Sudoku (As Good As Lee Hsien Loong)",
+                "subs": 158,
+                "ACs": 14,
+                "AcceptRate": 8.86,
+                "onsite": 8,
+                "access": 2096,
+                "category": []
+            },
+            {
+                "pid": "23671",
+                "name": "23671 Camel trading",
+                "subs": 1340,
+                "ACs": 269,
+                "AcceptRate": 20.07,
+                "onsite": 18,
+                "access": 4825,
+                "category": []
+            },
+            {
+                "pid": "10621",
+                "name": "10621 Luggage",
+                "subs": 1148,
+                "ACs": 278,
+                "AcceptRate": 24.22,
+                "onsite": 18,
+                "access": 5673,
+                "category": [
+                    "DP",
+                    "\u5b50\u96c6\u548c\u554f\u984c"
+                ]
+            }
+        ]
+    },
+    "10225": {
+        "timestamp": 1591977600.0,
+        "examTime": "2020-06-13",
+        "examName": "June 13 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10417",
+                "name": "10417 The Hotel with Infinite Rooms",
+                "subs": 2759,
+                "ACs": 821,
+                "AcceptRate": 29.76,
+                "onsite": 13,
+                "access": 7529,
+                "category": []
+            },
+            {
+                "pid": "2009-17",
+                "name": "2009-17 Binary tree traversals",
+                "subs": 470,
+                "ACs": 97,
+                "AcceptRate": 20.64,
+                "onsite": 33,
+                "access": 2721,
+                "category": []
+            },
+            {
+                "pid": "10655",
+                "name": "10655 Sumsets",
+                "subs": 2506,
+                "ACs": 341,
+                "AcceptRate": 13.61,
+                "onsite": 17,
+                "access": 9033,
+                "category": []
+            },
+            {
+                "pid": "23661",
+                "name": "23661 Bit Mask",
+                "subs": 394,
+                "ACs": 103,
+                "AcceptRate": 26.14,
+                "onsite": 8,
+                "access": 2618,
+                "category": []
+            },
+            {
+                "pid": "23771",
+                "name": "23771 Lexicographic Order",
+                "subs": 321,
+                "ACs": 64,
+                "AcceptRate": 19.94,
+                "onsite": 25,
+                "access": 2338,
+                "category": []
+            },
+            {
+                "pid": "10608",
+                "name": "10608 Minimal coverage",
+                "subs": 934,
+                "ACs": 118,
+                "AcceptRate": 12.63,
+                "onsite": 25,
+                "access": 3338,
+                "category": []
+            }
+        ]
+    },
+    "10265": {
+        "timestamp": 1591113600.0,
+        "examTime": "2020-06-03",
+        "examName": "June 3 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "2008-37",
+                "name": "2008-37 Prefix expression evaluation",
+                "subs": 1080,
+                "ACs": 219,
+                "AcceptRate": 20.28,
+                "onsite": 39,
+                "access": 5102,
+                "category": []
+            },
+            {
+                "pid": "10559",
+                "name": "10559 I Love Big Numbers !",
+                "subs": 859,
+                "ACs": 243,
+                "AcceptRate": 28.29,
+                "onsite": 8,
+                "access": 3118,
+                "category": []
+            },
+            {
+                "pid": "2015-07",
+                "name": "2015-07 Minimum Path Sum",
+                "subs": 918,
+                "ACs": 243,
+                "AcceptRate": 26.47,
+                "onsite": 7,
+                "access": 2309,
+                "category": []
+            },
+            {
+                "pid": "10038",
+                "name": "10038 Disk Tree",
+                "subs": 230,
+                "ACs": 65,
+                "AcceptRate": 28.26,
+                "onsite": 32,
+                "access": 2603,
+                "category": []
+            },
+            {
+                "pid": "10633",
+                "name": "10633 Take the Land",
+                "subs": 319,
+                "ACs": 111,
+                "AcceptRate": 34.8,
+                "onsite": 9,
+                "access": 2056,
+                "category": []
+            },
+            {
+                "pid": "10615",
+                "name": "10615 Divisibility",
+                "subs": 584,
+                "ACs": 182,
+                "AcceptRate": 31.16,
+                "onsite": 9,
+                "access": 2987,
+                "category": []
+            }
+        ]
+    },
+    "10255": {
+        "timestamp": 1589904000.0,
+        "examTime": "2020-05-20",
+        "examName": "May 20 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10500",
+                "name": "10500 Brick Wall Patterns",
+                "subs": 2035,
+                "ACs": 512,
+                "AcceptRate": 25.16,
+                "onsite": 5,
+                "access": 7413,
+                "category": [
+                    "DP",
+                    "\u8cbb\u6c0f\u6578\u5217"
+                ]
+            },
+            {
+                "pid": "23651",
+                "name": "23651 The jackpot",
+                "subs": 2121,
+                "ACs": 418,
+                "AcceptRate": 19.71,
+                "onsite": 12,
+                "access": 4093,
+                "category": []
+            },
+            {
+                "pid": "10552",
+                "name": "10552 Automated Judge Script",
+                "subs": 654,
+                "ACs": 162,
+                "AcceptRate": 24.77,
+                "onsite": 12,
+                "access": 2382,
+                "category": []
+            },
+            {
+                "pid": "10429",
+                "name": "10429 Contest Scoreboard",
+                "subs": 932,
+                "ACs": 166,
+                "AcceptRate": 17.81,
+                "onsite": 16,
+                "access": 4528,
+                "category": [
+                    "DP"
+                ]
+            },
+            {
+                "pid": "11184",
+                "name": "11184 Opening Doors",
+                "subs": 75,
+                "ACs": 8,
+                "AcceptRate": 10.67,
+                "onsite": 4,
+                "access": 613,
+                "category": []
+            },
+            {
+                "pid": "2015-03",
+                "name": "2015-03 Sudoku (As Good As Lee Hsien Loong)",
+                "subs": 158,
+                "ACs": 14,
+                "AcceptRate": 8.86,
+                "onsite": 8,
+                "access": 2096,
+                "category": []
+            }
+        ]
+    },
+    "10245": {
+        "timestamp": 1588694400.0,
+        "examTime": "2020-05-06",
+        "examName": "May 6 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11006",
+                "name": "11006 Rank the Languages",
+                "subs": 1058,
+                "ACs": 335,
+                "AcceptRate": 31.66,
+                "onsite": 22,
+                "access": 5353,
+                "category": []
+            },
+            {
+                "pid": "10416",
+                "name": "10416 Last Digit",
+                "subs": 4117,
+                "ACs": 614,
+                "AcceptRate": 14.91,
+                "onsite": 21,
+                "access": 10084,
+                "category": [
+                    "\u6578\u5b78"
+                ]
+            },
+            {
+                "pid": "11017",
+                "name": "11017 Longest Common Subsequence",
+                "subs": 1276,
+                "ACs": 250,
+                "AcceptRate": 19.59,
+                "onsite": 12,
+                "access": 3772,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "2009-02",
+                "name": "2009-02 Line Overlap Problem",
+                "subs": 498,
+                "ACs": 27,
+                "AcceptRate": 5.42,
+                "onsite": 23,
+                "access": 2166,
+                "category": []
+            },
+            {
+                "pid": "10602",
+                "name": "10602 Longest Paths",
+                "subs": 260,
+                "ACs": 44,
+                "AcceptRate": 16.92,
+                "onsite": 6,
+                "access": 2340,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "10465",
+                "name": "10465 Necklace",
+                "subs": 828,
+                "ACs": 163,
+                "AcceptRate": 19.69,
+                "onsite": 13,
+                "access": 3204,
+                "category": []
+            }
+        ]
+    },
+    "10235": {
+        "timestamp": 1586880000.0,
+        "examTime": "2020-04-15",
+        "examName": "Apr 15 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "2015-01",
+                "name": "2015-01 Missing Numbers",
+                "subs": 2014,
+                "ACs": 231,
+                "AcceptRate": 11.47,
+                "onsite": 6,
+                "access": 3756,
+                "category": []
+            },
+            {
+                "pid": "10414",
+                "name": "10414 Bangla Numbers",
+                "subs": 2873,
+                "ACs": 299,
+                "AcceptRate": 10.41,
+                "onsite": 6,
+                "access": 7281,
+                "category": []
+            },
+            {
+                "pid": "10551",
+                "name": "10551 Bee Maja",
+                "subs": 812,
+                "ACs": 290,
+                "AcceptRate": 35.71,
+                "onsite": 20,
+                "access": 3570,
+                "category": []
+            },
+            {
+                "pid": "21964",
+                "name": "21964 Fill the Containers",
+                "subs": 495,
+                "ACs": 89,
+                "AcceptRate": 17.98,
+                "onsite": 28,
+                "access": 2113,
+                "category": []
+            },
+            {
+                "pid": "10602",
+                "name": "10602 Longest Paths",
+                "subs": 260,
+                "ACs": 44,
+                "AcceptRate": 16.92,
+                "onsite": 6,
+                "access": 2340,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "23581",
+                "name": "23581 Glass Beads",
+                "subs": 187,
+                "ACs": 77,
+                "AcceptRate": 41.18,
+                "onsite": 7,
+                "access": 1621,
+                "category": []
+            }
+        ]
+    },
+    "10215": {
+        "timestamp": 1584460800.0,
+        "examTime": "2020-03-18",
+        "examName": "Mar 18 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10468",
+                "name": "10468 Maximum Product",
+                "subs": 2586,
+                "ACs": 287,
+                "AcceptRate": 11.1,
+                "onsite": 11,
+                "access": 4594,
+                "category": []
+            },
+            {
+                "pid": "2015-08",
+                "name": "2015-08 Climbing Stairs",
+                "subs": 2432,
+                "ACs": 142,
+                "AcceptRate": 5.84,
+                "onsite": 7,
+                "access": 5184,
+                "category": []
+            },
+            {
+                "pid": "10679",
+                "name": "10679 Irreducible Basic Fractions",
+                "subs": 837,
+                "ACs": 128,
+                "AcceptRate": 15.29,
+                "onsite": 11,
+                "access": 3281,
+                "category": []
+            },
+            {
+                "pid": "24941",
+                "name": "24941 Uncompress",
+                "subs": 457,
+                "ACs": 149,
+                "AcceptRate": 32.6,
+                "onsite": 21,
+                "access": 3484,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406"
+                ]
+            },
+            {
+                "pid": "10644",
+                "name": "10644 The Tourist Guide",
+                "subs": 170,
+                "ACs": 44,
+                "AcceptRate": 25.88,
+                "onsite": 5,
+                "access": 1577,
+                "category": []
+            },
+            {
+                "pid": "10600",
+                "name": "10600 Network Connections",
+                "subs": 460,
+                "ACs": 75,
+                "AcceptRate": 16.3,
+                "onsite": 8,
+                "access": 2650,
+                "category": []
+            }
+        ]
+    },
+    "10195": {
+        "timestamp": 1577635200.0,
+        "examTime": "2019-12-30",
+        "examName": "Dec 30 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10409",
+                "name": "10409 A mid-summer night\u00e2\u0080\u0099s dream",
+                "subs": 3684,
+                "ACs": 673,
+                "AcceptRate": 18.27,
+                "onsite": 18,
+                "access": 14631,
+                "category": []
+            },
+            {
+                "pid": "23661",
+                "name": "23661 Bit Mask",
+                "subs": 394,
+                "ACs": 103,
+                "AcceptRate": 26.14,
+                "onsite": 8,
+                "access": 2618,
+                "category": []
+            },
+            {
+                "pid": "10500",
+                "name": "10500 Brick Wall Patterns",
+                "subs": 2035,
+                "ACs": 512,
+                "AcceptRate": 25.16,
+                "onsite": 5,
+                "access": 7413,
+                "category": [
+                    "DP",
+                    "\u8cbb\u6c0f\u6578\u5217"
+                ]
+            },
+            {
+                "pid": "10505",
+                "name": "10505 Center of Masses",
+                "subs": 182,
+                "ACs": 16,
+                "AcceptRate": 8.79,
+                "onsite": 3,
+                "access": 1482,
+                "category": []
+            },
+            {
+                "pid": "10675",
+                "name": "10675 Urn-ball Probabilities!",
+                "subs": 52,
+                "ACs": 20,
+                "AcceptRate": 38.46,
+                "onsite": 2,
+                "access": 528,
+                "category": []
+            },
+            {
+                "pid": "10603",
+                "name": "10603 Cutting Sticks",
+                "subs": 232,
+                "ACs": 77,
+                "AcceptRate": 33.19,
+                "onsite": 9,
+                "access": 1982,
+                "category": []
+            }
+        ]
+    },
+    "10185": {
+        "timestamp": 1576598400.0,
+        "examTime": "2019-12-18",
+        "examName": "Dec 18 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10579",
+                "name": "10579 Hay Points",
+                "subs": 648,
+                "ACs": 368,
+                "AcceptRate": 56.79,
+                "onsite": 15,
+                "access": 3235,
+                "category": []
+            },
+            {
+                "pid": "10551",
+                "name": "10551 Bee Maja",
+                "subs": 812,
+                "ACs": 290,
+                "AcceptRate": 35.71,
+                "onsite": 20,
+                "access": 3570,
+                "category": []
+            },
+            {
+                "pid": "10503",
+                "name": "10503 Show the Sequence",
+                "subs": 933,
+                "ACs": 130,
+                "AcceptRate": 13.93,
+                "onsite": 18,
+                "access": 6218,
+                "category": []
+            },
+            {
+                "pid": "10655",
+                "name": "10655 Sumsets",
+                "subs": 2506,
+                "ACs": 341,
+                "AcceptRate": 13.61,
+                "onsite": 17,
+                "access": 9033,
+                "category": []
+            },
+            {
+                "pid": "10601",
+                "name": "10601 Eternal Truths",
+                "subs": 246,
+                "ACs": 40,
+                "AcceptRate": 16.26,
+                "onsite": 13,
+                "access": 1814,
+                "category": []
+            },
+            {
+                "pid": "10608",
+                "name": "10608 Minimal coverage",
+                "subs": 934,
+                "ACs": 118,
+                "AcceptRate": 12.63,
+                "onsite": 25,
+                "access": 3338,
+                "category": []
+            }
+        ]
+    },
+    "10175": {
+        "timestamp": 1575388800.0,
+        "examTime": "2019-12-04",
+        "examName": "Dec 4 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10432",
+                "name": "10432 Mine Sweeper",
+                "subs": 1829,
+                "ACs": 264,
+                "AcceptRate": 14.43,
+                "onsite": 11,
+                "access": 4135,
+                "category": []
+            },
+            {
+                "pid": "10528",
+                "name": "10528 Light, more light",
+                "subs": 1065,
+                "ACs": 241,
+                "AcceptRate": 22.63,
+                "onsite": 8,
+                "access": 3316,
+                "category": []
+            },
+            {
+                "pid": "10732",
+                "name": "10732 Snow Clearing",
+                "subs": 105,
+                "ACs": 25,
+                "AcceptRate": 23.81,
+                "onsite": 2,
+                "access": 878,
+                "category": []
+            },
+            {
+                "pid": "10741",
+                "name": "10741 The Grand Dinner",
+                "subs": 60,
+                "ACs": 3,
+                "AcceptRate": 5.0,
+                "onsite": 1,
+                "access": 324,
+                "category": []
+            },
+            {
+                "pid": "10658",
+                "name": "10658 Is Bigger Smarter?",
+                "subs": 248,
+                "ACs": 15,
+                "AcceptRate": 6.05,
+                "onsite": 6,
+                "access": 1277,
+                "category": []
+            },
+            {
+                "pid": "10606",
+                "name": "10606 How Big Is It?",
+                "subs": 479,
+                "ACs": 47,
+                "AcceptRate": 9.81,
+                "onsite": 34,
+                "access": 4849,
+                "category": [
+                    "Circle",
+                    "Geometry",
+                    "Math"
+                ]
+            }
+        ]
+    },
+    "10165": {
+        "timestamp": 1574179200.0,
+        "examTime": "2019-11-20",
+        "examName": "Nov 20 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "21944",
+                "name": "21944 Power Crisis",
+                "subs": 1980,
+                "ACs": 451,
+                "AcceptRate": 22.78,
+                "onsite": 27,
+                "access": 7183,
+                "category": []
+            },
+            {
+                "pid": "24931",
+                "name": "24931 Extend to Palindromes",
+                "subs": 1853,
+                "ACs": 259,
+                "AcceptRate": 13.98,
+                "onsite": 21,
+                "access": 5499,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406",
+                    "\u8ff4\u6587"
+                ]
+            },
+            {
+                "pid": "10429",
+                "name": "10429 Contest Scoreboard",
+                "subs": 932,
+                "ACs": 166,
+                "AcceptRate": 17.81,
+                "onsite": 16,
+                "access": 4528,
+                "category": [
+                    "DP"
+                ]
+            },
+            {
+                "pid": "23571",
+                "name": "23571 Smith Numbers",
+                "subs": 842,
+                "ACs": 155,
+                "AcceptRate": 18.41,
+                "onsite": 20,
+                "access": 2932,
+                "category": [
+                    "\u8cea\u56e0\u6578\u5206\u89e3",
+                    "\u8cea\u6578"
+                ]
+            },
+            {
+                "pid": "10637",
+                "name": "10637 Tight words",
+                "subs": 166,
+                "ACs": 47,
+                "AcceptRate": 28.31,
+                "onsite": 6,
+                "access": 1312,
+                "category": []
+            },
+            {
+                "pid": "2008-28",
+                "name": "2008-28 Longest monotonically increasing subsequence",
+                "subs": 390,
+                "ACs": 68,
+                "AcceptRate": 17.44,
+                "onsite": 33,
+                "access": 3261,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            }
+        ]
+    },
+    "10155": {
+        "timestamp": 1572192000.0,
+        "examTime": "2019-10-28",
+        "examName": "Oct 28 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "21944",
+                "name": "21944 Power Crisis",
+                "subs": 1980,
+                "ACs": 451,
+                "AcceptRate": 22.78,
+                "onsite": 27,
+                "access": 7183,
+                "category": []
+            },
+            {
+                "pid": "10552",
+                "name": "10552 Automated Judge Script",
+                "subs": 654,
+                "ACs": 162,
+                "AcceptRate": 24.77,
+                "onsite": 12,
+                "access": 2382,
+                "category": []
+            },
+            {
+                "pid": "22171",
+                "name": "22171 Dungeon Master",
+                "subs": 708,
+                "ACs": 174,
+                "AcceptRate": 24.58,
+                "onsite": 15,
+                "access": 3820,
+                "category": []
+            },
+            {
+                "pid": "2015-09",
+                "name": "2015-09 Longest Increasing Subsequence",
+                "subs": 1240,
+                "ACs": 263,
+                "AcceptRate": 21.21,
+                "onsite": 8,
+                "access": 3477,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "2009-24",
+                "name": "2009-24 Unique lines",
+                "subs": 1139,
+                "ACs": 144,
+                "AcceptRate": 12.64,
+                "onsite": 41,
+                "access": 5734,
+                "category": []
+            },
+            {
+                "pid": "10658",
+                "name": "10658 Is Bigger Smarter?",
+                "subs": 248,
+                "ACs": 15,
+                "AcceptRate": 6.05,
+                "onsite": 6,
+                "access": 1277,
+                "category": []
+            }
+        ]
+    },
+    "10145": {
+        "timestamp": 1571155200.0,
+        "examTime": "2019-10-16",
+        "examName": "Oct 16 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11006",
+                "name": "11006 Rank the Languages",
+                "subs": 1058,
+                "ACs": 335,
+                "AcceptRate": 31.66,
+                "onsite": 22,
+                "access": 5353,
+                "category": []
+            },
+            {
+                "pid": "10567",
+                "name": "10567 Common Permutation",
+                "subs": 2263,
+                "ACs": 563,
+                "AcceptRate": 24.88,
+                "onsite": 11,
+                "access": 6112,
+                "category": []
+            },
+            {
+                "pid": "2015-02",
+                "name": "2015-02 Recursion and Mod",
+                "subs": 1790,
+                "ACs": 185,
+                "AcceptRate": 10.34,
+                "onsite": 8,
+                "access": 3557,
+                "category": [
+                    "\u8cbb\u6c0f\u6578\u5217"
+                ]
+            },
+            {
+                "pid": "22181",
+                "name": "22181 Dollars",
+                "subs": 664,
+                "ACs": 155,
+                "AcceptRate": 23.34,
+                "onsite": 19,
+                "access": 3960,
+                "category": [
+                    "\u627e\u96f6\u554f\u984c"
+                ]
+            },
+            {
+                "pid": "10608",
+                "name": "10608 Minimal coverage",
+                "subs": 934,
+                "ACs": 118,
+                "AcceptRate": 12.63,
+                "onsite": 25,
+                "access": 3338,
+                "category": []
+            },
+            {
+                "pid": "10613",
+                "name": "10613 Tug of War",
+                "subs": 62,
+                "ACs": 8,
+                "AcceptRate": 12.9,
+                "onsite": 2,
+                "access": 485,
+                "category": []
+            }
+        ]
+    },
+    "10135": {
+        "timestamp": 1569945600.0,
+        "examTime": "2019-10-02",
+        "examName": "Oct 2 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11019",
+                "name": "11019 Die Game",
+                "subs": 3224,
+                "ACs": 1048,
+                "AcceptRate": 32.51,
+                "onsite": 15,
+                "access": 12677,
+                "category": [
+                    "\u6a21\u64ec"
+                ]
+            },
+            {
+                "pid": "22821",
+                "name": "22821 Oil Deposits",
+                "subs": 1815,
+                "ACs": 492,
+                "AcceptRate": 27.11,
+                "onsite": 16,
+                "access": 5489,
+                "category": []
+            },
+            {
+                "pid": "23551",
+                "name": "23551 Largest Square",
+                "subs": 2315,
+                "ACs": 469,
+                "AcceptRate": 20.26,
+                "onsite": 15,
+                "access": 5675,
+                "category": []
+            },
+            {
+                "pid": "2015-03",
+                "name": "2015-03 Sudoku (As Good As Lee Hsien Loong)",
+                "subs": 158,
+                "ACs": 14,
+                "AcceptRate": 8.86,
+                "onsite": 8,
+                "access": 2096,
+                "category": []
+            },
+            {
+                "pid": "2008-19",
+                "name": "2008-19 Set partition",
+                "subs": 569,
+                "ACs": 47,
+                "AcceptRate": 8.26,
+                "onsite": 30,
+                "access": 4123,
+                "category": []
+            },
+            {
+                "pid": "10604",
+                "name": "10604 Packing polygons",
+                "subs": 57,
+                "ACs": 11,
+                "AcceptRate": 19.3,
+                "onsite": 3,
+                "access": 769,
+                "category": []
+            },
+            {
+                "pid": "10456",
+                "name": "10456 Largest Square",
+                "subs": 72,
+                "ACs": 0,
+                "AcceptRate": 0.0,
+                "onsite": 3,
+                "access": 2929,
+                "category": []
+            }
+        ]
+    },
+    "10125": {
+        "timestamp": 1567699200.0,
+        "examTime": "2019-09-06",
+        "examName": "Sep 6 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11067",
+                "name": "11067 Cola",
+                "subs": 4996,
+                "ACs": 1174,
+                "AcceptRate": 23.5,
+                "onsite": 16,
+                "access": 12410,
+                "category": []
+            },
+            {
+                "pid": "2015-09",
+                "name": "2015-09 Longest Increasing Subsequence",
+                "subs": 1240,
+                "ACs": 263,
+                "AcceptRate": 21.21,
+                "onsite": 8,
+                "access": 3477,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "22171",
+                "name": "22171 Dungeon Master",
+                "subs": 708,
+                "ACs": 174,
+                "AcceptRate": 24.58,
+                "onsite": 15,
+                "access": 3820,
+                "category": []
+            },
+            {
+                "pid": "10615",
+                "name": "10615 Divisibility",
+                "subs": 584,
+                "ACs": 182,
+                "AcceptRate": 31.16,
+                "onsite": 9,
+                "access": 2987,
+                "category": []
+            },
+            {
+                "pid": "10503",
+                "name": "10503 Show the Sequence",
+                "subs": 933,
+                "ACs": 130,
+                "AcceptRate": 13.93,
+                "onsite": 18,
+                "access": 6218,
+                "category": []
+            },
+            {
+                "pid": "2008-06",
+                "name": "2008-06 Parser and evaluator",
+                "subs": 185,
+                "ACs": 17,
+                "AcceptRate": 9.19,
+                "onsite": 51,
+                "access": 3172,
+                "category": []
+            }
+        ]
+    },
+    "10115": {
+        "timestamp": 1567094400.0,
+        "examTime": "2019-08-30",
+        "examName": "Aug 30 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11192",
+                "name": "11192 Simple Minded Hashing",
+                "subs": 242,
+                "ACs": 92,
+                "AcceptRate": 38.02,
+                "onsite": 5,
+                "access": 1703,
+                "category": []
+            },
+            {
+                "pid": "11019",
+                "name": "11019 Die Game",
+                "subs": 3224,
+                "ACs": 1048,
+                "AcceptRate": 32.51,
+                "onsite": 15,
+                "access": 12677,
+                "category": [
+                    "\u6a21\u64ec"
+                ]
+            },
+            {
+                "pid": "10610",
+                "name": "10610 Curling up the cube",
+                "subs": 98,
+                "ACs": 19,
+                "AcceptRate": 19.39,
+                "onsite": 5,
+                "access": 1175,
+                "category": []
+            },
+            {
+                "pid": "10655",
+                "name": "10655 Sumsets",
+                "subs": 2506,
+                "ACs": 341,
+                "AcceptRate": 13.61,
+                "onsite": 17,
+                "access": 9033,
+                "category": []
+            },
+            {
+                "pid": "22171",
+                "name": "22171 Dungeon Master",
+                "subs": 708,
+                "ACs": 174,
+                "AcceptRate": 24.58,
+                "onsite": 15,
+                "access": 3820,
+                "category": []
+            },
+            {
+                "pid": "10605",
+                "name": "10605 Count the Trees",
+                "subs": 36,
+                "ACs": 16,
+                "AcceptRate": 44.44,
+                "onsite": 3,
+                "access": 743,
+                "category": [
+                    "DP",
+                    "\u8cea\u56e0\u6578\u5206\u89e3"
+                ]
+            }
+        ]
+    },
+    "10105": {
+        "timestamp": 1563724800.0,
+        "examTime": "2019-07-22",
+        "examName": "July 22 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "24681",
+                "name": "24681 Perfection",
+                "subs": 4085,
+                "ACs": 973,
+                "AcceptRate": 23.82,
+                "onsite": 12,
+                "access": 6680,
+                "category": [
+                    "prime"
+                ]
+            },
+            {
+                "pid": "10535",
+                "name": "10535 Prime Distance",
+                "subs": 816,
+                "ACs": 124,
+                "AcceptRate": 15.2,
+                "onsite": 6,
+                "access": 4698,
+                "category": []
+            },
+            {
+                "pid": "10567",
+                "name": "10567 Common Permutation",
+                "subs": 2263,
+                "ACs": 563,
+                "AcceptRate": 24.88,
+                "onsite": 11,
+                "access": 6112,
+                "category": []
+            },
+            {
+                "pid": "2009-24",
+                "name": "2009-24 Unique lines",
+                "subs": 1139,
+                "ACs": 144,
+                "AcceptRate": 12.64,
+                "onsite": 41,
+                "access": 5734,
+                "category": []
+            },
+            {
+                "pid": "2008-19",
+                "name": "2008-19 Set partition",
+                "subs": 569,
+                "ACs": 47,
+                "AcceptRate": 8.26,
+                "onsite": 30,
+                "access": 4123,
+                "category": []
+            },
+            {
+                "pid": "23681",
+                "name": "23681 Bachet's Game",
+                "subs": 173,
+                "ACs": 79,
+                "AcceptRate": 45.66,
+                "onsite": 8,
+                "access": 1729,
+                "category": [
+                    "\u80cc\u5305"
+                ]
+            },
+            {
+                "pid": "10906",
+                "name": "10906 Matrix Decompressing",
+                "subs": 8,
+                "ACs": 0,
+                "AcceptRate": 0.0,
+                "onsite": 2,
+                "access": 181,
+                "category": []
+            }
+        ]
+    },
+    "10095": {
+        "timestamp": 1563120000.0,
+        "examTime": "2019-07-15",
+        "examName": "July 15 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "2015-07",
+                "name": "2015-07 Minimum Path Sum",
+                "subs": 918,
+                "ACs": 243,
+                "AcceptRate": 26.47,
+                "onsite": 7,
+                "access": 2309,
+                "category": []
+            },
+            {
+                "pid": "2009-17",
+                "name": "2009-17 Binary tree traversals",
+                "subs": 470,
+                "ACs": 97,
+                "AcceptRate": 20.64,
+                "onsite": 33,
+                "access": 2721,
+                "category": []
+            },
+            {
+                "pid": "21964",
+                "name": "21964 Fill the Containers",
+                "subs": 495,
+                "ACs": 89,
+                "AcceptRate": 17.98,
+                "onsite": 28,
+                "access": 2113,
+                "category": []
+            },
+            {
+                "pid": "11179",
+                "name": "11179 Wavio Sequence",
+                "subs": 627,
+                "ACs": 118,
+                "AcceptRate": 18.82,
+                "onsite": 22,
+                "access": 2909,
+                "category": []
+            },
+            {
+                "pid": "11041",
+                "name": "11041 Children's Game",
+                "subs": 2357,
+                "ACs": 440,
+                "AcceptRate": 18.67,
+                "onsite": 19,
+                "access": 6556,
+                "category": []
+            },
+            {
+                "pid": "11184",
+                "name": "11184 Opening Doors",
+                "subs": 75,
+                "ACs": 8,
+                "AcceptRate": 10.67,
+                "onsite": 4,
+                "access": 613,
+                "category": []
+            }
+        ]
+    },
+    "10085": {
+        "timestamp": 1561478400.0,
+        "examTime": "2019-06-26",
+        "examName": "June 26 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "24461",
+                "name": "24461 Sum of Consecutive Prime Numbers",
+                "subs": 604,
+                "ACs": 351,
+                "AcceptRate": 58.11,
+                "onsite": 11,
+                "access": 3545,
+                "category": []
+            },
+            {
+                "pid": "22821",
+                "name": "22821 Oil Deposits",
+                "subs": 1815,
+                "ACs": 492,
+                "AcceptRate": 27.11,
+                "onsite": 16,
+                "access": 5489,
+                "category": []
+            },
+            {
+                "pid": "10520",
+                "name": "10520 Conformity",
+                "subs": 1524,
+                "ACs": 421,
+                "AcceptRate": 27.62,
+                "onsite": 32,
+                "access": 8850,
+                "category": []
+            },
+            {
+                "pid": "11041",
+                "name": "11041 Children's Game",
+                "subs": 2357,
+                "ACs": 440,
+                "AcceptRate": 18.67,
+                "onsite": 19,
+                "access": 6556,
+                "category": []
+            },
+            {
+                "pid": "10636",
+                "name": "10636 Gopher II",
+                "subs": 75,
+                "ACs": 9,
+                "AcceptRate": 12.0,
+                "onsite": 2,
+                "access": 468,
+                "category": []
+            },
+            {
+                "pid": "10505",
+                "name": "10505 Center of Masses",
+                "subs": 182,
+                "ACs": 16,
+                "AcceptRate": 8.79,
+                "onsite": 3,
+                "access": 1482,
+                "category": []
+            }
+        ]
+    },
+    "10075": {
+        "timestamp": 1560096000.0,
+        "examTime": "2019-06-10",
+        "examName": "June 10 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "24911",
+                "name": "24911 Robot Instructions",
+                "subs": 2419,
+                "ACs": 906,
+                "AcceptRate": 37.45,
+                "onsite": 12,
+                "access": 6174,
+                "category": [
+                    "\u6a21\u64ec"
+                ]
+            },
+            {
+                "pid": "2009-24",
+                "name": "2009-24 Unique lines",
+                "subs": 1139,
+                "ACs": 144,
+                "AcceptRate": 12.64,
+                "onsite": 41,
+                "access": 5734,
+                "category": []
+            },
+            {
+                "pid": "23571",
+                "name": "23571 Smith Numbers",
+                "subs": 842,
+                "ACs": 155,
+                "AcceptRate": 18.41,
+                "onsite": 20,
+                "access": 2932,
+                "category": [
+                    "\u8cea\u56e0\u6578\u5206\u89e3",
+                    "\u8cea\u6578"
+                ]
+            },
+            {
+                "pid": "11266",
+                "name": "11266 Generate random numbers",
+                "subs": 148,
+                "ACs": 57,
+                "AcceptRate": 38.51,
+                "onsite": 1,
+                "access": 842,
+                "category": []
+            },
+            {
+                "pid": "2015-04",
+                "name": "2015-04 The N-th Element",
+                "subs": 1014,
+                "ACs": 13,
+                "AcceptRate": 1.28,
+                "onsite": 8,
+                "access": 2203,
+                "category": [
+                    "\u5b57\u4e32",
+                    "\u6392\u5217",
+                    "\u905e\u8ff4"
+                ]
+            },
+            {
+                "pid": "23771",
+                "name": "23771 Lexicographic Order",
+                "subs": 321,
+                "ACs": 64,
+                "AcceptRate": 19.94,
+                "onsite": 25,
+                "access": 2338,
+                "category": []
+            }
+        ]
+    },
+    "10065": {
+        "timestamp": 1559059200.0,
+        "examTime": "2019-05-29",
+        "examName": "May 29 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "21944",
+                "name": "21944 Power Crisis",
+                "subs": 1980,
+                "ACs": 451,
+                "AcceptRate": 22.78,
+                "onsite": 27,
+                "access": 7183,
+                "category": []
+            },
+            {
+                "pid": "10582",
+                "name": "10582 Power Strings",
+                "subs": 1520,
+                "ACs": 263,
+                "AcceptRate": 17.3,
+                "onsite": 17,
+                "access": 4092,
+                "category": [
+                    "\u641c\u5c0b",
+                    "\u8cea\u56e0\u6578\u5206\u89e3"
+                ]
+            },
+            {
+                "pid": "2008-37",
+                "name": "2008-37 Prefix expression evaluation",
+                "subs": 1080,
+                "ACs": 219,
+                "AcceptRate": 20.28,
+                "onsite": 39,
+                "access": 5102,
+                "category": []
+            },
+            {
+                "pid": "24941",
+                "name": "24941 Uncompress",
+                "subs": 457,
+                "ACs": 149,
+                "AcceptRate": 32.6,
+                "onsite": 21,
+                "access": 3484,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406"
+                ]
+            },
+            {
+                "pid": "24731",
+                "name": "24731 Roads in the North",
+                "subs": 249,
+                "ACs": 55,
+                "AcceptRate": 22.09,
+                "onsite": 16,
+                "access": 2241,
+                "category": []
+            },
+            {
+                "pid": "2009-02",
+                "name": "2009-02 Line Overlap Problem",
+                "subs": 498,
+                "ACs": 27,
+                "AcceptRate": 5.42,
+                "onsite": 23,
+                "access": 2166,
+                "category": []
+            }
+        ]
+    },
+    "10055": {
+        "timestamp": 1557849600.0,
+        "examTime": "2019-05-15",
+        "examName": "May 15 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11019",
+                "name": "11019 Die Game",
+                "subs": 3224,
+                "ACs": 1048,
+                "AcceptRate": 32.51,
+                "onsite": 15,
+                "access": 12677,
+                "category": [
+                    "\u6a21\u64ec"
+                ]
+            },
+            {
+                "pid": "10607",
+                "name": "10607 Joseph's Cousin",
+                "subs": 1258,
+                "ACs": 261,
+                "AcceptRate": 20.75,
+                "onsite": 13,
+                "access": 7624,
+                "category": []
+            },
+            {
+                "pid": "24931",
+                "name": "24931 Extend to Palindromes",
+                "subs": 1853,
+                "ACs": 259,
+                "AcceptRate": 13.98,
+                "onsite": 21,
+                "access": 5499,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406",
+                    "\u8ff4\u6587"
+                ]
+            },
+            {
+                "pid": "10503",
+                "name": "10503 Show the Sequence",
+                "subs": 933,
+                "ACs": 130,
+                "AcceptRate": 13.93,
+                "onsite": 18,
+                "access": 6218,
+                "category": []
+            },
+            {
+                "pid": "10644",
+                "name": "10644 The Tourist Guide",
+                "subs": 170,
+                "ACs": 44,
+                "AcceptRate": 25.88,
+                "onsite": 5,
+                "access": 1577,
+                "category": []
+            },
+            {
+                "pid": "23781",
+                "name": "23781 Making Change",
+                "subs": 246,
+                "ACs": 46,
+                "AcceptRate": 18.7,
+                "onsite": 19,
+                "access": 2203,
+                "category": [
+                    "DP",
+                    "Greedy",
+                    "\u627e\u96f6\u554f\u984c",
+                    "\u6709\u9650\u80cc\u5305"
+                ]
+            }
+        ]
+    },
+    "10045": {
+        "timestamp": 1556467200.0,
+        "examTime": "2019-04-29",
+        "examName": "Apr 29 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "2015-08",
+                "name": "2015-08 Climbing Stairs",
+                "subs": 2432,
+                "ACs": 142,
+                "AcceptRate": 5.84,
+                "onsite": 7,
+                "access": 5184,
+                "category": []
+            },
+            {
+                "pid": "10421",
+                "name": "10421 All You Need Is Love",
+                "subs": 2573,
+                "ACs": 757,
+                "AcceptRate": 29.42,
+                "onsite": 21,
+                "access": 7364,
+                "category": [
+                    "\u6700\u5927\u516c\u56e0\u6578",
+                    "\u9032\u5236\u8f49\u63db"
+                ]
+            },
+            {
+                "pid": "2009-24",
+                "name": "2009-24 Unique lines",
+                "subs": 1139,
+                "ACs": 144,
+                "AcceptRate": 12.64,
+                "onsite": 41,
+                "access": 5734,
+                "category": []
+            },
+            {
+                "pid": "10633",
+                "name": "10633 Take the Land",
+                "subs": 319,
+                "ACs": 111,
+                "AcceptRate": 34.8,
+                "onsite": 9,
+                "access": 2056,
+                "category": []
+            },
+            {
+                "pid": "10600",
+                "name": "10600 Network Connections",
+                "subs": 460,
+                "ACs": 75,
+                "AcceptRate": 16.3,
+                "onsite": 8,
+                "access": 2650,
+                "category": []
+            },
+            {
+                "pid": "10621",
+                "name": "10621 Luggage",
+                "subs": 1148,
+                "ACs": 278,
+                "AcceptRate": 24.22,
+                "onsite": 18,
+                "access": 5673,
+                "category": [
+                    "DP",
+                    "\u5b50\u96c6\u548c\u554f\u984c"
+                ]
+            }
+        ]
+    },
+    "10035": {
+        "timestamp": 1554825600.0,
+        "examTime": "2019-04-10",
+        "examName": "Apr 10 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10417",
+                "name": "10417 The Hotel with Infinite Rooms",
+                "subs": 2759,
+                "ACs": 821,
+                "AcceptRate": 29.76,
+                "onsite": 13,
+                "access": 7529,
+                "category": []
+            },
+            {
+                "pid": "21944",
+                "name": "21944 Power Crisis",
+                "subs": 1980,
+                "ACs": 451,
+                "AcceptRate": 22.78,
+                "onsite": 27,
+                "access": 7183,
+                "category": []
+            },
+            {
+                "pid": "10429",
+                "name": "10429 Contest Scoreboard",
+                "subs": 932,
+                "ACs": 166,
+                "AcceptRate": 17.81,
+                "onsite": 16,
+                "access": 4528,
+                "category": [
+                    "DP"
+                ]
+            },
+            {
+                "pid": "23661",
+                "name": "23661 Bit Mask",
+                "subs": 394,
+                "ACs": 103,
+                "AcceptRate": 26.14,
+                "onsite": 8,
+                "access": 2618,
+                "category": []
+            },
+            {
+                "pid": "2015-03",
+                "name": "2015-03 Sudoku (As Good As Lee Hsien Loong)",
+                "subs": 158,
+                "ACs": 14,
+                "AcceptRate": 8.86,
+                "onsite": 8,
+                "access": 2096,
+                "category": []
+            },
+            {
+                "pid": "25081",
+                "name": "25081 Solving Maze Problems",
+                "subs": 226,
+                "ACs": 32,
+                "AcceptRate": 14.16,
+                "onsite": 2,
+                "access": 1872,
+                "category": []
+            },
+            {
+                "pid": "10421",
+                "name": "10421 All You Need Is Love",
+                "subs": 2573,
+                "ACs": 757,
+                "AcceptRate": 29.42,
+                "onsite": 21,
+                "access": 7364,
+                "category": [
+                    "\u6700\u5927\u516c\u56e0\u6578",
+                    "\u9032\u5236\u8f49\u63db"
+                ]
+            }
+        ]
+    },
+    "10025": {
+        "timestamp": 1553011200.0,
+        "examTime": "2019-03-20",
+        "examName": "Mar 20 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10579",
+                "name": "10579 Hay Points",
+                "subs": 648,
+                "ACs": 368,
+                "AcceptRate": 56.79,
+                "onsite": 15,
+                "access": 3235,
+                "category": []
+            },
+            {
+                "pid": "10679",
+                "name": "10679 Irreducible Basic Fractions",
+                "subs": 837,
+                "ACs": 128,
+                "AcceptRate": 15.29,
+                "onsite": 11,
+                "access": 3281,
+                "category": []
+            },
+            {
+                "pid": "10766",
+                "name": "10766 Antimatter Ray Clearcutting",
+                "subs": 11,
+                "ACs": 8,
+                "AcceptRate": 72.73,
+                "onsite": 1,
+                "access": 321,
+                "category": []
+            },
+            {
+                "pid": "10533",
+                "name": "10533 The Trip",
+                "subs": 608,
+                "ACs": 70,
+                "AcceptRate": 11.51,
+                "onsite": 5,
+                "access": 2275,
+                "category": []
+            },
+            {
+                "pid": "10621",
+                "name": "10621 Luggage",
+                "subs": 1148,
+                "ACs": 278,
+                "AcceptRate": 24.22,
+                "onsite": 18,
+                "access": 5673,
+                "category": [
+                    "DP",
+                    "\u5b50\u96c6\u548c\u554f\u984c"
+                ]
+            },
+            {
+                "pid": "10610",
+                "name": "10610 Curling up the cube",
+                "subs": 98,
+                "ACs": 19,
+                "AcceptRate": 19.39,
+                "onsite": 5,
+                "access": 1175,
+                "category": []
+            }
+        ]
+    },
+    "10015": {
+        "timestamp": 1551628800.0,
+        "examTime": "2019-03-04",
+        "examName": "Mar 4 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10418",
+                "name": "10418 Minesweeper",
+                "subs": 4515,
+                "ACs": 764,
+                "AcceptRate": 16.92,
+                "onsite": 11,
+                "access": 10964,
+                "category": [
+                    "\u6a21\u64ec"
+                ]
+            },
+            {
+                "pid": "10535",
+                "name": "10535 Prime Distance",
+                "subs": 816,
+                "ACs": 124,
+                "AcceptRate": 15.2,
+                "onsite": 6,
+                "access": 4698,
+                "category": []
+            },
+            {
+                "pid": "10551",
+                "name": "10551 Bee Maja",
+                "subs": 812,
+                "ACs": 290,
+                "AcceptRate": 35.71,
+                "onsite": 20,
+                "access": 3570,
+                "category": []
+            },
+            {
+                "pid": "10038",
+                "name": "10038 Disk Tree",
+                "subs": 230,
+                "ACs": 65,
+                "AcceptRate": 28.26,
+                "onsite": 32,
+                "access": 2603,
+                "category": []
+            },
+            {
+                "pid": "10645",
+                "name": "10645 Euclid Problem",
+                "subs": 142,
+                "ACs": 34,
+                "AcceptRate": 23.94,
+                "onsite": 3,
+                "access": 1292,
+                "category": [
+                    "\u6578\u8ad6",
+                    "\u8f3e\u8f49\u76f8\u9664\u6cd5"
+                ]
+            },
+            {
+                "pid": "2015-03",
+                "name": "2015-03 Sudoku (As Good As Lee Hsien Loong)",
+                "subs": 158,
+                "ACs": 14,
+                "AcceptRate": 8.86,
+                "onsite": 8,
+                "access": 2096,
+                "category": []
+            }
+        ]
+    },
+    "9995": {
+        "timestamp": 1545753600.0,
+        "examTime": "2018-12-26",
+        "examName": "Dec 26 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11032",
+                "name": "11032 Happy Number",
+                "subs": 700,
+                "ACs": 206,
+                "AcceptRate": 29.43,
+                "onsite": 3,
+                "access": 2859,
+                "category": []
+            },
+            {
+                "pid": "10535",
+                "name": "10535 Prime Distance",
+                "subs": 816,
+                "ACs": 124,
+                "AcceptRate": 15.2,
+                "onsite": 6,
+                "access": 4698,
+                "category": []
+            },
+            {
+                "pid": "10609",
+                "name": "10609 Square root",
+                "subs": 82,
+                "ACs": 15,
+                "AcceptRate": 18.29,
+                "onsite": 2,
+                "access": 559,
+                "category": []
+            },
+            {
+                "pid": "11017",
+                "name": "11017 Longest Common Subsequence",
+                "subs": 1276,
+                "ACs": 250,
+                "AcceptRate": 19.59,
+                "onsite": 12,
+                "access": 3772,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "10503",
+                "name": "10503 Show the Sequence",
+                "subs": 933,
+                "ACs": 130,
+                "AcceptRate": 13.93,
+                "onsite": 18,
+                "access": 6218,
+                "category": []
+            },
+            {
+                "pid": "22181",
+                "name": "22181 Dollars",
+                "subs": 664,
+                "ACs": 155,
+                "AcceptRate": 23.34,
+                "onsite": 19,
+                "access": 3960,
+                "category": [
+                    "\u627e\u96f6\u554f\u984c"
+                ]
+            }
+        ]
+    },
+    "9985": {
+        "timestamp": 1544544000.0,
+        "examTime": "2018-12-12",
+        "examName": "Dec 12 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10559",
+                "name": "10559 I Love Big Numbers !",
+                "subs": 859,
+                "ACs": 243,
+                "AcceptRate": 28.29,
+                "onsite": 8,
+                "access": 3118,
+                "category": []
+            },
+            {
+                "pid": "10732",
+                "name": "10732 Snow Clearing",
+                "subs": 105,
+                "ACs": 25,
+                "AcceptRate": 23.81,
+                "onsite": 2,
+                "access": 878,
+                "category": []
+            },
+            {
+                "pid": "10567",
+                "name": "10567 Common Permutation",
+                "subs": 2263,
+                "ACs": 563,
+                "AcceptRate": 24.88,
+                "onsite": 11,
+                "access": 6112,
+                "category": []
+            },
+            {
+                "pid": "10610",
+                "name": "10610 Curling up the cube",
+                "subs": 98,
+                "ACs": 19,
+                "AcceptRate": 19.39,
+                "onsite": 5,
+                "access": 1175,
+                "category": []
+            },
+            {
+                "pid": "22171",
+                "name": "22171 Dungeon Master",
+                "subs": 708,
+                "ACs": 174,
+                "AcceptRate": 24.58,
+                "onsite": 15,
+                "access": 3820,
+                "category": []
+            },
+            {
+                "pid": "10602",
+                "name": "10602 Longest Paths",
+                "subs": 260,
+                "ACs": 44,
+                "AcceptRate": 16.92,
+                "onsite": 6,
+                "access": 2340,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            }
+        ]
+    },
+    "9975": {
+        "timestamp": 1543161600.0,
+        "examTime": "2018-11-26",
+        "examName": "Nov 26 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10517",
+                "name": "10517 Hartals",
+                "subs": 2168,
+                "ACs": 928,
+                "AcceptRate": 42.8,
+                "onsite": 19,
+                "access": 7037,
+                "category": []
+            },
+            {
+                "pid": "11067",
+                "name": "11067 Cola",
+                "subs": 4996,
+                "ACs": 1174,
+                "AcceptRate": 23.5,
+                "onsite": 16,
+                "access": 12410,
+                "category": []
+            },
+            {
+                "pid": "10501",
+                "name": "10501 Safe Salutations",
+                "subs": 2190,
+                "ACs": 351,
+                "AcceptRate": 16.03,
+                "onsite": 6,
+                "access": 7169,
+                "category": []
+            },
+            {
+                "pid": "10637",
+                "name": "10637 Tight words",
+                "subs": 166,
+                "ACs": 47,
+                "AcceptRate": 28.31,
+                "onsite": 6,
+                "access": 1312,
+                "category": []
+            },
+            {
+                "pid": "23681",
+                "name": "23681 Bachet's Game",
+                "subs": 173,
+                "ACs": 79,
+                "AcceptRate": 45.66,
+                "onsite": 8,
+                "access": 1729,
+                "category": [
+                    "\u80cc\u5305"
+                ]
+            },
+            {
+                "pid": "10608",
+                "name": "10608 Minimal coverage",
+                "subs": 934,
+                "ACs": 118,
+                "AcceptRate": 12.63,
+                "onsite": 25,
+                "access": 3338,
+                "category": []
+            }
+        ]
+    },
+    "9965": {
+        "timestamp": 1542124800.0,
+        "examTime": "2018-11-14",
+        "examName": "Nov 14 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11006",
+                "name": "11006 Rank the Languages",
+                "subs": 1058,
+                "ACs": 335,
+                "AcceptRate": 31.66,
+                "onsite": 22,
+                "access": 5353,
+                "category": []
+            },
+            {
+                "pid": "10429",
+                "name": "10429 Contest Scoreboard",
+                "subs": 932,
+                "ACs": 166,
+                "AcceptRate": 17.81,
+                "onsite": 16,
+                "access": 4528,
+                "category": [
+                    "DP"
+                ]
+            },
+            {
+                "pid": "10416",
+                "name": "10416 Last Digit",
+                "subs": 4117,
+                "ACs": 614,
+                "AcceptRate": 14.91,
+                "onsite": 21,
+                "access": 10084,
+                "category": [
+                    "\u6578\u5b78"
+                ]
+            },
+            {
+                "pid": "10413",
+                "name": "10413 An Easy Problem!",
+                "subs": 1363,
+                "ACs": 324,
+                "AcceptRate": 23.77,
+                "onsite": 6,
+                "access": 5347,
+                "category": []
+            },
+            {
+                "pid": "23671",
+                "name": "23671 Camel trading",
+                "subs": 1340,
+                "ACs": 269,
+                "AcceptRate": 20.07,
+                "onsite": 18,
+                "access": 4825,
+                "category": []
+            },
+            {
+                "pid": "2008-28",
+                "name": "2008-28 Longest monotonically increasing subsequence",
+                "subs": 390,
+                "ACs": 68,
+                "AcceptRate": 17.44,
+                "onsite": 33,
+                "access": 3261,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            }
+        ]
+    },
+    "9955": {
+        "timestamp": 1540310400.0,
+        "examTime": "2018-10-24",
+        "examName": "Oct 24 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "23771",
+                "name": "23771 Lexicographic Order",
+                "subs": 321,
+                "ACs": 64,
+                "AcceptRate": 19.94,
+                "onsite": 25,
+                "access": 2338,
+                "category": []
+            },
+            {
+                "pid": "22821",
+                "name": "22821 Oil Deposits",
+                "subs": 1815,
+                "ACs": 492,
+                "AcceptRate": 27.11,
+                "onsite": 16,
+                "access": 5489,
+                "category": []
+            },
+            {
+                "pid": "23661",
+                "name": "23661 Bit Mask",
+                "subs": 394,
+                "ACs": 103,
+                "AcceptRate": 26.14,
+                "onsite": 8,
+                "access": 2618,
+                "category": []
+            },
+            {
+                "pid": "23551",
+                "name": "23551 Largest Square",
+                "subs": 2315,
+                "ACs": 469,
+                "AcceptRate": 20.26,
+                "onsite": 15,
+                "access": 5675,
+                "category": []
+            },
+            {
+                "pid": "23781",
+                "name": "23781 Making Change",
+                "subs": 246,
+                "ACs": 46,
+                "AcceptRate": 18.7,
+                "onsite": 19,
+                "access": 2203,
+                "category": [
+                    "DP",
+                    "Greedy",
+                    "\u627e\u96f6\u554f\u984c",
+                    "\u6709\u9650\u80cc\u5305"
+                ]
+            },
+            {
+                "pid": "10606",
+                "name": "10606 How Big Is It?",
+                "subs": 479,
+                "ACs": 47,
+                "AcceptRate": 9.81,
+                "onsite": 34,
+                "access": 4849,
+                "category": [
+                    "Circle",
+                    "Geometry",
+                    "Math"
+                ]
+            }
+        ]
+    },
+    "9945": {
+        "timestamp": 1538928000.0,
+        "examTime": "2018-10-08",
+        "examName": "Oct 8 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10038",
+                "name": "10038 Disk Tree",
+                "subs": 230,
+                "ACs": 65,
+                "AcceptRate": 28.26,
+                "onsite": 32,
+                "access": 2603,
+                "category": []
+            },
+            {
+                "pid": "10503",
+                "name": "10503 Show the Sequence",
+                "subs": 933,
+                "ACs": 130,
+                "AcceptRate": 13.93,
+                "onsite": 18,
+                "access": 6218,
+                "category": []
+            },
+            {
+                "pid": "11174",
+                "name": "11174 Homer Simpson",
+                "subs": 3586,
+                "ACs": 448,
+                "AcceptRate": 12.49,
+                "onsite": 11,
+                "access": 8232,
+                "category": [
+                    "DP\u3001Greedy"
+                ]
+            },
+            {
+                "pid": "24461",
+                "name": "24461 Sum of Consecutive Prime Numbers",
+                "subs": 604,
+                "ACs": 351,
+                "AcceptRate": 58.11,
+                "onsite": 11,
+                "access": 3545,
+                "category": []
+            },
+            {
+                "pid": "2008-19",
+                "name": "2008-19 Set partition",
+                "subs": 569,
+                "ACs": 47,
+                "AcceptRate": 8.26,
+                "onsite": 30,
+                "access": 4123,
+                "category": []
+            },
+            {
+                "pid": "22181",
+                "name": "22181 Dollars",
+                "subs": 664,
+                "ACs": 155,
+                "AcceptRate": 23.34,
+                "onsite": 19,
+                "access": 3960,
+                "category": [
+                    "\u627e\u96f6\u554f\u984c"
+                ]
+            },
+            {
+                "pid": "23781",
+                "name": "23781 Making Change",
+                "subs": 246,
+                "ACs": 46,
+                "AcceptRate": 18.7,
+                "onsite": 19,
+                "access": 2203,
+                "category": [
+                    "DP",
+                    "Greedy",
+                    "\u627e\u96f6\u554f\u984c",
+                    "\u6709\u9650\u80cc\u5305"
+                ]
+            }
+        ]
+    },
+    "9935": {
+        "timestamp": 1537891200.0,
+        "examTime": "2018-09-26",
+        "examName": "Sep 26 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10437",
+                "name": "10437 Zeros and Ones",
+                "subs": 1494,
+                "ACs": 414,
+                "AcceptRate": 27.71,
+                "onsite": 7,
+                "access": 4429,
+                "category": []
+            },
+            {
+                "pid": "10582",
+                "name": "10582 Power Strings",
+                "subs": 1520,
+                "ACs": 263,
+                "AcceptRate": 17.3,
+                "onsite": 17,
+                "access": 4092,
+                "category": [
+                    "\u641c\u5c0b",
+                    "\u8cea\u56e0\u6578\u5206\u89e3"
+                ]
+            },
+            {
+                "pid": "2009-24",
+                "name": "2009-24 Unique lines",
+                "subs": 1139,
+                "ACs": 144,
+                "AcceptRate": 12.64,
+                "onsite": 41,
+                "access": 5734,
+                "category": []
+            },
+            {
+                "pid": "24941",
+                "name": "24941 Uncompress",
+                "subs": 457,
+                "ACs": 149,
+                "AcceptRate": 32.6,
+                "onsite": 21,
+                "access": 3484,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406"
+                ]
+            },
+            {
+                "pid": "10615",
+                "name": "10615 Divisibility",
+                "subs": 584,
+                "ACs": 182,
+                "AcceptRate": 31.16,
+                "onsite": 9,
+                "access": 2987,
+                "category": []
+            },
+            {
+                "pid": "10658",
+                "name": "10658 Is Bigger Smarter?",
+                "subs": 248,
+                "ACs": 15,
+                "AcceptRate": 6.05,
+                "onsite": 6,
+                "access": 1277,
+                "category": []
+            }
+        ]
+    },
+    "9925": {
+        "timestamp": 1536249600.0,
+        "examTime": "2018-09-07",
+        "examName": "Sep 7 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10500",
+                "name": "10500 Brick Wall Patterns",
+                "subs": 2035,
+                "ACs": 512,
+                "AcceptRate": 25.16,
+                "onsite": 5,
+                "access": 7413,
+                "category": [
+                    "DP",
+                    "\u8cbb\u6c0f\u6578\u5217"
+                ]
+            },
+            {
+                "pid": "10552",
+                "name": "10552 Automated Judge Script",
+                "subs": 654,
+                "ACs": 162,
+                "AcceptRate": 24.77,
+                "onsite": 12,
+                "access": 2382,
+                "category": []
+            },
+            {
+                "pid": "10655",
+                "name": "10655 Sumsets",
+                "subs": 2506,
+                "ACs": 341,
+                "AcceptRate": 13.61,
+                "onsite": 17,
+                "access": 9033,
+                "category": []
+            },
+            {
+                "pid": "11017",
+                "name": "11017 Longest Common Subsequence",
+                "subs": 1276,
+                "ACs": 250,
+                "AcceptRate": 19.59,
+                "onsite": 12,
+                "access": 3772,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "2008-19",
+                "name": "2008-19 Set partition",
+                "subs": 569,
+                "ACs": 47,
+                "AcceptRate": 8.26,
+                "onsite": 30,
+                "access": 4123,
+                "category": []
+            },
+            {
+                "pid": "10603",
+                "name": "10603 Cutting Sticks",
+                "subs": 232,
+                "ACs": 77,
+                "AcceptRate": 33.19,
+                "onsite": 9,
+                "access": 1982,
+                "category": []
+            }
+        ]
+    },
+    "9915": {
+        "timestamp": 1535644800.0,
+        "examTime": "2018-08-31",
+        "examName": "Aug 31 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10038",
+                "name": "10038 Disk Tree",
+                "subs": 230,
+                "ACs": 65,
+                "AcceptRate": 28.26,
+                "onsite": 32,
+                "access": 2603,
+                "category": []
+            },
+            {
+                "pid": "10520",
+                "name": "10520 Conformity",
+                "subs": 1524,
+                "ACs": 421,
+                "AcceptRate": 27.62,
+                "onsite": 32,
+                "access": 8850,
+                "category": []
+            },
+            {
+                "pid": "24931",
+                "name": "24931 Extend to Palindromes",
+                "subs": 1853,
+                "ACs": 259,
+                "AcceptRate": 13.98,
+                "onsite": 21,
+                "access": 5499,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406",
+                    "\u8ff4\u6587"
+                ]
+            },
+            {
+                "pid": "2009-24",
+                "name": "2009-24 Unique lines",
+                "subs": 1139,
+                "ACs": 144,
+                "AcceptRate": 12.64,
+                "onsite": 41,
+                "access": 5734,
+                "category": []
+            },
+            {
+                "pid": "10679",
+                "name": "10679 Irreducible Basic Fractions",
+                "subs": 837,
+                "ACs": 128,
+                "AcceptRate": 15.29,
+                "onsite": 11,
+                "access": 3281,
+                "category": []
+            },
+            {
+                "pid": "10605",
+                "name": "10605 Count the Trees",
+                "subs": 36,
+                "ACs": 16,
+                "AcceptRate": 44.44,
+                "onsite": 3,
+                "access": 743,
+                "category": [
+                    "DP",
+                    "\u8cea\u56e0\u6578\u5206\u89e3"
+                ]
+            }
+        ]
+    },
+    "9905": {
+        "timestamp": 1532275200.0,
+        "examTime": "2018-07-23",
+        "examName": "July 23 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10502",
+                "name": "10502 Product of digits",
+                "subs": 2648,
+                "ACs": 601,
+                "AcceptRate": 22.7,
+                "onsite": 18,
+                "access": 7062,
+                "category": []
+            },
+            {
+                "pid": "10409",
+                "name": "10409 A mid-summer night\u00e2\u0080\u0099s dream",
+                "subs": 3684,
+                "ACs": 673,
+                "AcceptRate": 18.27,
+                "onsite": 18,
+                "access": 14631,
+                "category": []
+            },
+            {
+                "pid": "24941",
+                "name": "24941 Uncompress",
+                "subs": 457,
+                "ACs": 149,
+                "AcceptRate": 32.6,
+                "onsite": 21,
+                "access": 3484,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406"
+                ]
+            },
+            {
+                "pid": "24931",
+                "name": "24931 Extend to Palindromes",
+                "subs": 1853,
+                "ACs": 259,
+                "AcceptRate": 13.98,
+                "onsite": 21,
+                "access": 5499,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406",
+                    "\u8ff4\u6587"
+                ]
+            },
+            {
+                "pid": "10601",
+                "name": "10601 Eternal Truths",
+                "subs": 246,
+                "ACs": 40,
+                "AcceptRate": 16.26,
+                "onsite": 13,
+                "access": 1814,
+                "category": []
+            },
+            {
+                "pid": "2008-19",
+                "name": "2008-19 Set partition",
+                "subs": 569,
+                "ACs": 47,
+                "AcceptRate": 8.26,
+                "onsite": 30,
+                "access": 4123,
+                "category": []
+            },
+            {
+                "pid": "10906",
+                "name": "10906 Matrix Decompressing",
+                "subs": 8,
+                "ACs": 0,
+                "AcceptRate": 0.0,
+                "onsite": 2,
+                "access": 181,
+                "category": []
+            }
+        ]
+    },
+    "9895": {
+        "timestamp": 1531670400.0,
+        "examTime": "2018-07-16",
+        "examName": "July 16 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10567",
+                "name": "10567 Common Permutation",
+                "subs": 2263,
+                "ACs": 563,
+                "AcceptRate": 24.88,
+                "onsite": 11,
+                "access": 6112,
+                "category": []
+            },
+            {
+                "pid": "10552",
+                "name": "10552 Automated Judge Script",
+                "subs": 654,
+                "ACs": 162,
+                "AcceptRate": 24.77,
+                "onsite": 12,
+                "access": 2382,
+                "category": []
+            },
+            {
+                "pid": "10429",
+                "name": "10429 Contest Scoreboard",
+                "subs": 932,
+                "ACs": 166,
+                "AcceptRate": 17.81,
+                "onsite": 16,
+                "access": 4528,
+                "category": [
+                    "DP"
+                ]
+            },
+            {
+                "pid": "2008-37",
+                "name": "2008-37 Prefix expression evaluation",
+                "subs": 1080,
+                "ACs": 219,
+                "AcceptRate": 20.28,
+                "onsite": 39,
+                "access": 5102,
+                "category": []
+            },
+            {
+                "pid": "10607",
+                "name": "10607 Joseph's Cousin",
+                "subs": 1258,
+                "ACs": 261,
+                "AcceptRate": 20.75,
+                "onsite": 13,
+                "access": 7624,
+                "category": []
+            },
+            {
+                "pid": "10603",
+                "name": "10603 Cutting Sticks",
+                "subs": 232,
+                "ACs": 77,
+                "AcceptRate": 33.19,
+                "onsite": 9,
+                "access": 1982,
+                "category": []
+            }
+        ]
+    },
+    "9871": {
+        "timestamp": 1528819200.0,
+        "examTime": "2018-06-13",
+        "examName": "June 13 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10500",
+                "name": "10500 Brick Wall Patterns",
+                "subs": 2035,
+                "ACs": 512,
+                "AcceptRate": 25.16,
+                "onsite": 5,
+                "access": 7413,
+                "category": [
+                    "DP",
+                    "\u8cbb\u6c0f\u6578\u5217"
+                ]
+            },
+            {
+                "pid": "10416",
+                "name": "10416 Last Digit",
+                "subs": 4117,
+                "ACs": 614,
+                "AcceptRate": 14.91,
+                "onsite": 21,
+                "access": 10084,
+                "category": [
+                    "\u6578\u5b78"
+                ]
+            },
+            {
+                "pid": "2015-09",
+                "name": "2015-09 Longest Increasing Subsequence",
+                "subs": 1240,
+                "ACs": 263,
+                "AcceptRate": 21.21,
+                "onsite": 8,
+                "access": 3477,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "2008-37",
+                "name": "2008-37 Prefix expression evaluation",
+                "subs": 1080,
+                "ACs": 219,
+                "AcceptRate": 20.28,
+                "onsite": 39,
+                "access": 5102,
+                "category": []
+            },
+            {
+                "pid": "10644",
+                "name": "10644 The Tourist Guide",
+                "subs": 170,
+                "ACs": 44,
+                "AcceptRate": 25.88,
+                "onsite": 5,
+                "access": 1577,
+                "category": []
+            },
+            {
+                "pid": "10675",
+                "name": "10675 Urn-ball Probabilities!",
+                "subs": 52,
+                "ACs": 20,
+                "AcceptRate": 38.46,
+                "onsite": 2,
+                "access": 528,
+                "category": []
+            }
+        ]
+    },
+    "9861": {
+        "timestamp": 1527436800.0,
+        "examTime": "2018-05-28",
+        "examName": "May 28 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10406",
+                "name": "10406 Vito's family",
+                "subs": 3164,
+                "ACs": 895,
+                "AcceptRate": 28.29,
+                "onsite": 9,
+                "access": 8860,
+                "category": []
+            },
+            {
+                "pid": "10528",
+                "name": "10528 Light, more light",
+                "subs": 1065,
+                "ACs": 241,
+                "AcceptRate": 22.63,
+                "onsite": 8,
+                "access": 3316,
+                "category": []
+            },
+            {
+                "pid": "24941",
+                "name": "24941 Uncompress",
+                "subs": 457,
+                "ACs": 149,
+                "AcceptRate": 32.6,
+                "onsite": 21,
+                "access": 3484,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406"
+                ]
+            },
+            {
+                "pid": "10413",
+                "name": "10413 An Easy Problem!",
+                "subs": 1363,
+                "ACs": 324,
+                "AcceptRate": 23.77,
+                "onsite": 6,
+                "access": 5347,
+                "category": []
+            },
+            {
+                "pid": "22171",
+                "name": "22171 Dungeon Master",
+                "subs": 708,
+                "ACs": 174,
+                "AcceptRate": 24.58,
+                "onsite": 15,
+                "access": 3820,
+                "category": []
+            },
+            {
+                "pid": "10604",
+                "name": "10604 Packing polygons",
+                "subs": 57,
+                "ACs": 11,
+                "AcceptRate": 19.3,
+                "onsite": 3,
+                "access": 769,
+                "category": []
+            }
+        ]
+    },
+    "9851": {
+        "timestamp": 1526400000.0,
+        "examTime": "2018-05-16",
+        "examName": "May 16 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10409",
+                "name": "10409 A mid-summer night\u00e2\u0080\u0099s dream",
+                "subs": 3684,
+                "ACs": 673,
+                "AcceptRate": 18.27,
+                "onsite": 18,
+                "access": 14631,
+                "category": []
+            },
+            {
+                "pid": "10421",
+                "name": "10421 All You Need Is Love",
+                "subs": 2573,
+                "ACs": 757,
+                "AcceptRate": 29.42,
+                "onsite": 21,
+                "access": 7364,
+                "category": [
+                    "\u6700\u5927\u516c\u56e0\u6578",
+                    "\u9032\u5236\u8f49\u63db"
+                ]
+            },
+            {
+                "pid": "10582",
+                "name": "10582 Power Strings",
+                "subs": 1520,
+                "ACs": 263,
+                "AcceptRate": 17.3,
+                "onsite": 17,
+                "access": 4092,
+                "category": [
+                    "\u641c\u5c0b",
+                    "\u8cea\u56e0\u6578\u5206\u89e3"
+                ]
+            },
+            {
+                "pid": "10615",
+                "name": "10615 Divisibility",
+                "subs": 584,
+                "ACs": 182,
+                "AcceptRate": 31.16,
+                "onsite": 9,
+                "access": 2987,
+                "category": []
+            },
+            {
+                "pid": "11006",
+                "name": "11006 Rank the Languages",
+                "subs": 1058,
+                "ACs": 335,
+                "AcceptRate": 31.66,
+                "onsite": 22,
+                "access": 5353,
+                "category": []
+            },
+            {
+                "pid": "2015-07",
+                "name": "2015-07 Minimum Path Sum",
+                "subs": 918,
+                "ACs": 243,
+                "AcceptRate": 26.47,
+                "onsite": 7,
+                "access": 2309,
+                "category": []
+            }
+        ]
+    },
+    "9841": {
+        "timestamp": 1525017600.0,
+        "examTime": "2018-04-30",
+        "examName": "Apr 30 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11058",
+                "name": "11058 Exact Sum",
+                "subs": 1005,
+                "ACs": 178,
+                "AcceptRate": 17.71,
+                "onsite": 7,
+                "access": 2409,
+                "category": []
+            },
+            {
+                "pid": "23661",
+                "name": "23661 Bit Mask",
+                "subs": 394,
+                "ACs": 103,
+                "AcceptRate": 26.14,
+                "onsite": 8,
+                "access": 2618,
+                "category": []
+            },
+            {
+                "pid": "11179",
+                "name": "11179 Wavio Sequence",
+                "subs": 627,
+                "ACs": 118,
+                "AcceptRate": 18.82,
+                "onsite": 22,
+                "access": 2909,
+                "category": []
+            },
+            {
+                "pid": "10600",
+                "name": "10600 Network Connections",
+                "subs": 460,
+                "ACs": 75,
+                "AcceptRate": 16.3,
+                "onsite": 8,
+                "access": 2650,
+                "category": []
+            },
+            {
+                "pid": "10621",
+                "name": "10621 Luggage",
+                "subs": 1148,
+                "ACs": 278,
+                "AcceptRate": 24.22,
+                "onsite": 18,
+                "access": 5673,
+                "category": [
+                    "DP",
+                    "\u5b50\u96c6\u548c\u554f\u984c"
+                ]
+            },
+            {
+                "pid": "2008-06",
+                "name": "2008-06 Parser and evaluator",
+                "subs": 185,
+                "ACs": 17,
+                "AcceptRate": 9.19,
+                "onsite": 51,
+                "access": 3172,
+                "category": []
+            }
+        ]
+    },
+    "9831": {
+        "timestamp": 1523376000.0,
+        "examTime": "2018-04-11",
+        "examName": "Apr 11 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "24921",
+                "name": "24921 Guard the Land",
+                "subs": 3982,
+                "ACs": 650,
+                "AcceptRate": 16.32,
+                "onsite": 13,
+                "access": 5899,
+                "category": []
+            },
+            {
+                "pid": "24461",
+                "name": "24461 Sum of Consecutive Prime Numbers",
+                "subs": 604,
+                "ACs": 351,
+                "AcceptRate": 58.11,
+                "onsite": 11,
+                "access": 3545,
+                "category": []
+            },
+            {
+                "pid": "10602",
+                "name": "10602 Longest Paths",
+                "subs": 260,
+                "ACs": 44,
+                "AcceptRate": 16.92,
+                "onsite": 6,
+                "access": 2340,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "21944",
+                "name": "21944 Power Crisis",
+                "subs": 1980,
+                "ACs": 451,
+                "AcceptRate": 22.78,
+                "onsite": 27,
+                "access": 7183,
+                "category": []
+            },
+            {
+                "pid": "22261",
+                "name": "22261 Sorting the alphanumeric list in comma separated value format",
+                "subs": 169,
+                "ACs": 12,
+                "AcceptRate": 7.1,
+                "onsite": 21,
+                "access": 481,
+                "category": []
+            },
+            {
+                "pid": "10645",
+                "name": "10645 Euclid Problem",
+                "subs": 142,
+                "ACs": 34,
+                "AcceptRate": 23.94,
+                "onsite": 3,
+                "access": 1292,
+                "category": [
+                    "\u6578\u8ad6",
+                    "\u8f3e\u8f49\u76f8\u9664\u6cd5"
+                ]
+            }
+        ]
+    },
+    "9821": {
+        "timestamp": 1522166400.0,
+        "examTime": "2018-03-28",
+        "examName": "Mar 28 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10551",
+                "name": "10551 Bee Maja",
+                "subs": 812,
+                "ACs": 290,
+                "AcceptRate": 35.71,
+                "onsite": 20,
+                "access": 3570,
+                "category": []
+            },
+            {
+                "pid": "11017",
+                "name": "11017 Longest Common Subsequence",
+                "subs": 1276,
+                "ACs": 250,
+                "AcceptRate": 19.59,
+                "onsite": 12,
+                "access": 3772,
+                "category": [
+                    "DP",
+                    "LCS"
+                ]
+            },
+            {
+                "pid": "23651",
+                "name": "23651 The jackpot",
+                "subs": 2121,
+                "ACs": 418,
+                "AcceptRate": 19.71,
+                "onsite": 12,
+                "access": 4093,
+                "category": []
+            },
+            {
+                "pid": "24931",
+                "name": "24931 Extend to Palindromes",
+                "subs": 1853,
+                "ACs": 259,
+                "AcceptRate": 13.98,
+                "onsite": 21,
+                "access": 5499,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406",
+                    "\u8ff4\u6587"
+                ]
+            },
+            {
+                "pid": "23671",
+                "name": "23671 Camel trading",
+                "subs": 1340,
+                "ACs": 269,
+                "AcceptRate": 20.07,
+                "onsite": 18,
+                "access": 4825,
+                "category": []
+            },
+            {
+                "pid": "10608",
+                "name": "10608 Minimal coverage",
+                "subs": 934,
+                "ACs": 118,
+                "AcceptRate": 12.63,
+                "onsite": 25,
+                "access": 3338,
+                "category": []
+            },
+            {
+                "pid": "11037",
+                "name": "11037 The jackpot",
+                "subs": 17,
+                "ACs": 3,
+                "AcceptRate": 17.65,
+                "onsite": 1,
+                "access": 530,
+                "category": []
+            }
+        ]
+    },
+    "9811": {
+        "timestamp": 1520956800.0,
+        "examTime": "2018-03-14",
+        "examName": "Mar 14 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11019",
+                "name": "11019 Die Game",
+                "subs": 3224,
+                "ACs": 1048,
+                "AcceptRate": 32.51,
+                "onsite": 15,
+                "access": 12677,
+                "category": [
+                    "\u6a21\u64ec"
+                ]
+            },
+            {
+                "pid": "11041",
+                "name": "11041 Children's Game",
+                "subs": 2357,
+                "ACs": 440,
+                "AcceptRate": 18.67,
+                "onsite": 19,
+                "access": 6556,
+                "category": []
+            },
+            {
+                "pid": "10533",
+                "name": "10533 The Trip",
+                "subs": 608,
+                "ACs": 70,
+                "AcceptRate": 11.51,
+                "onsite": 5,
+                "access": 2275,
+                "category": []
+            },
+            {
+                "pid": "10465",
+                "name": "10465 Necklace",
+                "subs": 828,
+                "ACs": 163,
+                "AcceptRate": 19.69,
+                "onsite": 13,
+                "access": 3204,
+                "category": []
+            },
+            {
+                "pid": "2008-37",
+                "name": "2008-37 Prefix expression evaluation",
+                "subs": 1080,
+                "ACs": 219,
+                "AcceptRate": 20.28,
+                "onsite": 39,
+                "access": 5102,
+                "category": []
+            },
+            {
+                "pid": "10658",
+                "name": "10658 Is Bigger Smarter?",
+                "subs": 248,
+                "ACs": 15,
+                "AcceptRate": 6.05,
+                "onsite": 6,
+                "access": 1277,
+                "category": []
+            }
+        ]
+    },
+    "9801": {
+        "timestamp": 1519574400.0,
+        "examTime": "2018-02-26",
+        "examName": "Feb 26 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "11009",
+                "name": "11009 All in All",
+                "subs": 2209,
+                "ACs": 644,
+                "AcceptRate": 29.15,
+                "onsite": 11,
+                "access": 5608,
+                "category": []
+            },
+            {
+                "pid": "10501",
+                "name": "10501 Safe Salutations",
+                "subs": 2190,
+                "ACs": 351,
+                "AcceptRate": 16.03,
+                "onsite": 6,
+                "access": 7169,
+                "category": []
+            },
+            {
+                "pid": "11192",
+                "name": "11192 Simple Minded Hashing",
+                "subs": 242,
+                "ACs": 92,
+                "AcceptRate": 38.02,
+                "onsite": 5,
+                "access": 1703,
+                "category": []
+            },
+            {
+                "pid": "22821",
+                "name": "22821 Oil Deposits",
+                "subs": 1815,
+                "ACs": 492,
+                "AcceptRate": 27.11,
+                "onsite": 16,
+                "access": 5489,
+                "category": []
+            },
+            {
+                "pid": "10655",
+                "name": "10655 Sumsets",
+                "subs": 2506,
+                "ACs": 341,
+                "AcceptRate": 13.61,
+                "onsite": 17,
+                "access": 9033,
+                "category": []
+            },
+            {
+                "pid": "2008-19",
+                "name": "2008-19 Set partition",
+                "subs": 569,
+                "ACs": 47,
+                "AcceptRate": 8.26,
+                "onsite": 30,
+                "access": 4123,
+                "category": []
+            }
+        ]
+    },
+    "9781": {
+        "timestamp": 1514908800.0,
+        "examTime": "2018-01-03",
+        "examName": "Jan 3 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10528",
+                "name": "10528 Light, more light",
+                "subs": 1065,
+                "ACs": 241,
+                "AcceptRate": 22.63,
+                "onsite": 8,
+                "access": 3316,
+                "category": []
+            },
+            {
+                "pid": "22351",
+                "name": "22351 Quirksome Squares",
+                "subs": 1122,
+                "ACs": 340,
+                "AcceptRate": 30.3,
+                "onsite": 10,
+                "access": 3537,
+                "category": []
+            },
+            {
+                "pid": "2008-37",
+                "name": "2008-37 Prefix expression evaluation",
+                "subs": 1080,
+                "ACs": 219,
+                "AcceptRate": 20.28,
+                "onsite": 39,
+                "access": 5102,
+                "category": []
+            },
+            {
+                "pid": "22171",
+                "name": "22171 Dungeon Master",
+                "subs": 708,
+                "ACs": 174,
+                "AcceptRate": 24.58,
+                "onsite": 15,
+                "access": 3820,
+                "category": []
+            },
+            {
+                "pid": "10679",
+                "name": "10679 Irreducible Basic Fractions",
+                "subs": 837,
+                "ACs": 128,
+                "AcceptRate": 15.29,
+                "onsite": 11,
+                "access": 3281,
+                "category": []
+            },
+            {
+                "pid": "2015-03",
+                "name": "2015-03 Sudoku (As Good As Lee Hsien Loong)",
+                "subs": 158,
+                "ACs": 14,
+                "AcceptRate": 8.86,
+                "onsite": 8,
+                "access": 2096,
+                "category": []
+            }
+        ]
+    }
+}

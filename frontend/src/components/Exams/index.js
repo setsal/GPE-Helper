@@ -32,13 +32,11 @@ function Exams({ className, ExamData }) {
             <Message.Item>目前提供 AC 率、OnSite 次數、題目 Access 次數排序</Message.Item>
           </Message.List>
         </Message>
-        <Header as='h1'>考試一覽</Header>
+        <Header as='h1'><Icon name='flag checkered' />考試一覽</Header>
         <Divider />
 
         <Accordion>
-          {!ExamData
-            ? <h1>Fetch Data Error</h1>
-            :
+          {ExamData &&
             Object.keys(ExamData).sort((a, b) => { return b - a; }).map((key, i) => {
               return (
                 <div key={i}>

@@ -1,0 +1,6 @@
+build/*
+public
+dist
+src/assets
+src/service-worker.js
+src/serviceWorkerRegistration.js

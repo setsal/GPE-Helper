@@ -3,10 +3,9 @@ import styled from 'styled-components';
 import {
   Header,
   Table,
-  Label
+  Label,
 } from 'semantic-ui-react';
-import _ from 'lodash'
-
+import _ from 'lodash';
 
 const problemReducer = (state, action) => {
   switch (action.type) {
@@ -17,7 +16,7 @@ const problemReducer = (state, action) => {
           data: state.data.slice().reverse(),
           direction:
             state.direction === 'ascending' ? 'descending' : 'ascending',
-        }
+        };
       }
 
       return {
@@ -25,24 +24,20 @@ const problemReducer = (state, action) => {
         data: _.sortBy(state.data, [action.column]),
         direction:
           state.direction === 'ascending' ? 'descending' : 'ascending',
-      }
+      };
     default:
-      throw new Error()
+      throw new Error();
   }
-}
-
+};
 
 const Problem = ({
-  className, problems
+  className, problems,
 }) => {
-
-
   const [state, dispatch] = useReducer(problemReducer, {
     column: null,
     data: problems,
     direction: null,
   });
-
 
   return (
     <div className={className}>
@@ -53,56 +48,70 @@ const Problem = ({
             <Table.HeaderCell
               sorted={state.column === 'AcceptRate' ? state.direction : null}
               onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'AcceptRate' })}
-              textAlign='right'
+              textAlign="right"
             >
-              <Header as='h5'>AcceptRate
-            <Header.Subheader>Subs/ACs
-            </Header.Subheader>
+              <Header as="h5">
+                AcceptRate
+                <Header.Subheader>
+                  Subs/ACs
+                </Header.Subheader>
               </Header>
             </Table.HeaderCell>
             <Table.HeaderCell
               sorted={state.column === 'onsite' ? state.direction : null}
               onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'onsite' })}
-              textAlign='right'>OnSite</Table.HeaderCell>
+              textAlign="right"
+            >
+              OnSite
+            </Table.HeaderCell>
             <Table.HeaderCell
               sorted={state.column === 'access' ? state.direction : null}
               onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'access' })}
-              textAlign='right'>Access</Table.HeaderCell>
+              textAlign="right"
+            >
+              Access
+            </Table.HeaderCell>
           </Table.Row>
         </Table.Header>
         <Table.Body>
-          {state.data.map((problem, i) => {
-            return (
-              <Table.Row key={i}>
-                <Table.Cell singleLine>
-                  <a className="problem-name" href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
+          {state.data.map((problem) => (
+            <Table.Row key={problem.pid}>
+              <Table.Cell singleLine>
+                <a className="problem-name" href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
                       &nbsp;&nbsp;
-                      <div className="category">
-                    {problem.category.map(item => {
-                      return <Label circular size='small'>{item} </Label>
-                    })}
-                  </div>
-                </Table.Cell>
-                <Table.Cell textAlign='right'>
-                  <Header as='h5'>{problem.AcceptRate}%
-            <Header.Subheader>{problem.ACs}/{problem.subs}
-                    </Header.Subheader>
-                  </Header>
-                </Table.Cell>
-                <Table.Cell textAlign='right'>
-                  {problem.onsite}
-                </Table.Cell>
-                <Table.Cell textAlign='right'>
-                  {problem.access}
-                </Table.Cell>
-              </Table.Row>
-            )
-          })}
+                <div className="category">
+                  {problem.category.map((item) => (
+                    <Label circular size="small" key={item}>
+                      {item}
+                      {' '}
+                    </Label>
+                  ))}
+                </div>
+              </Table.Cell>
+              <Table.Cell textAlign="right">
+                <Header as="h5">
+                  {problem.AcceptRate}
+                  %
+                  <Header.Subheader>
+                    {problem.ACs}
+                    /
+                    {problem.subs}
+                  </Header.Subheader>
+                </Header>
+              </Table.Cell>
+              <Table.Cell textAlign="right">
+                {problem.onsite}
+              </Table.Cell>
+              <Table.Cell textAlign="right">
+                {problem.access}
+              </Table.Cell>
+            </Table.Row>
+          ))}
         </Table.Body>
       </Table>
     </div>
   );
-}
+};
 
 export default styled(Problem)`
 .problem-name {

@@ -1,13 +1,15 @@
 # NCTU GPE Analysis Frontend
 
-## Development
+## Install & Run
 
-Install & Run
 ```
 npm install && npm run start
 ```
 
-Linter
+## Linter
+
 ```
 npm run lint
 ```
+
+make sure your pass the linter first!

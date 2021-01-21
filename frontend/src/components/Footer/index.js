@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
-import ScrollTop from './ScrollTop';
 import {
   Container,
   Divider,
@@ -9,6 +8,7 @@ import {
   List,
   Segment,
 } from 'semantic-ui-react';
+import ScrollTop from './ScrollTop';
 
 function Footer({ className }) {
   const [nearTop, setNearTop] = useState(true);
@@ -29,16 +29,16 @@ function Footer({ className }) {
   return (
     <div className={className}>
       <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
-        <Container textAlign='center'>
+        <Container textAlign="center">
           <Divider inverted section />
-          <Image centered size='mini' src='/logo192.png' />
-          <List horizontal inverted divided link size='small'>
-            <List.Item as='a' href='https://github.com/setsal/GPE-Helper' target="_blank">
+          <Image centered size="mini" src="/logo192.png" />
+          <List horizontal inverted divided link size="small">
+            <List.Item as="a" href="https://github.com/setsal/GPE-Helper" target="_blank">
               Github Repo
-          </List.Item>
-            <List.Item as='a' href='https://github.com/setsal/GPE-Helper' target="_blank">
+            </List.Item>
+            <List.Item as="a" href="https://github.com/setsal/GPE-Helper" target="_blank">
               LICENSE
-          </List.Item>
+            </List.Item>
           </List>
         </Container>
       </Segment>

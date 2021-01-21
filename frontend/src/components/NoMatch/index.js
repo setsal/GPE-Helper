@@ -3,16 +3,15 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import {
   Container,
-  Header
+  Header,
 } from 'semantic-ui-react';
-
 
 function NoMatch() {
   return (
     <>
       <Background>
-        <Container style={{ marginTop: '6em' }} textAlign='center'>
-          <Header as='h2' className="text" style={{ fontSize: '80px' }}>404 Not Found</Header>
+        <Container style={{ marginTop: '6em' }} textAlign="center">
+          <Header as="h2" className="text" style={{ fontSize: '80px' }}>404 Not Found</Header>
           <Link to={{ pathname: '/' }}>
             <div className="back">🏃 Home Page</div>
           </Link>

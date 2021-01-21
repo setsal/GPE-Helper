@@ -6,6 +6,12 @@
 
 當然還有測試和效能優化:P
 
+## Install dependencies
+```
+pip install -r requirements.txt
+```
+
+
 ### 使用順序
 1. crawler.py
 2. genProblems.py

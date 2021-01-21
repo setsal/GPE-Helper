@@ -76,9 +76,10 @@ function Header({ className }) {
                 </li>
                 <li className="github-forks" style={{ marginLeft: '3px' }}>
                   •
+                  {' '}
                   {githubData.forks_count}
                   {' '}
-                  Fork
+                  Forks
                 </li>
               </ul>
             </div>

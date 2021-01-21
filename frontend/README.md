@@ -12,4 +12,4 @@ npm install && npm run start
 npm run lint
 ```
 
-make sure your pass the linter first!
+Make sure your pass the linter first!

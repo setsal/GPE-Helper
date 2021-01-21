@@ -3,6 +3,9 @@
 <img src="https://i.imgur.com/2K698Mr.png" >
 </a>
 </p>
+<p align="center">
+<a href="https://github.com/setsal/GPE-Helper"><img src="https://api.netlify.com/api/v1/badges/915fb6de-552f-4c98-9397-78e62fb89b23/deploy-status" alt="Build Status"></a>
+</p>
 
 ## About
 
@@ -14,21 +17,22 @@ GPE 歷史出題狀況資料 & 頻率分析
 
 ## Feature
 
-+ 2018~今每次考試歷史出題一覽
-+ 2019~今所有題目一覽
-+ AC率、OnSite 次數、題目 Access 次數等欄位排序
-+ 瀏覽器儲存我的最愛題目
-+ 題目小分類處理
-+ 不負責任題目推薦度計算
+- 2018~今每次考試歷史出題一覽
+- 2019~今所有題目一覽
+- AC 率、OnSite 次數、題目 Access 次數等欄位排序
+- 瀏覽器儲存我的最愛題目
+- 題目小分類處理
+- 不負責任題目推薦度計算
 
 ## Screenshots
+
 <p align="center">
 <img src="https://i.imgur.com/A4A3LVi.png" width="600" />
 </p>
 
-|            |  |
-:-------------------------:|:-------------------------:
-![](https://i.imgur.com/sZo4pI4.png)  |  ![](https://i.imgur.com/9JeyKO0.png)
+|                                      |                                      |
+| :----------------------------------: | :----------------------------------: |
+| ![](https://i.imgur.com/sZo4pI4.png) | ![](https://i.imgur.com/9JeyKO0.png) |
 
 ## Development
 
@@ -36,4 +40,4 @@ GPE 歷史出題狀況資料 & 頻率分析
 
 ## Other
 
-如果覺得這專案很有趣或有小小幫助到你，歡迎給我個⭐支持
+如果覺得這專案很有趣或有小小幫助到你，歡迎給我個 ⭐ 支持

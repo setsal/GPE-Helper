@@ -36,7 +36,7 @@ function Footer({ className }) {
             <List.Item as="a" href="https://github.com/setsal/GPE-Helper" target="_blank">
               Github Repo
             </List.Item>
-            <List.Item as="a" href="https://github.com/setsal/GPE-Helper" target="_blank">
+            <List.Item as="a" href="https://github.com/setsal/GPE-Helper/blob/master/LICENSE" target="_blank">
               LICENSE
             </List.Item>
           </List>

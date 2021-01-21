@@ -19,7 +19,7 @@ def main(filename, net, startY, endY, dir):
 
     if net:
         response = requests.get(
-            "https://raw.githubusercontent.com/setsal/files/main/tmp/data.json")
+            "https://raw.githubusercontent.com/setsal/GPE-Helper/master/frontend/public/exams.json")
         data = response.json()
     else:
         with open(filename) as f:

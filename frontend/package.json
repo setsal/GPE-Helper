@@ -1,5 +1,5 @@
 {
-  "name": "nctu-gpe-analysis",
+  "name": "gpe-helper",
   "version": "1.0.0",
   "private": false,
   "dependencies": {

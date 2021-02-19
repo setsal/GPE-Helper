@@ -1,4 +1,4 @@
-# NCTU GPE Analysis Frontend
+# GPE-Helper - Frontend
 
 ## Install & Run
 

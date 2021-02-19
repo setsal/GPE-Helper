@@ -40,4 +40,6 @@ GPE 歷史出題狀況資料 & 頻率分析
 
 ## Other
 
+專案開發心得可見我的 blog [https://blog.setsal.dev/gpe-helper/](https://blog.setsal.dev/gpe-helper/)
+
 如果覺得這專案很有趣或有小小幫助到你，歡迎給我個 ⭐ 支持

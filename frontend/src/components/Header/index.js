@@ -15,28 +15,29 @@ function Header({ className }) {
     forks_count: 0,
   });
 
-  useEffect(() => {
-    const fetchData = () => {
-      fetch('https://api.github.com/users/setsal/repos?per_page=100&sort=updated&page=0')
-        .then((response) => response.json())
-        .then((data) => {
-          if (!(data instanceof Array)) return [];
+  const fetchData = async () => {
+    fetch('https://api.github.com/users/setsal/repos?per_page=100&sort=updated&page=0')
+      .then((response) => response.json())
+      .then((data) => {
+        if (!(data instanceof Array)) return [];
 
-          /* Display number of stars and forks, if repository is given */
-          const repo = data.find((item) => item.name === 'GPE-Helper');
-          if (repo) {
-            if (typeof repo.stargazers_count !== 'number' || typeof repo.forks_count !== 'number') return [];
-            setGithubData({
-              ...githubData,
-              stargazers_count: repo.stargazers_count,
-              forks_count: repo.forks_count,
-            });
-          }
-          return [];
-        });
-    };
+        /* Display number of stars and forks, if repository is given */
+        const repo = data.find((item) => item.name === 'GPE-Helper');
+        if (repo) {
+          if (typeof repo.stargazers_count !== 'number' || typeof repo.forks_count !== 'number') return [];
+          setGithubData({
+            ...githubData,
+            stargazers_count: repo.stargazers_count,
+            forks_count: repo.forks_count,
+          });
+        }
+        return [];
+      });
+  };
+
+  useEffect(() => {
     fetchData();
-  }, [githubData]);
+  }, []);
 
   return (
     <div className={className}>

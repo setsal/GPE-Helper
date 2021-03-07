@@ -26,13 +26,7 @@ GPE 歷史出題狀況資料 & 頻率分析
 
 ## Screenshots
 
-<p align="center">
-<img src="https://i.imgur.com/A4A3LVi.png" width="600" />
-</p>
-
-|                                      |                                      |
-| :----------------------------------: | :----------------------------------: |
-| ![](https://i.imgur.com/sZo4pI4.png) | ![](https://i.imgur.com/9JeyKO0.png) |
+![](https://i.imgur.com/LgQNW8Q.gif)
 
 ## Development
 

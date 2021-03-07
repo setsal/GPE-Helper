@@ -55,6 +55,7 @@ function Header({ className }) {
                 <Dropdown.Divider />
                 <Dropdown.Header>關於專案 & 窩</Dropdown.Header>
                 <Dropdown.Item as="a" href="https://github.com/setsal/GPE-Helper" target="_blank">Github Repo</Dropdown.Item>
+                <Dropdown.Item as="a" href="https://blog.setsal.dev/gpe-helper/" target="_blank">開發歷程</Dropdown.Item>
                 <Dropdown.Item>
                   <Icon name="dropdown" />
                   <span className="text">Also Try</span>

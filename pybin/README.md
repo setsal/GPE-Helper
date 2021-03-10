@@ -35,7 +35,7 @@ genTemplate 是選用
                           please login first and get the ACMICPCTW cookie value
                           [required]
 
-    -f, --filename TEXT   customized dump filename  [default: data.json]
+    -f, --filename TEXT   customized dump filename  [default: exams.json]
     --help                Show this message and exit.
   ```
 
@@ -49,7 +49,7 @@ genTemplate 是選用
 
   Options:
     --net / --no-net      use the online data  [default: True]
-    -f, --filename TEXT   local data  [default: data.json]
+    -f, --filename TEXT   local data  [default: exams.json]
     -s, --startY INTEGER  gen file start year  [default: 2019]
     -e, --endY INTEGER    gen file end year  [default: 2021]
     -o, --out TEXT        output filename  [default: problems.json]

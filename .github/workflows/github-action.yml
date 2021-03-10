@@ -1,0 +1,46 @@
+name: GPE-Helper
+
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Do nothing
+      - name: Do nothing
+        run: echo "Do nothing"
+
+      # # Set up python Env
+      # - name: Set up Python 3.8
+      #   uses: actions/setup-python@v2
+      #   with:
+      #     # Semantic version range syntax or exact version of a Python version
+      #     python-version: "3.8"
+
+      # # Install python dependencies
+      # - name: Install dependencies
+      #   run: |
+      #     python -m pip install --upgrade pip setuptools wheel
+      #     pip install -r pybin/requirements.txt
+
+      # # Runs update.sh
+      # - name: Execute update.sh
+      #   run: sh ./update.sh
+
+      # # Commit & Push files
+      # - name: Commit & Push files
+      #   run: |
+      #     git config --local user.email "GPE-helper[bot]@noreply.github.com"
+      #     git config --local user.name "GPE-Helper[bot]"
+      #     git add .
+      #     git commit -m "GPE-Helper[bot]: Update data at `date '+%b %d  %H:%M'`"
+      #     git push

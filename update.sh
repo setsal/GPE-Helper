@@ -20,6 +20,6 @@ echo "[*] Execute getCategory.py"
 python pybin/genCategory.py -ef frontend/public/exams.json -pf frontend/public/problems.json
 
 # Commit & push file
-git add *.*
+git add .
 git commit -m "Update data at `date '+%b %d  %H:%M'`"
 git push

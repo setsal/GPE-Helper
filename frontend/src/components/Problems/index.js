@@ -139,7 +139,7 @@ function Problems({ className, ProblemData }) {
                 <Header as="h5">
                   AcceptRate
                   <Header.Subheader>
-                    Subs/ACs
+                    ACs/Subs
                   </Header.Subheader>
                 </Header>
               </Table.HeaderCell>

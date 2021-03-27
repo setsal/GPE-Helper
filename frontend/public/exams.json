@@ -1,4 +1,77 @@
 {
+    "10425": {
+        "timestamp": 1616342400.0,
+        "examTime": "2021-03-22",
+        "examName": "Mar 22 Basic Programming Exam",
+        "problems": [
+            {
+                "pid": "10528",
+                "name": "10528: Light, more light",
+                "subs": 1154,
+                "ACs": 261,
+                "AcceptRate": 22.62,
+                "onsite": 9,
+                "access": 3805,
+                "category": []
+            },
+            {
+                "pid": "10503",
+                "name": "10503: Show the Sequence",
+                "subs": 963,
+                "ACs": 137,
+                "AcceptRate": 14.23,
+                "onsite": 19,
+                "access": 6450,
+                "category": []
+            },
+            {
+                "pid": "10535",
+                "name": "10535: Prime Distance",
+                "subs": 884,
+                "ACs": 130,
+                "AcceptRate": 14.71,
+                "onsite": 7,
+                "access": 5303,
+                "category": []
+            },
+            {
+                "pid": "24931",
+                "name": "24931: Extend to Palindromes",
+                "subs": 1887,
+                "ACs": 269,
+                "AcceptRate": 14.26,
+                "onsite": 22,
+                "access": 5756,
+                "category": [
+                    "\u5b57\u4e32\u8655\u7406",
+                    "\u8ff4\u6587"
+                ]
+            },
+            {
+                "pid": "10613",
+                "name": "10613: Tug of War",
+                "subs": 63,
+                "ACs": 8,
+                "AcceptRate": 12.7,
+                "onsite": 3,
+                "access": 523,
+                "category": []
+            },
+            {
+                "pid": "10642",
+                "name": "10642: Marbles",
+                "subs": 517,
+                "ACs": 92,
+                "AcceptRate": 17.79,
+                "onsite": 9,
+                "access": 2443,
+                "category": [
+                    "\u6578\u8ad6",
+                    "\u8f3e\u8f49\u76f8\u9664\u6cd5"
+                ]
+            }
+        ]
+    },
     "10415": {
         "timestamp": 1615305600.0,
         "examTime": "2021-03-10",
@@ -7,21 +80,21 @@
             {
                 "pid": "11192",
                 "name": "11192: Simple Minded Hashing",
-                "subs": 249,
-                "ACs": 95,
-                "AcceptRate": 38.15,
+                "subs": 330,
+                "ACs": 124,
+                "AcceptRate": 37.58,
                 "onsite": 6,
-                "access": 1889,
+                "access": 2337,
                 "category": []
             },
             {
                 "pid": "23571",
                 "name": "23571: Smith Numbers",
-                "subs": 852,
-                "ACs": 157,
-                "AcceptRate": 18.43,
+                "subs": 948,
+                "ACs": 178,
+                "AcceptRate": 18.78,
                 "onsite": 21,
-                "access": 2977,
+                "access": 3481,
                 "category": [
                     "\u8cea\u56e0\u6578\u5206\u89e3",
                     "\u8cea\u6578"
@@ -30,21 +103,21 @@
             {
                 "pid": "10732",
                 "name": "10732: Snow Clearing",
-                "subs": 105,
-                "ACs": 25,
-                "AcceptRate": 23.81,
+                "subs": 148,
+                "ACs": 39,
+                "AcceptRate": 26.35,
                 "onsite": 3,
-                "access": 895,
+                "access": 1201,
                 "category": []
             },
             {
                 "pid": "22161",
                 "name": "22161: Euclid Problem",
-                "subs": 399,
-                "ACs": 72,
-                "AcceptRate": 18.05,
+                "subs": 419,
+                "ACs": 84,
+                "AcceptRate": 20.05,
                 "onsite": 6,
-                "access": 1453,
+                "access": 1786,
                 "category": [
                     "\u6578\u8ad6",
                     "\u8f3e\u8f49\u76f8\u9664\u6cd5"
@@ -53,21 +126,21 @@
             {
                 "pid": "10600",
                 "name": "10600: Network Connections",
-                "subs": 479,
-                "ACs": 78,
-                "AcceptRate": 16.28,
+                "subs": 536,
+                "ACs": 88,
+                "AcceptRate": 16.42,
                 "onsite": 9,
-                "access": 2714,
+                "access": 3171,
                 "category": []
             },
             {
                 "pid": "10741",
                 "name": "10741: The Grand Dinner",
-                "subs": 60,
-                "ACs": 3,
-                "AcceptRate": 5.0,
+                "subs": 81,
+                "ACs": 4,
+                "AcceptRate": 4.94,
                 "onsite": 2,
-                "access": 340,
+                "access": 637,
                 "category": []
             }
         ]
@@ -80,41 +153,41 @@
             {
                 "pid": "10422",
                 "name": "10422: Is This Integration ?",
-                "subs": 594,
-                "ACs": 224,
-                "AcceptRate": 37.71,
+                "subs": 631,
+                "ACs": 234,
+                "AcceptRate": 37.08,
                 "onsite": 3,
-                "access": 2917,
+                "access": 3075,
                 "category": []
             },
             {
                 "pid": "10551",
                 "name": "10551: Bee Maja",
-                "subs": 861,
-                "ACs": 315,
-                "AcceptRate": 36.59,
+                "subs": 870,
+                "ACs": 322,
+                "AcceptRate": 37.01,
                 "onsite": 20,
-                "access": 3983,
+                "access": 4068,
                 "category": []
             },
             {
                 "pid": "10644",
                 "name": "10644: The Tourist Guide",
-                "subs": 221,
-                "ACs": 55,
-                "AcceptRate": 24.89,
+                "subs": 244,
+                "ACs": 62,
+                "AcceptRate": 25.41,
                 "onsite": 5,
-                "access": 1971,
+                "access": 2135,
                 "category": []
             },
             {
                 "pid": "22161",
                 "name": "22161: Euclid Problem",
-                "subs": 399,
-                "ACs": 72,
-                "AcceptRate": 18.05,
+                "subs": 419,
+                "ACs": 84,
+                "AcceptRate": 20.05,
                 "onsite": 6,
-                "access": 1453,
+                "access": 1786,
                 "category": [
                     "\u6578\u8ad6",
                     "\u8f3e\u8f49\u76f8\u9664\u6cd5"
@@ -123,21 +196,21 @@
             {
                 "pid": "10655",
                 "name": "10655: Sumsets",
-                "subs": 2608,
-                "ACs": 360,
-                "AcceptRate": 13.8,
+                "subs": 2653,
+                "ACs": 371,
+                "AcceptRate": 13.98,
                 "onsite": 17,
-                "access": 9881,
+                "access": 10137,
                 "category": []
             },
             {
                 "pid": "22181",
                 "name": "22181: Dollars",
-                "subs": 735,
-                "ACs": 172,
-                "AcceptRate": 23.4,
+                "subs": 762,
+                "ACs": 179,
+                "AcceptRate": 23.49,
                 "onsite": 19,
-                "access": 4355,
+                "access": 4557,
                 "category": [
                     "\u627e\u96f6\u554f\u984c"
                 ]
@@ -152,41 +225,41 @@
             {
                 "pid": "10679",
                 "name": "10679: Irreducible Basic Fractions",
-                "subs": 883,
-                "ACs": 134,
-                "AcceptRate": 15.18,
+                "subs": 906,
+                "ACs": 139,
+                "AcceptRate": 15.34,
                 "onsite": 11,
-                "access": 3530,
+                "access": 3653,
                 "category": []
             },
             {
                 "pid": "2009-24",
                 "name": "2009-24: Unique lines",
-                "subs": 1219,
-                "ACs": 157,
-                "AcceptRate": 12.88,
+                "subs": 1243,
+                "ACs": 162,
+                "AcceptRate": 13.03,
                 "onsite": 41,
-                "access": 6162,
+                "access": 6349,
                 "category": []
             },
             {
                 "pid": "23551",
                 "name": "23551: Largest Square",
-                "subs": 2348,
-                "ACs": 481,
-                "AcceptRate": 20.49,
+                "subs": 2363,
+                "ACs": 488,
+                "AcceptRate": 20.65,
                 "onsite": 15,
-                "access": 5972,
+                "access": 6057,
                 "category": []
             },
             {
                 "pid": "24941",
                 "name": "24941: Uncompress",
-                "subs": 496,
-                "ACs": 161,
-                "AcceptRate": 32.46,
+                "subs": 507,
+                "ACs": 168,
+                "AcceptRate": 33.14,
                 "onsite": 21,
-                "access": 3680,
+                "access": 3811,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406"
                 ]
@@ -194,11 +267,11 @@
             {
                 "pid": "10621",
                 "name": "10621: Luggage",
-                "subs": 1173,
-                "ACs": 286,
-                "AcceptRate": 24.38,
+                "subs": 1201,
+                "ACs": 297,
+                "AcceptRate": 24.73,
                 "onsite": 18,
-                "access": 5889,
+                "access": 6090,
                 "category": [
                     "DP",
                     "\u5b50\u96c6\u548c\u554f\u984c"
@@ -207,11 +280,11 @@
             {
                 "pid": "10658",
                 "name": "10658: Is Bigger Smarter?",
-                "subs": 277,
-                "ACs": 20,
-                "AcceptRate": 7.22,
+                "subs": 295,
+                "ACs": 21,
+                "AcceptRate": 7.12,
                 "onsite": 6,
-                "access": 1479,
+                "access": 1638,
                 "category": []
             }
         ]
@@ -224,41 +297,41 @@
             {
                 "pid": "25081",
                 "name": "25081: Solving Maze Problems",
-                "subs": 262,
-                "ACs": 41,
-                "AcceptRate": 15.65,
+                "subs": 289,
+                "ACs": 45,
+                "AcceptRate": 15.57,
                 "onsite": 2,
-                "access": 2037,
+                "access": 2300,
                 "category": []
             },
             {
                 "pid": "10471",
                 "name": "10471: COUNTING CHAOS",
-                "subs": 531,
-                "ACs": 125,
-                "AcceptRate": 23.54,
+                "subs": 542,
+                "ACs": 130,
+                "AcceptRate": 23.99,
                 "onsite": 10,
-                "access": 2360,
+                "access": 2428,
                 "category": []
             },
             {
                 "pid": "10520",
                 "name": "10520: Conformity",
-                "subs": 1589,
-                "ACs": 440,
-                "AcceptRate": 27.69,
+                "subs": 1594,
+                "ACs": 444,
+                "AcceptRate": 27.85,
                 "onsite": 32,
-                "access": 9156,
+                "access": 9222,
                 "category": []
             },
             {
                 "pid": "10602",
                 "name": "10602: Longest Paths",
-                "subs": 308,
-                "ACs": 50,
-                "AcceptRate": 16.23,
+                "subs": 318,
+                "ACs": 53,
+                "AcceptRate": 16.67,
                 "onsite": 6,
-                "access": 2573,
+                "access": 2693,
                 "category": [
                     "DP",
                     "LCS"
@@ -267,21 +340,21 @@
             {
                 "pid": "10603",
                 "name": "10603: Cutting Sticks",
-                "subs": 245,
-                "ACs": 84,
-                "AcceptRate": 34.29,
+                "subs": 249,
+                "ACs": 87,
+                "AcceptRate": 34.94,
                 "onsite": 9,
-                "access": 2098,
+                "access": 2149,
                 "category": []
             },
             {
                 "pid": "10642",
                 "name": "10642: Marbles",
-                "subs": 510,
-                "ACs": 89,
-                "AcceptRate": 17.45,
-                "onsite": 8,
-                "access": 2361,
+                "subs": 517,
+                "ACs": 92,
+                "AcceptRate": 17.79,
+                "onsite": 9,
+                "access": 2443,
                 "category": [
                     "\u6578\u8ad6",
                     "\u8f3e\u8f49\u76f8\u9664\u6cd5"
@@ -297,31 +370,31 @@
             {
                 "pid": "24461",
                 "name": "24461: Sum of Consecutive Prime Numbers",
-                "subs": 619,
-                "ACs": 360,
-                "AcceptRate": 58.16,
+                "subs": 630,
+                "ACs": 364,
+                "AcceptRate": 57.78,
                 "onsite": 11,
-                "access": 3614,
+                "access": 3688,
                 "category": []
             },
             {
                 "pid": "2009-24",
                 "name": "2009-24: Unique lines",
-                "subs": 1219,
-                "ACs": 157,
-                "AcceptRate": 12.88,
+                "subs": 1243,
+                "ACs": 162,
+                "AcceptRate": 13.03,
                 "onsite": 41,
-                "access": 6162,
+                "access": 6349,
                 "category": []
             },
             {
                 "pid": "2015-02",
                 "name": "2015-02: Recursion and Mod",
-                "subs": 1854,
-                "ACs": 196,
-                "AcceptRate": 10.57,
+                "subs": 1864,
+                "ACs": 198,
+                "AcceptRate": 10.62,
                 "onsite": 8,
-                "access": 3836,
+                "access": 3932,
                 "category": [
                     "\u8cbb\u6c0f\u6578\u5217"
                 ]
@@ -333,17 +406,17 @@
                 "ACs": 47,
                 "AcceptRate": 8.26,
                 "onsite": 30,
-                "access": 4196,
+                "access": 4223,
                 "category": []
             },
             {
                 "pid": "10636",
                 "name": "10636: Gopher II",
-                "subs": 78,
-                "ACs": 10,
-                "AcceptRate": 12.82,
+                "subs": 81,
+                "ACs": 12,
+                "AcceptRate": 14.81,
                 "onsite": 2,
-                "access": 490,
+                "access": 518,
                 "category": []
             }
         ]
@@ -356,21 +429,21 @@
             {
                 "pid": "10531",
                 "name": "10531: Zipf's Law",
-                "subs": 1206,
-                "ACs": 146,
-                "AcceptRate": 12.11,
+                "subs": 1236,
+                "ACs": 150,
+                "AcceptRate": 12.14,
                 "onsite": 27,
-                "access": 4152,
+                "access": 4254,
                 "category": []
             },
             {
                 "pid": "2015-04",
                 "name": "2015-04: The N-th Element",
-                "subs": 1017,
-                "ACs": 13,
-                "AcceptRate": 1.28,
+                "subs": 1019,
+                "ACs": 14,
+                "AcceptRate": 1.37,
                 "onsite": 8,
-                "access": 2234,
+                "access": 2250,
                 "category": [
                     "\u5b57\u4e32",
                     "\u6392\u5217",
@@ -380,21 +453,21 @@
             {
                 "pid": "2008-37",
                 "name": "2008-37: Prefix expression evaluation",
-                "subs": 1097,
-                "ACs": 223,
-                "AcceptRate": 20.33,
+                "subs": 1121,
+                "ACs": 226,
+                "AcceptRate": 20.16,
                 "onsite": 39,
-                "access": 5185,
+                "access": 5255,
                 "category": []
             },
             {
                 "pid": "24941",
                 "name": "24941: Uncompress",
-                "subs": 496,
-                "ACs": 161,
-                "AcceptRate": 32.46,
+                "subs": 507,
+                "ACs": 168,
+                "AcceptRate": 33.14,
                 "onsite": 21,
-                "access": 3680,
+                "access": 3811,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406"
                 ]
@@ -406,17 +479,17 @@
                 "ACs": 11,
                 "AcceptRate": 17.46,
                 "onsite": 3,
-                "access": 846,
+                "access": 864,
                 "category": []
             },
             {
                 "pid": "10606",
                 "name": "10606: How Big Is It?",
-                "subs": 479,
-                "ACs": 47,
-                "AcceptRate": 9.81,
+                "subs": 480,
+                "ACs": 48,
+                "AcceptRate": 10.0,
                 "onsite": 34,
-                "access": 4883,
+                "access": 4912,
                 "category": [
                     "Circle",
                     "Geometry",
@@ -433,31 +506,31 @@
             {
                 "pid": "10437",
                 "name": "10437: Zeros and Ones",
-                "subs": 1528,
-                "ACs": 426,
-                "AcceptRate": 27.88,
+                "subs": 1538,
+                "ACs": 431,
+                "AcceptRate": 28.02,
                 "onsite": 7,
-                "access": 4592,
+                "access": 4638,
                 "category": []
             },
             {
                 "pid": "11041",
                 "name": "11041: Children's Game",
-                "subs": 2381,
-                "ACs": 449,
-                "AcceptRate": 18.86,
+                "subs": 2385,
+                "ACs": 451,
+                "AcceptRate": 18.91,
                 "onsite": 19,
-                "access": 6627,
+                "access": 6643,
                 "category": []
             },
             {
                 "pid": "22161",
                 "name": "22161: Euclid Problem",
-                "subs": 399,
-                "ACs": 72,
-                "AcceptRate": 18.05,
+                "subs": 419,
+                "ACs": 84,
+                "AcceptRate": 20.05,
                 "onsite": 6,
-                "access": 1453,
+                "access": 1786,
                 "category": [
                     "\u6578\u8ad6",
                     "\u8f3e\u8f49\u76f8\u9664\u6cd5"
@@ -466,11 +539,11 @@
             {
                 "pid": "11017",
                 "name": "11017: Longest Common Subsequence",
-                "subs": 1291,
-                "ACs": 256,
-                "AcceptRate": 19.83,
+                "subs": 1296,
+                "ACs": 260,
+                "AcceptRate": 20.06,
                 "onsite": 12,
-                "access": 3861,
+                "access": 3903,
                 "category": [
                     "DP",
                     "LCS"
@@ -479,21 +552,21 @@
             {
                 "pid": "10608",
                 "name": "10608: Minimal coverage",
-                "subs": 969,
-                "ACs": 122,
-                "AcceptRate": 12.59,
+                "subs": 971,
+                "ACs": 124,
+                "AcceptRate": 12.77,
                 "onsite": 25,
-                "access": 3452,
+                "access": 3491,
                 "category": []
             },
             {
                 "pid": "23671",
                 "name": "23671: Camel trading",
-                "subs": 1350,
-                "ACs": 272,
-                "AcceptRate": 20.15,
+                "subs": 1353,
+                "ACs": 274,
+                "AcceptRate": 20.25,
                 "onsite": 18,
-                "access": 4894,
+                "access": 4939,
                 "category": []
             }
         ]
@@ -506,61 +579,61 @@
             {
                 "pid": "21944",
                 "name": "21944: Power Crisis",
-                "subs": 2004,
-                "ACs": 458,
-                "AcceptRate": 22.85,
+                "subs": 2027,
+                "ACs": 462,
+                "AcceptRate": 22.79,
                 "onsite": 27,
-                "access": 7311,
+                "access": 7468,
                 "category": []
             },
             {
                 "pid": "22151",
                 "name": "22151: Big Mod",
-                "subs": 2110,
-                "ACs": 290,
-                "AcceptRate": 13.74,
+                "subs": 2113,
+                "ACs": 292,
+                "AcceptRate": 13.82,
                 "onsite": 18,
-                "access": 4073,
+                "access": 4098,
                 "category": []
             },
             {
                 "pid": "11192",
                 "name": "11192: Simple Minded Hashing",
-                "subs": 249,
-                "ACs": 95,
-                "AcceptRate": 38.15,
+                "subs": 330,
+                "ACs": 124,
+                "AcceptRate": 37.58,
                 "onsite": 6,
-                "access": 1889,
+                "access": 2337,
                 "category": []
             },
             {
                 "pid": "10655",
                 "name": "10655: Sumsets",
-                "subs": 2608,
-                "ACs": 360,
-                "AcceptRate": 13.8,
+                "subs": 2653,
+                "ACs": 371,
+                "AcceptRate": 13.98,
                 "onsite": 17,
-                "access": 9881,
+                "access": 10137,
                 "category": []
             },
             {
                 "pid": "24731",
                 "name": "24731: Roads in the North",
-                "subs": 272,
-                "ACs": 57,
-                "AcceptRate": 20.96,
+                "subs": 280,
+                "ACs": 58,
+                "AcceptRate": 20.71,
                 "onsite": 16,
-                "access": 2317,
+                "access": 2757,
                 "category": []
             },
             {
                 "pid": "22181",
                 "name": "22181: Dollars",
-                "subs": 735,
-                "ACs": 172,
-                "AcceptRate": 23.4,
+                "subs": 762,
+                "ACs": 179,
+                "AcceptRate": 23.49,
                 "onsite": 19,
-                "access": 4355,
+                "access": 4557,
                 "category": [
                     "\u627e\u96f6\u554f\u984c"
                 ]
@@ -575,11 +648,11 @@
             {
                 "pid": "11019",
                 "name": "11019: Die Game",
-                "subs": 3241,
-                "ACs": 1058,
-                "AcceptRate": 32.64,
+                "subs": 3245,
+                "ACs": 1061,
+                "AcceptRate": 32.7,
                 "onsite": 15,
-                "access": 12785,
+                "access": 12821,
                 "category": [
                     "\u6a21\u64ec"
                 ]
@@ -591,27 +664,27 @@
                 "ACs": 21,
                 "AcceptRate": 20.0,
                 "onsite": 5,
-                "access": 1225,
+                "access": 1242,
                 "category": []
             },
             {
                 "pid": "10607",
                 "name": "10607: Joseph's Cousin",
-                "subs": 1262,
-                "ACs": 264,
-                "AcceptRate": 20.92,
+                "subs": 1264,
+                "ACs": 266,
+                "AcceptRate": 21.04,
                 "onsite": 13,
-                "access": 7671,
+                "access": 7686,
                 "category": []
             },
             {
                 "pid": "24931",
                 "name": "24931: Extend to Palindromes",
-                "subs": 1881,
-                "ACs": 266,
-                "AcceptRate": 14.14,
-                "onsite": 21,
-                "access": 5655,
+                "subs": 1887,
+                "ACs": 269,
+                "AcceptRate": 14.26,
+                "onsite": 22,
+                "access": 5756,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406",
                     "\u8ff4\u6587"
@@ -620,11 +693,11 @@
             {
                 "pid": "10637",
                 "name": "10637: Tight words",
-                "subs": 185,
-                "ACs": 50,
-                "AcceptRate": 27.03,
+                "subs": 188,
+                "ACs": 52,
+                "AcceptRate": 27.66,
                 "onsite": 6,
-                "access": 1493,
+                "access": 1539,
                 "category": []
             },
             {
@@ -634,7 +707,7 @@
                 "ACs": 17,
                 "AcceptRate": 9.19,
                 "onsite": 51,
-                "access": 3188,
+                "access": 3202,
                 "category": []
             }
         ]
@@ -647,11 +720,11 @@
             {
                 "pid": "24911",
                 "name": "24911: Robot Instructions",
-                "subs": 2472,
-                "ACs": 922,
-                "AcceptRate": 37.3,
+                "subs": 2479,
+                "ACs": 929,
+                "AcceptRate": 37.47,
                 "onsite": 12,
-                "access": 6383,
+                "access": 6426,
                 "category": [
                     "\u6a21\u64ec"
                 ]
@@ -659,11 +732,11 @@
             {
                 "pid": "2015-09",
                 "name": "2015-09: Longest Increasing Subsequence",
-                "subs": 1250,
-                "ACs": 266,
-                "AcceptRate": 21.28,
+                "subs": 1254,
+                "ACs": 268,
+                "AcceptRate": 21.37,
                 "onsite": 8,
-                "access": 3595,
+                "access": 3643,
                 "category": [
                     "DP",
                     "LCS"
@@ -672,41 +745,41 @@
             {
                 "pid": "2008-37",
                 "name": "2008-37: Prefix expression evaluation",
-                "subs": 1097,
-                "ACs": 223,
-                "AcceptRate": 20.33,
+                "subs": 1121,
+                "ACs": 226,
+                "AcceptRate": 20.16,
                 "onsite": 39,
-                "access": 5185,
+                "access": 5255,
                 "category": []
             },
             {
                 "pid": "22171",
                 "name": "22171: Dungeon Master",
-                "subs": 718,
-                "ACs": 178,
-                "AcceptRate": 24.79,
+                "subs": 727,
+                "ACs": 180,
+                "AcceptRate": 24.76,
                 "onsite": 15,
-                "access": 3892,
+                "access": 3936,
                 "category": []
             },
             {
                 "pid": "24731",
                 "name": "24731: Roads in the North",
-                "subs": 272,
-                "ACs": 57,
-                "AcceptRate": 20.96,
+                "subs": 280,
+                "ACs": 58,
+                "AcceptRate": 20.71,
                 "onsite": 16,
-                "access": 2317,
+                "access": 2757,
                 "category": []
             },
             {
                 "pid": "22181",
                 "name": "22181: Dollars",
-                "subs": 735,
-                "ACs": 172,
-                "AcceptRate": 23.4,
+                "subs": 762,
+                "ACs": 179,
+                "AcceptRate": 23.49,
                 "onsite": 19,
-                "access": 4355,
+                "access": 4557,
                 "category": [
                     "\u627e\u96f6\u554f\u984c"
                 ]
@@ -721,21 +794,21 @@
             {
                 "pid": "2015-08",
                 "name": "2015-08: Climbing Stairs",
-                "subs": 2466,
-                "ACs": 146,
-                "AcceptRate": 5.92,
+                "subs": 2478,
+                "ACs": 149,
+                "AcceptRate": 6.01,
                 "onsite": 7,
-                "access": 5312,
+                "access": 5409,
                 "category": []
             },
             {
                 "pid": "24931",
                 "name": "24931: Extend to Palindromes",
-                "subs": 1881,
-                "ACs": 266,
-                "AcceptRate": 14.14,
-                "onsite": 21,
-                "access": 5655,
+                "subs": 1887,
+                "ACs": 269,
+                "AcceptRate": 14.26,
+                "onsite": 22,
+                "access": 5756,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406",
                     "\u8ff4\u6587"
@@ -744,21 +817,21 @@
             {
                 "pid": "2009-24",
                 "name": "2009-24: Unique lines",
-                "subs": 1219,
-                "ACs": 157,
-                "AcceptRate": 12.88,
+                "subs": 1243,
+                "ACs": 162,
+                "AcceptRate": 13.03,
                 "onsite": 41,
-                "access": 6162,
+                "access": 6349,
                 "category": []
             },
             {
                 "pid": "10501",
                 "name": "10501: Safe Salutations",
-                "subs": 2268,
-                "ACs": 364,
-                "AcceptRate": 16.05,
+                "subs": 2285,
+                "ACs": 369,
+                "AcceptRate": 16.15,
                 "onsite": 6,
-                "access": 7477,
+                "access": 7564,
                 "category": []
             },
             {
@@ -768,17 +841,17 @@
                 "ACs": 47,
                 "AcceptRate": 8.26,
                 "onsite": 30,
-                "access": 4196,
+                "access": 4223,
                 "category": []
             },
             {
                 "pid": "23781",
                 "name": "23781: Making Change",
-                "subs": 252,
-                "ACs": 49,
-                "AcceptRate": 19.44,
+                "subs": 254,
+                "ACs": 50,
+                "AcceptRate": 19.69,
                 "onsite": 19,
-                "access": 2251,
+                "access": 2303,
                 "category": [
                     "DP",
                     "Greedy",
@@ -796,11 +869,11 @@
             {
                 "pid": "11028",
                 "name": "11028: Digit Primes",
-                "subs": 442,
-                "ACs": 142,
-                "AcceptRate": 32.13,
+                "subs": 453,
+                "ACs": 145,
+                "AcceptRate": 32.01,
                 "onsite": 6,
-                "access": 1576,
+                "access": 1607,
                 "category": [
                     "\u5340\u9593\u554f\u984c",
                     "\u8cea\u6578"
@@ -809,21 +882,21 @@
             {
                 "pid": "10409",
                 "name": "10409: A mid-summer night\u00e2\u0080\u0099s dream",
-                "subs": 3721,
-                "ACs": 685,
-                "AcceptRate": 18.41,
+                "subs": 3727,
+                "ACs": 687,
+                "AcceptRate": 18.43,
                 "onsite": 18,
-                "access": 14830,
+                "access": 14857,
                 "category": []
             },
             {
                 "pid": "2015-02",
                 "name": "2015-02: Recursion and Mod",
-                "subs": 1854,
-                "ACs": 196,
-                "AcceptRate": 10.57,
+                "subs": 1864,
+                "ACs": 198,
+                "AcceptRate": 10.62,
                 "onsite": 8,
-                "access": 3836,
+                "access": 3932,
                 "category": [
                     "\u8cbb\u6c0f\u6578\u5217"
                 ]
@@ -831,21 +904,21 @@
             {
                 "pid": "2009-24",
                 "name": "2009-24: Unique lines",
-                "subs": 1219,
-                "ACs": 157,
-                "AcceptRate": 12.88,
+                "subs": 1243,
+                "ACs": 162,
+                "AcceptRate": 13.03,
                 "onsite": 41,
-                "access": 6162,
+                "access": 6349,
                 "category": []
             },
             {
                 "pid": "2008-28",
                 "name": "2008-28: Longest monotonically increasing subsequence",
-                "subs": 390,
+                "subs": 393,
                 "ACs": 68,
-                "AcceptRate": 17.44,
+                "AcceptRate": 17.3,
                 "onsite": 33,
-                "access": 3276,
+                "access": 3347,
                 "category": [
                     "DP",
                     "LCS"
@@ -854,11 +927,11 @@
             {
                 "pid": "23681",
                 "name": "23681: Bachet's Game",
-                "subs": 175,
-                "ACs": 81,
-                "AcceptRate": 46.29,
+                "subs": 177,
+                "ACs": 83,
+                "AcceptRate": 46.89,
                 "onsite": 8,
-                "access": 1744,
+                "access": 1781,
                 "category": [
                     "\u80cc\u5305"
                 ]
@@ -873,31 +946,31 @@
             {
                 "pid": "10437",
                 "name": "10437: Zeros and Ones",
-                "subs": 1528,
-                "ACs": 426,
-                "AcceptRate": 27.88,
+                "subs": 1538,
+                "ACs": 431,
+                "AcceptRate": 28.02,
                 "onsite": 7,
-                "access": 4592,
+                "access": 4638,
                 "category": []
             },
             {
                 "pid": "10520",
                 "name": "10520: Conformity",
-                "subs": 1589,
-                "ACs": 440,
-                "AcceptRate": 27.69,
+                "subs": 1594,
+                "ACs": 444,
+                "AcceptRate": 27.85,
                 "onsite": 32,
-                "access": 9156,
+                "access": 9222,
                 "category": []
             },
             {
                 "pid": "10535",
                 "name": "10535: Prime Distance",
-                "subs": 853,
-                "ACs": 127,
-                "AcceptRate": 14.89,
-                "onsite": 6,
-                "access": 5127,
+                "subs": 884,
+                "ACs": 130,
+                "AcceptRate": 14.71,
+                "onsite": 7,
+                "access": 5303,
                 "category": []
             },
             {
@@ -907,27 +980,27 @@
                 "ACs": 21,
                 "AcceptRate": 20.0,
                 "onsite": 5,
-                "access": 1225,
+                "access": 1242,
                 "category": []
             },
             {
                 "pid": "10601",
                 "name": "10601: Eternal Truths",
-                "subs": 251,
+                "subs": 253,
                 "ACs": 42,
-                "AcceptRate": 16.73,
+                "AcceptRate": 16.6,
                 "onsite": 13,
-                "access": 1868,
+                "access": 1913,
                 "category": []
             },
             {
                 "pid": "10603",
                 "name": "10603: Cutting Sticks",
-                "subs": 245,
-                "ACs": 84,
-                "AcceptRate": 34.29,
+                "subs": 249,
+                "ACs": 87,
+                "AcceptRate": 34.94,
                 "onsite": 9,
-                "access": 2098,
+                "access": 2149,
                 "category": []
             }
         ]
@@ -940,21 +1013,21 @@
             {
                 "pid": "22821",
                 "name": "22821: Oil Deposits",
-                "subs": 1825,
-                "ACs": 499,
-                "AcceptRate": 27.34,
+                "subs": 1832,
+                "ACs": 503,
+                "AcceptRate": 27.46,
                 "onsite": 16,
-                "access": 5549,
+                "access": 5594,
                 "category": []
             },
             {
                 "pid": "11174",
                 "name": "11174: Homer Simpson",
-                "subs": 3597,
-                "ACs": 450,
-                "AcceptRate": 12.51,
+                "subs": 3601,
+                "ACs": 453,
+                "AcceptRate": 12.58,
                 "onsite": 11,
-                "access": 8340,
+                "access": 8354,
                 "category": [
                     "DP\u3001Greedy"
                 ]
@@ -962,11 +1035,11 @@
             {
                 "pid": "10503",
                 "name": "10503: Show the Sequence",
-                "subs": 954,
-                "ACs": 135,
-                "AcceptRate": 14.15,
-                "onsite": 18,
-                "access": 6340,
+                "subs": 963,
+                "ACs": 137,
+                "AcceptRate": 14.23,
+                "onsite": 19,
+                "access": 6450,
                 "category": []
             },
             {
@@ -976,27 +1049,27 @@
                 "ACs": 17,
                 "AcceptRate": 9.94,
                 "onsite": 8,
-                "access": 2156,
+                "access": 2165,
                 "category": []
             },
             {
                 "pid": "23671",
                 "name": "23671: Camel trading",
-                "subs": 1350,
-                "ACs": 272,
-                "AcceptRate": 20.15,
+                "subs": 1353,
+                "ACs": 274,
+                "AcceptRate": 20.25,
                 "onsite": 18,
-                "access": 4894,
+                "access": 4939,
                 "category": []
             },
             {
                 "pid": "10621",
                 "name": "10621: Luggage",
-                "subs": 1173,
-                "ACs": 286,
-                "AcceptRate": 24.38,
+                "subs": 1201,
+                "ACs": 297,
+                "AcceptRate": 24.73,
                 "onsite": 18,
-                "access": 5889,
+                "access": 6090,
                 "category": [
                     "DP",
                     "\u5b50\u96c6\u548c\u554f\u984c"
@@ -1012,61 +1085,61 @@
             {
                 "pid": "10417",
                 "name": "10417: The Hotel with Infinite Rooms",
-                "subs": 2777,
-                "ACs": 830,
-                "AcceptRate": 29.89,
+                "subs": 2786,
+                "ACs": 833,
+                "AcceptRate": 29.9,
                 "onsite": 13,
-                "access": 7598,
+                "access": 7641,
                 "category": []
             },
             {
                 "pid": "2009-17",
                 "name": "2009-17: Binary tree traversals",
-                "subs": 470,
-                "ACs": 97,
-                "AcceptRate": 20.64,
+                "subs": 480,
+                "ACs": 99,
+                "AcceptRate": 20.62,
                 "onsite": 33,
-                "access": 2749,
+                "access": 2928,
                 "category": []
             },
             {
                 "pid": "10655",
                 "name": "10655: Sumsets",
-                "subs": 2608,
-                "ACs": 360,
-                "AcceptRate": 13.8,
+                "subs": 2653,
+                "ACs": 371,
+                "AcceptRate": 13.98,
                 "onsite": 17,
-                "access": 9881,
+                "access": 10137,
                 "category": []
             },
             {
                 "pid": "23661",
                 "name": "23661: Bit Mask",
-                "subs": 396,
-                "ACs": 104,
-                "AcceptRate": 26.26,
+                "subs": 397,
+                "ACs": 105,
+                "AcceptRate": 26.45,
                 "onsite": 8,
-                "access": 2654,
+                "access": 2670,
                 "category": []
             },
             {
                 "pid": "23771",
                 "name": "23771: Lexicographic Order",
-                "subs": 322,
-                "ACs": 65,
-                "AcceptRate": 20.19,
+                "subs": 323,
+                "ACs": 66,
+                "AcceptRate": 20.43,
                 "onsite": 25,
-                "access": 2360,
+                "access": 2380,
                 "category": []
             },
             {
                 "pid": "10608",
                 "name": "10608: Minimal coverage",
-                "subs": 969,
-                "ACs": 122,
-                "AcceptRate": 12.59,
+                "subs": 971,
+                "ACs": 124,
+                "AcceptRate": 12.77,
                 "onsite": 25,
-                "access": 3452,
+                "access": 3491,
                 "category": []
             }
         ]
@@ -1079,61 +1152,61 @@
             {
                 "pid": "2008-37",
                 "name": "2008-37: Prefix expression evaluation",
-                "subs": 1097,
-                "ACs": 223,
-                "AcceptRate": 20.33,
+                "subs": 1121,
+                "ACs": 226,
+                "AcceptRate": 20.16,
                 "onsite": 39,
-                "access": 5185,
+                "access": 5255,
                 "category": []
             },
             {
                 "pid": "10559",
                 "name": "10559: I Love Big Numbers !",
-                "subs": 869,
-                "ACs": 245,
-                "AcceptRate": 28.19,
+                "subs": 873,
+                "ACs": 248,
+                "AcceptRate": 28.41,
                 "onsite": 8,
-                "access": 3150,
+                "access": 3171,
                 "category": []
             },
             {
                 "pid": "2015-07",
                 "name": "2015-07: Minimum Path Sum",
-                "subs": 920,
-                "ACs": 244,
-                "AcceptRate": 26.52,
+                "subs": 922,
+                "ACs": 245,
+                "AcceptRate": 26.57,
                 "onsite": 7,
-                "access": 2323,
+                "access": 2332,
                 "category": []
             },
             {
                 "pid": "10038",
                 "name": "10038: Disk Tree",
-                "subs": 232,
-                "ACs": 65,
-                "AcceptRate": 28.02,
+                "subs": 246,
+                "ACs": 67,
+                "AcceptRate": 27.24,
                 "onsite": 32,
-                "access": 2662,
+                "access": 2719,
                 "category": []
             },
             {
                 "pid": "10633",
                 "name": "10633: Take the Land",
-                "subs": 319,
-                "ACs": 111,
-                "AcceptRate": 34.8,
+                "subs": 324,
+                "ACs": 114,
+                "AcceptRate": 35.19,
                 "onsite": 9,
-                "access": 2065,
+                "access": 2088,
                 "category": []
             },
             {
                 "pid": "10615",
                 "name": "10615: Divisibility",
-                "subs": 588,
-                "ACs": 184,
-                "AcceptRate": 31.29,
+                "subs": 589,
+                "ACs": 185,
+                "AcceptRate": 31.41,
                 "onsite": 9,
-                "access": 3013,
+                "access": 3026,
                 "category": []
             }
         ]
@@ -1146,11 +1219,11 @@
             {
                 "pid": "10500",
                 "name": "10500: Brick Wall Patterns",
-                "subs": 2108,
-                "ACs": 528,
-                "AcceptRate": 25.05,
+                "subs": 2115,
+                "ACs": 531,
+                "AcceptRate": 25.11,
                 "onsite": 5,
-                "access": 7689,
+                "access": 7723,
                 "category": [
                     "DP",
                     "\u8cbb\u6c0f\u6578\u5217"
@@ -1159,11 +1232,11 @@
             {
                 "pid": "23651",
                 "name": "23651: The jackpot",
-                "subs": 2129,
-                "ACs": 420,
-                "AcceptRate": 19.73,
+                "subs": 2134,
+                "ACs": 423,
+                "AcceptRate": 19.82,
                 "onsite": 12,
-                "access": 4117,
+                "access": 4139,
                 "category": []
             },
             {
@@ -1173,17 +1246,17 @@
                 "ACs": 166,
                 "AcceptRate": 24.81,
                 "onsite": 12,
-                "access": 2429,
+                "access": 2433,
                 "category": []
             },
             {
                 "pid": "10429",
                 "name": "10429: Contest Scoreboard",
-                "subs": 961,
-                "ACs": 170,
-                "AcceptRate": 17.69,
+                "subs": 964,
+                "ACs": 171,
+                "AcceptRate": 17.74,
                 "onsite": 16,
-                "access": 4649,
+                "access": 4681,
                 "category": [
                     "DP"
                 ]
@@ -1195,7 +1268,7 @@
                 "ACs": 8,
                 "AcceptRate": 10.67,
                 "onsite": 4,
-                "access": 619,
+                "access": 627,
                 "category": []
             },
             {
@@ -1205,7 +1278,7 @@
                 "ACs": 17,
                 "AcceptRate": 9.94,
                 "onsite": 8,
-                "access": 2156,
+                "access": 2165,
                 "category": []
             }
         ]
@@ -1222,17 +1295,17 @@
                 "ACs": 341,
                 "AcceptRate": 31.66,
                 "onsite": 22,
-                "access": 5420,
+                "access": 5426,
                 "category": []
             },
             {
                 "pid": "10416",
                 "name": "10416: Last Digit",
-                "subs": 4151,
-                "ACs": 623,
-                "AcceptRate": 15.01,
+                "subs": 4154,
+                "ACs": 625,
+                "AcceptRate": 15.05,
                 "onsite": 21,
-                "access": 10218,
+                "access": 10245,
                 "category": [
                     "\u6578\u5b78"
                 ]
@@ -1240,11 +1313,11 @@
             {
                 "pid": "11017",
                 "name": "11017: Longest Common Subsequence",
-                "subs": 1291,
-                "ACs": 256,
-                "AcceptRate": 19.83,
+                "subs": 1296,
+                "ACs": 260,
+                "AcceptRate": 20.06,
                 "onsite": 12,
-                "access": 3861,
+                "access": 3903,
                 "category": [
                     "DP",
                     "LCS"
@@ -1257,17 +1330,17 @@
                 "ACs": 27,
                 "AcceptRate": 5.42,
                 "onsite": 23,
-                "access": 2175,
+                "access": 2179,
                 "category": []
             },
             {
                 "pid": "10602",
                 "name": "10602: Longest Paths",
-                "subs": 308,
-                "ACs": 50,
-                "AcceptRate": 16.23,
+                "subs": 318,
+                "ACs": 53,
+                "AcceptRate": 16.67,
                 "onsite": 6,
-                "access": 2573,
+                "access": 2693,
                 "category": [
                     "DP",
                     "LCS"
@@ -1276,11 +1349,11 @@
             {
                 "pid": "10465",
                 "name": "10465: Necklace",
-                "subs": 830,
-                "ACs": 164,
-                "AcceptRate": 19.76,
+                "subs": 834,
+                "ACs": 167,
+                "AcceptRate": 20.02,
                 "onsite": 13,
-                "access": 3222,
+                "access": 3243,
                 "category": []
             }
         ]
@@ -1293,51 +1366,51 @@
             {
                 "pid": "2015-01",
                 "name": "2015-01: Missing Numbers",
-                "subs": 2016,
-                "ACs": 232,
-                "AcceptRate": 11.51,
+                "subs": 2031,
+                "ACs": 233,
+                "AcceptRate": 11.47,
                 "onsite": 6,
-                "access": 3766,
+                "access": 3882,
                 "category": []
             },
             {
                 "pid": "10414",
                 "name": "10414: Bangla Numbers",
-                "subs": 2897,
-                "ACs": 304,
-                "AcceptRate": 10.49,
+                "subs": 2917,
+                "ACs": 309,
+                "AcceptRate": 10.59,
                 "onsite": 6,
-                "access": 7355,
+                "access": 7408,
                 "category": []
             },
             {
                 "pid": "10551",
                 "name": "10551: Bee Maja",
-                "subs": 861,
-                "ACs": 315,
-                "AcceptRate": 36.59,
+                "subs": 870,
+                "ACs": 322,
+                "AcceptRate": 37.01,
                 "onsite": 20,
-                "access": 3983,
+                "access": 4068,
                 "category": []
             },
             {
                 "pid": "21964",
                 "name": "21964: Fill the Containers",
-                "subs": 496,
-                "ACs": 90,
-                "AcceptRate": 18.15,
+                "subs": 498,
+                "ACs": 92,
+                "AcceptRate": 18.47,
                 "onsite": 28,
-                "access": 2120,
+                "access": 2146,
                 "category": []
             },
             {
                 "pid": "10602",
                 "name": "10602: Longest Paths",
-                "subs": 308,
-                "ACs": 50,
-                "AcceptRate": 16.23,
+                "subs": 318,
+                "ACs": 53,
+                "AcceptRate": 16.67,
                 "onsite": 6,
-                "access": 2573,
+                "access": 2693,
                 "category": [
                     "DP",
                     "LCS"
@@ -1346,11 +1419,11 @@
             {
                 "pid": "23581",
                 "name": "23581: Glass Beads",
-                "subs": 188,
-                "ACs": 78,
-                "AcceptRate": 41.49,
+                "subs": 190,
+                "ACs": 80,
+                "AcceptRate": 42.11,
                 "onsite": 7,
-                "access": 1636,
+                "access": 1666,
                 "category": []
             }
         ]
@@ -1363,41 +1436,41 @@
             {
                 "pid": "10468",
                 "name": "10468: Maximum Product",
-                "subs": 2602,
-                "ACs": 291,
-                "AcceptRate": 11.18,
+                "subs": 2614,
+                "ACs": 295,
+                "AcceptRate": 11.29,
                 "onsite": 11,
-                "access": 4631,
+                "access": 4682,
                 "category": []
             },
             {
                 "pid": "2015-08",
                 "name": "2015-08: Climbing Stairs",
-                "subs": 2466,
-                "ACs": 146,
-                "AcceptRate": 5.92,
+                "subs": 2478,
+                "ACs": 149,
+                "AcceptRate": 6.01,
                 "onsite": 7,
-                "access": 5312,
+                "access": 5409,
                 "category": []
             },
             {
                 "pid": "10679",
                 "name": "10679: Irreducible Basic Fractions",
-                "subs": 883,
-                "ACs": 134,
-                "AcceptRate": 15.18,
+                "subs": 906,
+                "ACs": 139,
+                "AcceptRate": 15.34,
                 "onsite": 11,
-                "access": 3530,
+                "access": 3653,
                 "category": []
             },
             {
                 "pid": "24941",
                 "name": "24941: Uncompress",
-                "subs": 496,
-                "ACs": 161,
-                "AcceptRate": 32.46,
+                "subs": 507,
+                "ACs": 168,
+                "AcceptRate": 33.14,
                 "onsite": 21,
-                "access": 3680,
+                "access": 3811,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406"
                 ]
@@ -1405,21 +1478,21 @@
             {
                 "pid": "10644",
                 "name": "10644: The Tourist Guide",
-                "subs": 221,
-                "ACs": 55,
-                "AcceptRate": 24.89,
+                "subs": 244,
+                "ACs": 62,
+                "AcceptRate": 25.41,
                 "onsite": 5,
-                "access": 1971,
+                "access": 2135,
                 "category": []
             },
             {
                 "pid": "10600",
                 "name": "10600: Network Connections",
-                "subs": 479,
-                "ACs": 78,
-                "AcceptRate": 16.28,
+                "subs": 536,
+                "ACs": 88,
+                "AcceptRate": 16.42,
                 "onsite": 9,
-                "access": 2714,
+                "access": 3171,
                 "category": []
             }
         ]
@@ -1432,31 +1505,31 @@
             {
                 "pid": "10409",
                 "name": "10409: A mid-summer night\u00e2\u0080\u0099s dream",
-                "subs": 3721,
-                "ACs": 685,
-                "AcceptRate": 18.41,
+                "subs": 3727,
+                "ACs": 687,
+                "AcceptRate": 18.43,
                 "onsite": 18,
-                "access": 14830,
+                "access": 14857,
                 "category": []
             },
             {
                 "pid": "23661",
                 "name": "23661: Bit Mask",
-                "subs": 396,
-                "ACs": 104,
-                "AcceptRate": 26.26,
+                "subs": 397,
+                "ACs": 105,
+                "AcceptRate": 26.45,
                 "onsite": 8,
-                "access": 2654,
+                "access": 2670,
                 "category": []
             },
             {
                 "pid": "10500",
                 "name": "10500: Brick Wall Patterns",
-                "subs": 2108,
-                "ACs": 528,
-                "AcceptRate": 25.05,
+                "subs": 2115,
+                "ACs": 531,
+                "AcceptRate": 25.11,
                 "onsite": 5,
-                "access": 7689,
+                "access": 7723,
                 "category": [
                     "DP",
                     "\u8cbb\u6c0f\u6578\u5217"
@@ -1465,31 +1538,31 @@
             {
                 "pid": "10505",
                 "name": "10505: Center of Masses",
-                "subs": 185,
+                "subs": 195,
                 "ACs": 16,
-                "AcceptRate": 8.65,
+                "AcceptRate": 8.21,
                 "onsite": 3,
-                "access": 1495,
+                "access": 1527,
                 "category": []
             },
             {
                 "pid": "10675",
                 "name": "10675: Urn-ball Probabilities!",
-                "subs": 52,
-                "ACs": 20,
-                "AcceptRate": 38.46,
+                "subs": 54,
+                "ACs": 21,
+                "AcceptRate": 38.89,
                 "onsite": 2,
-                "access": 528,
+                "access": 537,
                 "category": []
             },
             {
                 "pid": "10603",
                 "name": "10603: Cutting Sticks",
-                "subs": 245,
-                "ACs": 84,
-                "AcceptRate": 34.29,
+                "subs": 249,
+                "ACs": 87,
+                "AcceptRate": 34.94,
                 "onsite": 9,
-                "access": 2098,
+                "access": 2149,
                 "category": []
             }
         ]
@@ -1502,61 +1575,61 @@
             {
                 "pid": "10579",
                 "name": "10579: Hay Points",
-                "subs": 656,
-                "ACs": 371,
-                "AcceptRate": 56.55,
+                "subs": 657,
+                "ACs": 372,
+                "AcceptRate": 56.62,
                 "onsite": 15,
-                "access": 3252,
+                "access": 3265,
                 "category": []
             },
             {
                 "pid": "10551",
                 "name": "10551: Bee Maja",
-                "subs": 861,
-                "ACs": 315,
-                "AcceptRate": 36.59,
+                "subs": 870,
+                "ACs": 322,
+                "AcceptRate": 37.01,
                 "onsite": 20,
-                "access": 3983,
+                "access": 4068,
                 "category": []
             },
             {
                 "pid": "10503",
                 "name": "10503: Show the Sequence",
-                "subs": 954,
-                "ACs": 135,
-                "AcceptRate": 14.15,
-                "onsite": 18,
-                "access": 6340,
+                "subs": 963,
+                "ACs": 137,
+                "AcceptRate": 14.23,
+                "onsite": 19,
+                "access": 6450,
                 "category": []
             },
             {
                 "pid": "10655",
                 "name": "10655: Sumsets",
-                "subs": 2608,
-                "ACs": 360,
-                "AcceptRate": 13.8,
+                "subs": 2653,
+                "ACs": 371,
+                "AcceptRate": 13.98,
                 "onsite": 17,
-                "access": 9881,
+                "access": 10137,
                 "category": []
             },
             {
                 "pid": "10601",
                 "name": "10601: Eternal Truths",
-                "subs": 251,
+                "subs": 253,
                 "ACs": 42,
-                "AcceptRate": 16.73,
+                "AcceptRate": 16.6,
                 "onsite": 13,
-                "access": 1868,
+                "access": 1913,
                 "category": []
             },
             {
                 "pid": "10608",
                 "name": "10608: Minimal coverage",
-                "subs": 969,
-                "ACs": 122,
-                "AcceptRate": 12.59,
+                "subs": 971,
+                "ACs": 124,
+                "AcceptRate": 12.77,
                 "onsite": 25,
-                "access": 3452,
+                "access": 3491,
                 "category": []
             }
         ]
@@ -1569,61 +1642,61 @@
             {
                 "pid": "10432",
                 "name": "10432: Mine Sweeper",
-                "subs": 1855,
-                "ACs": 268,
-                "AcceptRate": 14.45,
+                "subs": 1857,
+                "ACs": 270,
+                "AcceptRate": 14.54,
                 "onsite": 11,
-                "access": 4270,
+                "access": 4282,
                 "category": []
             },
             {
                 "pid": "10528",
                 "name": "10528: Light, more light",
-                "subs": 1074,
-                "ACs": 243,
-                "AcceptRate": 22.63,
-                "onsite": 8,
-                "access": 3461,
+                "subs": 1154,
+                "ACs": 261,
+                "AcceptRate": 22.62,
+                "onsite": 9,
+                "access": 3805,
                 "category": []
             },
             {
                 "pid": "10732",
                 "name": "10732: Snow Clearing",
-                "subs": 105,
-                "ACs": 25,
-                "AcceptRate": 23.81,
+                "subs": 148,
+                "ACs": 39,
+                "AcceptRate": 26.35,
                 "onsite": 3,
-                "access": 895,
+                "access": 1201,
                 "category": []
             },
             {
                 "pid": "10741",
                 "name": "10741: The Grand Dinner",
-                "subs": 60,
-                "ACs": 3,
-                "AcceptRate": 5.0,
+                "subs": 81,
+                "ACs": 4,
+                "AcceptRate": 4.94,
                 "onsite": 2,
-                "access": 340,
+                "access": 637,
                 "category": []
             },
             {
                 "pid": "10658",
                 "name": "10658: Is Bigger Smarter?",
-                "subs": 277,
-                "ACs": 20,
-                "AcceptRate": 7.22,
+                "subs": 295,
+                "ACs": 21,
+                "AcceptRate": 7.12,
                 "onsite": 6,
-                "access": 1479,
+                "access": 1638,
                 "category": []
             },
             {
                 "pid": "10606",
                 "name": "10606: How Big Is It?",
-                "subs": 479,
-                "ACs": 47,
-                "AcceptRate": 9.81,
+                "subs": 480,
+                "ACs": 48,
+                "AcceptRate": 10.0,
                 "onsite": 34,
-                "access": 4883,
+                "access": 4912,
                 "category": [
                     "Circle",
                     "Geometry",
@@ -1640,21 +1713,21 @@
             {
                 "pid": "21944",
                 "name": "21944: Power Crisis",
-                "subs": 2004,
-                "ACs": 458,
-                "AcceptRate": 22.85,
+                "subs": 2027,
+                "ACs": 462,
+                "AcceptRate": 22.79,
                 "onsite": 27,
-                "access": 7311,
+                "access": 7468,
                 "category": []
             },
             {
                 "pid": "24931",
                 "name": "24931: Extend to Palindromes",
-                "subs": 1881,
-                "ACs": 266,
-                "AcceptRate": 14.14,
-                "onsite": 21,
-                "access": 5655,
+                "subs": 1887,
+                "ACs": 269,
+                "AcceptRate": 14.26,
+                "onsite": 22,
+                "access": 5756,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406",
                     "\u8ff4\u6587"
@@ -1663,11 +1736,11 @@
             {
                 "pid": "10429",
                 "name": "10429: Contest Scoreboard",
-                "subs": 961,
-                "ACs": 170,
-                "AcceptRate": 17.69,
+                "subs": 964,
+                "ACs": 171,
+                "AcceptRate": 17.74,
                 "onsite": 16,
-                "access": 4649,
+                "access": 4681,
                 "category": [
                     "DP"
                 ]
@@ -1675,11 +1748,11 @@
             {
                 "pid": "23571",
                 "name": "23571: Smith Numbers",
-                "subs": 852,
-                "ACs": 157,
-                "AcceptRate": 18.43,
+                "subs": 948,
+                "ACs": 178,
+                "AcceptRate": 18.78,
                 "onsite": 21,
-                "access": 2977,
+                "access": 3481,
                 "category": [
                     "\u8cea\u56e0\u6578\u5206\u89e3",
                     "\u8cea\u6578"
@@ -1688,21 +1761,21 @@
             {
                 "pid": "10637",
                 "name": "10637: Tight words",
-                "subs": 185,
-                "ACs": 50,
-                "AcceptRate": 27.03,
+                "subs": 188,
+                "ACs": 52,
+                "AcceptRate": 27.66,
                 "onsite": 6,
-                "access": 1493,
+                "access": 1539,
                 "category": []
             },
             {
                 "pid": "2008-28",
                 "name": "2008-28: Longest monotonically increasing subsequence",
-                "subs": 390,
+                "subs": 393,
                 "ACs": 68,
-                "AcceptRate": 17.44,
+                "AcceptRate": 17.3,
                 "onsite": 33,
-                "access": 3276,
+                "access": 3347,
                 "category": [
                     "DP",
                     "LCS"
@@ -1718,11 +1791,11 @@
             {
                 "pid": "21944",
                 "name": "21944: Power Crisis",
-                "subs": 2004,
-                "ACs": 458,
-                "AcceptRate": 22.85,
+                "subs": 2027,
+                "ACs": 462,
+                "AcceptRate": 22.79,
                 "onsite": 27,
-                "access": 7311,
+                "access": 7468,
                 "category": []
             },
             {
@@ -1732,27 +1805,27 @@
                 "ACs": 166,
                 "AcceptRate": 24.81,
                 "onsite": 12,
-                "access": 2429,
+                "access": 2433,
                 "category": []
             },
             {
                 "pid": "22171",
                 "name": "22171: Dungeon Master",
-                "subs": 718,
-                "ACs": 178,
-                "AcceptRate": 24.79,
+                "subs": 727,
+                "ACs": 180,
+                "AcceptRate": 24.76,
                 "onsite": 15,
-                "access": 3892,
+                "access": 3936,
                 "category": []
             },
             {
                 "pid": "2015-09",
                 "name": "2015-09: Longest Increasing Subsequence",
-                "subs": 1250,
-                "ACs": 266,
-                "AcceptRate": 21.28,
+                "subs": 1254,
+                "ACs": 268,
+                "AcceptRate": 21.37,
                 "onsite": 8,
-                "access": 3595,
+                "access": 3643,
                 "category": [
                     "DP",
                     "LCS"
@@ -1761,21 +1834,21 @@
             {
                 "pid": "2009-24",
                 "name": "2009-24: Unique lines",
-                "subs": 1219,
-                "ACs": 157,
-                "AcceptRate": 12.88,
+                "subs": 1243,
+                "ACs": 162,
+                "AcceptRate": 13.03,
                 "onsite": 41,
-                "access": 6162,
+                "access": 6349,
                 "category": []
             },
             {
                 "pid": "10658",
                 "name": "10658: Is Bigger Smarter?",
-                "subs": 277,
-                "ACs": 20,
-                "AcceptRate": 7.22,
+                "subs": 295,
+                "ACs": 21,
+                "AcceptRate": 7.12,
                 "onsite": 6,
-                "access": 1479,
+                "access": 1638,
                 "category": []
             }
         ]
@@ -1792,27 +1865,27 @@
                 "ACs": 341,
                 "AcceptRate": 31.66,
                 "onsite": 22,
-                "access": 5420,
+                "access": 5426,
                 "category": []
             },
             {
                 "pid": "10567",
                 "name": "10567: Common Permutation",
-                "subs": 2283,
-                "ACs": 567,
-                "AcceptRate": 24.84,
+                "subs": 2288,
+                "ACs": 568,
+                "AcceptRate": 24.83,
                 "onsite": 11,
-                "access": 6198,
+                "access": 6213,
                 "category": []
             },
             {
                 "pid": "2015-02",
                 "name": "2015-02: Recursion and Mod",
-                "subs": 1854,
-                "ACs": 196,
-                "AcceptRate": 10.57,
+                "subs": 1864,
+                "ACs": 198,
+                "AcceptRate": 10.62,
                 "onsite": 8,
-                "access": 3836,
+                "access": 3932,
                 "category": [
                     "\u8cbb\u6c0f\u6578\u5217"
                 ]
@@ -1820,11 +1893,11 @@
             {
                 "pid": "22181",
                 "name": "22181: Dollars",
-                "subs": 735,
-                "ACs": 172,
-                "AcceptRate": 23.4,
+                "subs": 762,
+                "ACs": 179,
+                "AcceptRate": 23.49,
                 "onsite": 19,
-                "access": 4355,
+                "access": 4557,
                 "category": [
                     "\u627e\u96f6\u554f\u984c"
                 ]
@@ -1832,21 +1905,21 @@
             {
                 "pid": "10608",
                 "name": "10608: Minimal coverage",
-                "subs": 969,
-                "ACs": 122,
-                "AcceptRate": 12.59,
+                "subs": 971,
+                "ACs": 124,
+                "AcceptRate": 12.77,
                 "onsite": 25,
-                "access": 3452,
+                "access": 3491,
                 "category": []
             },
             {
                 "pid": "10613",
                 "name": "10613: Tug of War",
-                "subs": 62,
+                "subs": 63,
                 "ACs": 8,
-                "AcceptRate": 12.9,
-                "onsite": 2,
-                "access": 485,
+                "AcceptRate": 12.7,
+                "onsite": 3,
+                "access": 523,
                 "category": []
             }
         ]
@@ -1859,11 +1932,11 @@
             {
                 "pid": "11019",
                 "name": "11019: Die Game",
-                "subs": 3241,
-                "ACs": 1058,
-                "AcceptRate": 32.64,
+                "subs": 3245,
+                "ACs": 1061,
+                "AcceptRate": 32.7,
                 "onsite": 15,
-                "access": 12785,
+                "access": 12821,
                 "category": [
                     "\u6a21\u64ec"
                 ]
@@ -1871,21 +1944,21 @@
             {
                 "pid": "22821",
                 "name": "22821: Oil Deposits",
-                "subs": 1825,
-                "ACs": 499,
-                "AcceptRate": 27.34,
+                "subs": 1832,
+                "ACs": 503,
+                "AcceptRate": 27.46,
                 "onsite": 16,
-                "access": 5549,
+                "access": 5594,
                 "category": []
             },
             {
                 "pid": "23551",
                 "name": "23551: Largest Square",
-                "subs": 2348,
-                "ACs": 481,
-                "AcceptRate": 20.49,
+                "subs": 2363,
+                "ACs": 488,
+                "AcceptRate": 20.65,
                 "onsite": 15,
-                "access": 5972,
+                "access": 6057,
                 "category": []
             },
             {
@@ -1895,7 +1968,7 @@
                 "ACs": 17,
                 "AcceptRate": 9.94,
                 "onsite": 8,
-                "access": 2156,
+                "access": 2165,
                 "category": []
             },
             {
@@ -1905,7 +1978,7 @@
                 "ACs": 47,
                 "AcceptRate": 8.26,
                 "onsite": 30,
-                "access": 4196,
+                "access": 4223,
                 "category": []
             },
             {
@@ -1915,7 +1988,7 @@
                 "ACs": 11,
                 "AcceptRate": 17.46,
                 "onsite": 3,
-                "access": 846,
+                "access": 864,
                 "category": []
             },
             {
@@ -1925,7 +1998,7 @@
                 "ACs": 0,
                 "AcceptRate": 0.0,
                 "onsite": 3,
-                "access": 2943,
+                "access": 2958,
                 "category": []
             }
         ]
@@ -1938,21 +2011,21 @@
             {
                 "pid": "11067",
                 "name": "11067: Cola",
-                "subs": 5002,
-                "ACs": 1178,
-                "AcceptRate": 23.55,
+                "subs": 5004,
+                "ACs": 1180,
+                "AcceptRate": 23.58,
                 "onsite": 16,
-                "access": 12432,
+                "access": 12443,
                 "category": []
             },
             {
                 "pid": "2015-09",
                 "name": "2015-09: Longest Increasing Subsequence",
-                "subs": 1250,
-                "ACs": 266,
-                "AcceptRate": 21.28,
+                "subs": 1254,
+                "ACs": 268,
+                "AcceptRate": 21.37,
                 "onsite": 8,
-                "access": 3595,
+                "access": 3643,
                 "category": [
                     "DP",
                     "LCS"
@@ -1961,31 +2034,31 @@
             {
                 "pid": "22171",
                 "name": "22171: Dungeon Master",
-                "subs": 718,
-                "ACs": 178,
-                "AcceptRate": 24.79,
+                "subs": 727,
+                "ACs": 180,
+                "AcceptRate": 24.76,
                 "onsite": 15,
-                "access": 3892,
+                "access": 3936,
                 "category": []
             },
             {
                 "pid": "10615",
                 "name": "10615: Divisibility",
-                "subs": 588,
-                "ACs": 184,
-                "AcceptRate": 31.29,
+                "subs": 589,
+                "ACs": 185,
+                "AcceptRate": 31.41,
                 "onsite": 9,
-                "access": 3013,
+                "access": 3026,
                 "category": []
             },
             {
                 "pid": "10503",
                 "name": "10503: Show the Sequence",
-                "subs": 954,
-                "ACs": 135,
-                "AcceptRate": 14.15,
-                "onsite": 18,
-                "access": 6340,
+                "subs": 963,
+                "ACs": 137,
+                "AcceptRate": 14.23,
+                "onsite": 19,
+                "access": 6450,
                 "category": []
             },
             {
@@ -1995,7 +2068,7 @@
                 "ACs": 17,
                 "AcceptRate": 9.19,
                 "onsite": 51,
-                "access": 3188,
+                "access": 3202,
                 "category": []
             }
         ]
@@ -2008,21 +2081,21 @@
             {
                 "pid": "11192",
                 "name": "11192: Simple Minded Hashing",
-                "subs": 249,
-                "ACs": 95,
-                "AcceptRate": 38.15,
+                "subs": 330,
+                "ACs": 124,
+                "AcceptRate": 37.58,
                 "onsite": 6,
-                "access": 1889,
+                "access": 2337,
                 "category": []
             },
             {
                 "pid": "11019",
                 "name": "11019: Die Game",
-                "subs": 3241,
-                "ACs": 1058,
-                "AcceptRate": 32.64,
+                "subs": 3245,
+                "ACs": 1061,
+                "AcceptRate": 32.7,
                 "onsite": 15,
-                "access": 12785,
+                "access": 12821,
                 "category": [
                     "\u6a21\u64ec"
                 ]
@@ -2034,27 +2107,27 @@
                 "ACs": 21,
                 "AcceptRate": 20.0,
                 "onsite": 5,
-                "access": 1225,
+                "access": 1242,
                 "category": []
             },
             {
                 "pid": "10655",
                 "name": "10655: Sumsets",
-                "subs": 2608,
-                "ACs": 360,
-                "AcceptRate": 13.8,
+                "subs": 2653,
+                "ACs": 371,
+                "AcceptRate": 13.98,
                 "onsite": 17,
-                "access": 9881,
+                "access": 10137,
                 "category": []
             },
             {
                 "pid": "22171",
                 "name": "22171: Dungeon Master",
-                "subs": 718,
-                "ACs": 178,
-                "AcceptRate": 24.79,
+                "subs": 727,
+                "ACs": 180,
+                "AcceptRate": 24.76,
                 "onsite": 15,
-                "access": 3892,
+                "access": 3936,
                 "category": []
             },
             {
@@ -2064,7 +2137,7 @@
                 "ACs": 16,
                 "AcceptRate": 44.44,
                 "onsite": 3,
-                "access": 746,
+                "access": 751,
                 "category": [
                     "DP",
                     "\u8cea\u56e0\u6578\u5206\u89e3"
@@ -2080,11 +2153,11 @@
             {
                 "pid": "24681",
                 "name": "24681: Perfection",
-                "subs": 4094,
-                "ACs": 976,
-                "AcceptRate": 23.84,
+                "subs": 4101,
+                "ACs": 978,
+                "AcceptRate": 23.85,
                 "onsite": 12,
-                "access": 6702,
+                "access": 6718,
                 "category": [
                     "prime"
                 ]
@@ -2092,31 +2165,31 @@
             {
                 "pid": "10535",
                 "name": "10535: Prime Distance",
-                "subs": 853,
-                "ACs": 127,
-                "AcceptRate": 14.89,
-                "onsite": 6,
-                "access": 5127,
+                "subs": 884,
+                "ACs": 130,
+                "AcceptRate": 14.71,
+                "onsite": 7,
+                "access": 5303,
                 "category": []
             },
             {
                 "pid": "10567",
                 "name": "10567: Common Permutation",
-                "subs": 2283,
-                "ACs": 567,
-                "AcceptRate": 24.84,
+                "subs": 2288,
+                "ACs": 568,
+                "AcceptRate": 24.83,
                 "onsite": 11,
-                "access": 6198,
+                "access": 6213,
                 "category": []
             },
             {
                 "pid": "2009-24",
                 "name": "2009-24: Unique lines",
-                "subs": 1219,
-                "ACs": 157,
-                "AcceptRate": 12.88,
+                "subs": 1243,
+                "ACs": 162,
+                "AcceptRate": 13.03,
                 "onsite": 41,
-                "access": 6162,
+                "access": 6349,
                 "category": []
             },
             {
@@ -2126,17 +2199,17 @@
                 "ACs": 47,
                 "AcceptRate": 8.26,
                 "onsite": 30,
-                "access": 4196,
+                "access": 4223,
                 "category": []
             },
             {
                 "pid": "23681",
                 "name": "23681: Bachet's Game",
-                "subs": 175,
-                "ACs": 81,
-                "AcceptRate": 46.29,
+                "subs": 177,
+                "ACs": 83,
+                "AcceptRate": 46.89,
                 "onsite": 8,
-                "access": 1744,
+                "access": 1781,
                 "category": [
                     "\u80cc\u5305"
                 ]
@@ -2148,7 +2221,7 @@
                 "ACs": 0,
                 "AcceptRate": 0.0,
                 "onsite": 2,
-                "access": 181,
+                "access": 187,
                 "category": []
             }
         ]
@@ -2161,51 +2234,51 @@
             {
                 "pid": "2015-07",
                 "name": "2015-07: Minimum Path Sum",
-                "subs": 920,
-                "ACs": 244,
-                "AcceptRate": 26.52,
+                "subs": 922,
+                "ACs": 245,
+                "AcceptRate": 26.57,
                 "onsite": 7,
-                "access": 2323,
+                "access": 2332,
                 "category": []
             },
             {
                 "pid": "2009-17",
                 "name": "2009-17: Binary tree traversals",
-                "subs": 470,
-                "ACs": 97,
-                "AcceptRate": 20.64,
+                "subs": 480,
+                "ACs": 99,
+                "AcceptRate": 20.62,
                 "onsite": 33,
-                "access": 2749,
+                "access": 2928,
                 "category": []
             },
             {
                 "pid": "21964",
                 "name": "21964: Fill the Containers",
-                "subs": 496,
-                "ACs": 90,
-                "AcceptRate": 18.15,
+                "subs": 498,
+                "ACs": 92,
+                "AcceptRate": 18.47,
                 "onsite": 28,
-                "access": 2120,
+                "access": 2146,
                 "category": []
             },
             {
                 "pid": "11179",
                 "name": "11179: Wavio Sequence",
-                "subs": 627,
-                "ACs": 118,
-                "AcceptRate": 18.82,
+                "subs": 639,
+                "ACs": 120,
+                "AcceptRate": 18.78,
                 "onsite": 22,
-                "access": 2912,
+                "access": 2938,
                 "category": []
             },
             {
                 "pid": "11041",
                 "name": "11041: Children's Game",
-                "subs": 2381,
-                "ACs": 449,
-                "AcceptRate": 18.86,
+                "subs": 2385,
+                "ACs": 451,
+                "AcceptRate": 18.91,
                 "onsite": 19,
-                "access": 6627,
+                "access": 6643,
                 "category": []
             },
             {
@@ -2215,7 +2288,7 @@
                 "ACs": 8,
                 "AcceptRate": 10.67,
                 "onsite": 4,
-                "access": 619,
+                "access": 627,
                 "category": []
             }
         ]
@@ -2228,61 +2301,61 @@
             {
                 "pid": "24461",
                 "name": "24461: Sum of Consecutive Prime Numbers",
-                "subs": 619,
-                "ACs": 360,
-                "AcceptRate": 58.16,
+                "subs": 630,
+                "ACs": 364,
+                "AcceptRate": 57.78,
                 "onsite": 11,
-                "access": 3614,
+                "access": 3688,
                 "category": []
             },
             {
                 "pid": "22821",
                 "name": "22821: Oil Deposits",
-                "subs": 1825,
-                "ACs": 499,
-                "AcceptRate": 27.34,
+                "subs": 1832,
+                "ACs": 503,
+                "AcceptRate": 27.46,
                 "onsite": 16,
-                "access": 5549,
+                "access": 5594,
                 "category": []
             },
             {
                 "pid": "10520",
                 "name": "10520: Conformity",
-                "subs": 1589,
-                "ACs": 440,
-                "AcceptRate": 27.69,
+                "subs": 1594,
+                "ACs": 444,
+                "AcceptRate": 27.85,
                 "onsite": 32,
-                "access": 9156,
+                "access": 9222,
                 "category": []
             },
             {
                 "pid": "11041",
                 "name": "11041: Children's Game",
-                "subs": 2381,
-                "ACs": 449,
-                "AcceptRate": 18.86,
+                "subs": 2385,
+                "ACs": 451,
+                "AcceptRate": 18.91,
                 "onsite": 19,
-                "access": 6627,
+                "access": 6643,
                 "category": []
             },
             {
                 "pid": "10636",
                 "name": "10636: Gopher II",
-                "subs": 78,
-                "ACs": 10,
-                "AcceptRate": 12.82,
+                "subs": 81,
+                "ACs": 12,
+                "AcceptRate": 14.81,
                 "onsite": 2,
-                "access": 490,
+                "access": 518,
                 "category": []
             },
             {
                 "pid": "10505",
                 "name": "10505: Center of Masses",
-                "subs": 185,
+                "subs": 195,
                 "ACs": 16,
-                "AcceptRate": 8.65,
+                "AcceptRate": 8.21,
                 "onsite": 3,
-                "access": 1495,
+                "access": 1527,
                 "category": []
             }
         ]
@@ -2295,11 +2368,11 @@
             {
                 "pid": "24911",
                 "name": "24911: Robot Instructions",
-                "subs": 2472,
-                "ACs": 922,
-                "AcceptRate": 37.3,
+                "subs": 2479,
+                "ACs": 929,
+                "AcceptRate": 37.47,
                 "onsite": 12,
-                "access": 6383,
+                "access": 6426,
                 "category": [
                     "\u6a21\u64ec"
                 ]
@@ -2307,21 +2380,21 @@
             {
                 "pid": "2009-24",
                 "name": "2009-24: Unique lines",
-                "subs": 1219,
-                "ACs": 157,
-                "AcceptRate": 12.88,
+                "subs": 1243,
+                "ACs": 162,
+                "AcceptRate": 13.03,
                 "onsite": 41,
-                "access": 6162,
+                "access": 6349,
                 "category": []
             },
             {
                 "pid": "23571",
                 "name": "23571: Smith Numbers",
-                "subs": 852,
-                "ACs": 157,
-                "AcceptRate": 18.43,
+                "subs": 948,
+                "ACs": 178,
+                "AcceptRate": 18.78,
                 "onsite": 21,
-                "access": 2977,
+                "access": 3481,
                 "category": [
                     "\u8cea\u56e0\u6578\u5206\u89e3",
                     "\u8cea\u6578"
@@ -2330,21 +2403,21 @@
             {
                 "pid": "11266",
                 "name": "11266: Generate random numbers",
-                "subs": 149,
-                "ACs": 58,
-                "AcceptRate": 38.93,
+                "subs": 151,
+                "ACs": 60,
+                "AcceptRate": 39.74,
                 "onsite": 1,
-                "access": 845,
+                "access": 854,
                 "category": []
             },
             {
                 "pid": "2015-04",
                 "name": "2015-04: The N-th Element",
-                "subs": 1017,
-                "ACs": 13,
-                "AcceptRate": 1.28,
+                "subs": 1019,
+                "ACs": 14,
+                "AcceptRate": 1.37,
                 "onsite": 8,
-                "access": 2234,
+                "access": 2250,
                 "category": [
                     "\u5b57\u4e32",
                     "\u6392\u5217",
@@ -2354,11 +2427,11 @@
             {
                 "pid": "23771",
                 "name": "23771: Lexicographic Order",
-                "subs": 322,
-                "ACs": 65,
-                "AcceptRate": 20.19,
+                "subs": 323,
+                "ACs": 66,
+                "AcceptRate": 20.43,
                 "onsite": 25,
-                "access": 2360,
+                "access": 2380,
                 "category": []
             }
         ]
@@ -2371,21 +2444,21 @@
             {
                 "pid": "21944",
                 "name": "21944: Power Crisis",
-                "subs": 2004,
-                "ACs": 458,
-                "AcceptRate": 22.85,
+                "subs": 2027,
+                "ACs": 462,
+                "AcceptRate": 22.79,
                 "onsite": 27,
-                "access": 7311,
+                "access": 7468,
                 "category": []
             },
             {
                 "pid": "10582",
                 "name": "10582: Power Strings",
-                "subs": 1526,
-                "ACs": 265,
-                "AcceptRate": 17.37,
+                "subs": 1529,
+                "ACs": 266,
+                "AcceptRate": 17.4,
                 "onsite": 17,
-                "access": 4114,
+                "access": 4166,
                 "category": [
                     "\u641c\u5c0b",
                     "\u8cea\u56e0\u6578\u5206\u89e3"
@@ -2394,21 +2467,21 @@
             {
                 "pid": "2008-37",
                 "name": "2008-37: Prefix expression evaluation",
-                "subs": 1097,
-                "ACs": 223,
-                "AcceptRate": 20.33,
+                "subs": 1121,
+                "ACs": 226,
+                "AcceptRate": 20.16,
                 "onsite": 39,
-                "access": 5185,
+                "access": 5255,
                 "category": []
             },
             {
                 "pid": "24941",
                 "name": "24941: Uncompress",
-                "subs": 496,
-                "ACs": 161,
-                "AcceptRate": 32.46,
+                "subs": 507,
+                "ACs": 168,
+                "AcceptRate": 33.14,
                 "onsite": 21,
-                "access": 3680,
+                "access": 3811,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406"
                 ]
@@ -2416,11 +2489,11 @@
             {
                 "pid": "24731",
                 "name": "24731: Roads in the North",
-                "subs": 272,
-                "ACs": 57,
-                "AcceptRate": 20.96,
+                "subs": 280,
+                "ACs": 58,
+                "AcceptRate": 20.71,
                 "onsite": 16,
-                "access": 2317,
+                "access": 2757,
                 "category": []
             },
             {
@@ -2430,7 +2503,7 @@
                 "ACs": 27,
                 "AcceptRate": 5.42,
                 "onsite": 23,
-                "access": 2175,
+                "access": 2179,
                 "category": []
             }
         ]
@@ -2443,11 +2516,11 @@
             {
                 "pid": "11019",
                 "name": "11019: Die Game",
-                "subs": 3241,
-                "ACs": 1058,
-                "AcceptRate": 32.64,
+                "subs": 3245,
+                "ACs": 1061,
+                "AcceptRate": 32.7,
                 "onsite": 15,
-                "access": 12785,
+                "access": 12821,
                 "category": [
                     "\u6a21\u64ec"
                 ]
@@ -2455,21 +2528,21 @@
             {
                 "pid": "10607",
                 "name": "10607: Joseph's Cousin",
-                "subs": 1262,
-                "ACs": 264,
-                "AcceptRate": 20.92,
+                "subs": 1264,
+                "ACs": 266,
+                "AcceptRate": 21.04,
                 "onsite": 13,
-                "access": 7671,
+                "access": 7686,
                 "category": []
             },
             {
                 "pid": "24931",
                 "name": "24931: Extend to Palindromes",
-                "subs": 1881,
-                "ACs": 266,
-                "AcceptRate": 14.14,
-                "onsite": 21,
-                "access": 5655,
+                "subs": 1887,
+                "ACs": 269,
+                "AcceptRate": 14.26,
+                "onsite": 22,
+                "access": 5756,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406",
                     "\u8ff4\u6587"
@@ -2478,31 +2551,31 @@
             {
                 "pid": "10503",
                 "name": "10503: Show the Sequence",
-                "subs": 954,
-                "ACs": 135,
-                "AcceptRate": 14.15,
-                "onsite": 18,
-                "access": 6340,
+                "subs": 963,
+                "ACs": 137,
+                "AcceptRate": 14.23,
+                "onsite": 19,
+                "access": 6450,
                 "category": []
             },
             {
                 "pid": "10644",
                 "name": "10644: The Tourist Guide",
-                "subs": 221,
-                "ACs": 55,
-                "AcceptRate": 24.89,
+                "subs": 244,
+                "ACs": 62,
+                "AcceptRate": 25.41,
                 "onsite": 5,
-                "access": 1971,
+                "access": 2135,
                 "category": []
             },
             {
                 "pid": "23781",
                 "name": "23781: Making Change",
-                "subs": 252,
-                "ACs": 49,
-                "AcceptRate": 19.44,
+                "subs": 254,
+                "ACs": 50,
+                "AcceptRate": 19.69,
                 "onsite": 19,
-                "access": 2251,
+                "access": 2303,
                 "category": [
                     "DP",
                     "Greedy",
@@ -2520,21 +2593,21 @@
             {
                 "pid": "2015-08",
                 "name": "2015-08: Climbing Stairs",
-                "subs": 2466,
-                "ACs": 146,
-                "AcceptRate": 5.92,
+                "subs": 2478,
+                "ACs": 149,
+                "AcceptRate": 6.01,
                 "onsite": 7,
-                "access": 5312,
+                "access": 5409,
                 "category": []
             },
             {
                 "pid": "10421",
                 "name": "10421: All You Need Is Love",
-                "subs": 2585,
-                "ACs": 763,
-                "AcceptRate": 29.52,
+                "subs": 2588,
+                "ACs": 766,
+                "AcceptRate": 29.6,
                 "onsite": 21,
-                "access": 7403,
+                "access": 7419,
                 "category": [
                     "\u6700\u5927\u516c\u56e0\u6578",
                     "\u9032\u5236\u8f49\u63db"
@@ -2543,41 +2616,41 @@
             {
                 "pid": "2009-24",
                 "name": "2009-24: Unique lines",
-                "subs": 1219,
-                "ACs": 157,
-                "AcceptRate": 12.88,
+                "subs": 1243,
+                "ACs": 162,
+                "AcceptRate": 13.03,
                 "onsite": 41,
-                "access": 6162,
+                "access": 6349,
                 "category": []
             },
             {
                 "pid": "10633",
                 "name": "10633: Take the Land",
-                "subs": 319,
-                "ACs": 111,
-                "AcceptRate": 34.8,
+                "subs": 324,
+                "ACs": 114,
+                "AcceptRate": 35.19,
                 "onsite": 9,
-                "access": 2065,
+                "access": 2088,
                 "category": []
             },
             {
                 "pid": "10600",
                 "name": "10600: Network Connections",
-                "subs": 479,
-                "ACs": 78,
-                "AcceptRate": 16.28,
+                "subs": 536,
+                "ACs": 88,
+                "AcceptRate": 16.42,
                 "onsite": 9,
-                "access": 2714,
+                "access": 3171,
                 "category": []
             },
             {
                 "pid": "10621",
                 "name": "10621: Luggage",
-                "subs": 1173,
-                "ACs": 286,
-                "AcceptRate": 24.38,
+                "subs": 1201,
+                "ACs": 297,
+                "AcceptRate": 24.73,
                 "onsite": 18,
-                "access": 5889,
+                "access": 6090,
                 "category": [
                     "DP",
                     "\u5b50\u96c6\u548c\u554f\u984c"
@@ -2593,31 +2666,31 @@
             {
                 "pid": "10417",
                 "name": "10417: The Hotel with Infinite Rooms",
-                "subs": 2777,
-                "ACs": 830,
-                "AcceptRate": 29.89,
+                "subs": 2786,
+                "ACs": 833,
+                "AcceptRate": 29.9,
                 "onsite": 13,
-                "access": 7598,
+                "access": 7641,
                 "category": []
             },
             {
                 "pid": "21944",
                 "name": "21944: Power Crisis",
-                "subs": 2004,
-                "ACs": 458,
-                "AcceptRate": 22.85,
+                "subs": 2027,
+                "ACs": 462,
+                "AcceptRate": 22.79,
                 "onsite": 27,
-                "access": 7311,
+                "access": 7468,
                 "category": []
             },
             {
                 "pid": "10429",
                 "name": "10429: Contest Scoreboard",
-                "subs": 961,
-                "ACs": 170,
-                "AcceptRate": 17.69,
+                "subs": 964,
+                "ACs": 171,
+                "AcceptRate": 17.74,
                 "onsite": 16,
-                "access": 4649,
+                "access": 4681,
                 "category": [
                     "DP"
                 ]
@@ -2625,11 +2698,11 @@
             {
                 "pid": "23661",
                 "name": "23661: Bit Mask",
-                "subs": 396,
-                "ACs": 104,
-                "AcceptRate": 26.26,
+                "subs": 397,
+                "ACs": 105,
+                "AcceptRate": 26.45,
                 "onsite": 8,
-                "access": 2654,
+                "access": 2670,
                 "category": []
             },
             {
@@ -2639,27 +2712,27 @@
                 "ACs": 17,
                 "AcceptRate": 9.94,
                 "onsite": 8,
-                "access": 2156,
+                "access": 2165,
                 "category": []
             },
             {
                 "pid": "25081",
                 "name": "25081: Solving Maze Problems",
-                "subs": 262,
-                "ACs": 41,
-                "AcceptRate": 15.65,
+                "subs": 289,
+                "ACs": 45,
+                "AcceptRate": 15.57,
                 "onsite": 2,
-                "access": 2037,
+                "access": 2300,
                 "category": []
             },
             {
                 "pid": "10421",
                 "name": "10421: All You Need Is Love",
-                "subs": 2585,
-                "ACs": 763,
-                "AcceptRate": 29.52,
+                "subs": 2588,
+                "ACs": 766,
+                "AcceptRate": 29.6,
                 "onsite": 21,
-                "access": 7403,
+                "access": 7419,
                 "category": [
                     "\u6700\u5927\u516c\u56e0\u6578",
                     "\u9032\u5236\u8f49\u63db"
@@ -2675,21 +2748,21 @@
             {
                 "pid": "10579",
                 "name": "10579: Hay Points",
-                "subs": 656,
-                "ACs": 371,
-                "AcceptRate": 56.55,
+                "subs": 657,
+                "ACs": 372,
+                "AcceptRate": 56.62,
                 "onsite": 15,
-                "access": 3252,
+                "access": 3265,
                 "category": []
             },
             {
                 "pid": "10679",
                 "name": "10679: Irreducible Basic Fractions",
-                "subs": 883,
-                "ACs": 134,
-                "AcceptRate": 15.18,
+                "subs": 906,
+                "ACs": 139,
+                "AcceptRate": 15.34,
                 "onsite": 11,
-                "access": 3530,
+                "access": 3653,
                 "category": []
             },
             {
@@ -2699,27 +2772,27 @@
                 "ACs": 8,
                 "AcceptRate": 72.73,
                 "onsite": 1,
-                "access": 332,
+                "access": 338,
                 "category": []
             },
             {
                 "pid": "10533",
                 "name": "10533: The Trip",
-                "subs": 608,
-                "ACs": 70,
-                "AcceptRate": 11.51,
+                "subs": 633,
+                "ACs": 73,
+                "AcceptRate": 11.53,
                 "onsite": 5,
-                "access": 2276,
+                "access": 2325,
                 "category": []
             },
             {
                 "pid": "10621",
                 "name": "10621: Luggage",
-                "subs": 1173,
-                "ACs": 286,
-                "AcceptRate": 24.38,
+                "subs": 1201,
+                "ACs": 297,
+                "AcceptRate": 24.73,
                 "onsite": 18,
-                "access": 5889,
+                "access": 6090,
                 "category": [
                     "DP",
                     "\u5b50\u96c6\u548c\u554f\u984c"
@@ -2732,7 +2805,7 @@
                 "ACs": 21,
                 "AcceptRate": 20.0,
                 "onsite": 5,
-                "access": 1225,
+                "access": 1242,
                 "category": []
             }
         ]
@@ -2745,11 +2818,11 @@
             {
                 "pid": "10418",
                 "name": "10418: Minesweeper",
-                "subs": 4547,
-                "ACs": 771,
-                "AcceptRate": 16.96,
+                "subs": 4555,
+                "ACs": 775,
+                "AcceptRate": 17.01,
                 "onsite": 11,
-                "access": 11039,
+                "access": 11073,
                 "category": [
                     "\u6a21\u64ec"
                 ]
@@ -2757,41 +2830,41 @@
             {
                 "pid": "10535",
                 "name": "10535: Prime Distance",
-                "subs": 853,
-                "ACs": 127,
-                "AcceptRate": 14.89,
-                "onsite": 6,
-                "access": 5127,
+                "subs": 884,
+                "ACs": 130,
+                "AcceptRate": 14.71,
+                "onsite": 7,
+                "access": 5303,
                 "category": []
             },
             {
                 "pid": "10551",
                 "name": "10551: Bee Maja",
-                "subs": 861,
-                "ACs": 315,
-                "AcceptRate": 36.59,
+                "subs": 870,
+                "ACs": 322,
+                "AcceptRate": 37.01,
                 "onsite": 20,
-                "access": 3983,
+                "access": 4068,
                 "category": []
             },
             {
                 "pid": "10038",
                 "name": "10038: Disk Tree",
-                "subs": 232,
-                "ACs": 65,
-                "AcceptRate": 28.02,
+                "subs": 246,
+                "ACs": 67,
+                "AcceptRate": 27.24,
                 "onsite": 32,
-                "access": 2662,
+                "access": 2719,
                 "category": []
             },
             {
                 "pid": "10645",
                 "name": "10645: Euclid Problem",
-                "subs": 143,
-                "ACs": 35,
-                "AcceptRate": 24.48,
+                "subs": 144,
+                "ACs": 36,
+                "AcceptRate": 25.0,
                 "onsite": 3,
-                "access": 1303,
+                "access": 1320,
                 "category": [
                     "\u6578\u8ad6",
                     "\u8f3e\u8f49\u76f8\u9664\u6cd5"
@@ -2804,7 +2877,7 @@
                 "ACs": 17,
                 "AcceptRate": 9.94,
                 "onsite": 8,
-                "access": 2156,
+                "access": 2165,
                 "category": []
             }
         ]
@@ -2817,21 +2890,21 @@
             {
                 "pid": "11032",
                 "name": "11032: Happy Number",
-                "subs": 702,
-                "ACs": 207,
-                "AcceptRate": 29.49,
+                "subs": 706,
+                "ACs": 209,
+                "AcceptRate": 29.6,
                 "onsite": 3,
-                "access": 2868,
+                "access": 2892,
                 "category": []
             },
             {
                 "pid": "10535",
                 "name": "10535: Prime Distance",
-                "subs": 853,
-                "ACs": 127,
-                "AcceptRate": 14.89,
-                "onsite": 6,
-                "access": 5127,
+                "subs": 884,
+                "ACs": 130,
+                "AcceptRate": 14.71,
+                "onsite": 7,
+                "access": 5303,
                 "category": []
             },
             {
@@ -2841,17 +2914,17 @@
                 "ACs": 15,
                 "AcceptRate": 18.29,
                 "onsite": 2,
-                "access": 559,
+                "access": 562,
                 "category": []
             },
             {
                 "pid": "11017",
                 "name": "11017: Longest Common Subsequence",
-                "subs": 1291,
-                "ACs": 256,
-                "AcceptRate": 19.83,
+                "subs": 1296,
+                "ACs": 260,
+                "AcceptRate": 20.06,
                 "onsite": 12,
-                "access": 3861,
+                "access": 3903,
                 "category": [
                     "DP",
                     "LCS"
@@ -2860,21 +2933,21 @@
             {
                 "pid": "10503",
                 "name": "10503: Show the Sequence",
-                "subs": 954,
-                "ACs": 135,
-                "AcceptRate": 14.15,
-                "onsite": 18,
-                "access": 6340,
+                "subs": 963,
+                "ACs": 137,
+                "AcceptRate": 14.23,
+                "onsite": 19,
+                "access": 6450,
                 "category": []
             },
             {
                 "pid": "22181",
                 "name": "22181: Dollars",
-                "subs": 735,
-                "ACs": 172,
-                "AcceptRate": 23.4,
+                "subs": 762,
+                "ACs": 179,
+                "AcceptRate": 23.49,
                 "onsite": 19,
-                "access": 4355,
+                "access": 4557,
                 "category": [
                     "\u627e\u96f6\u554f\u984c"
                 ]
@@ -2889,31 +2962,31 @@
             {
                 "pid": "10559",
                 "name": "10559: I Love Big Numbers !",
-                "subs": 869,
-                "ACs": 245,
-                "AcceptRate": 28.19,
+                "subs": 873,
+                "ACs": 248,
+                "AcceptRate": 28.41,
                 "onsite": 8,
-                "access": 3150,
+                "access": 3171,
                 "category": []
             },
             {
                 "pid": "10732",
                 "name": "10732: Snow Clearing",
-                "subs": 105,
-                "ACs": 25,
-                "AcceptRate": 23.81,
+                "subs": 148,
+                "ACs": 39,
+                "AcceptRate": 26.35,
                 "onsite": 3,
-                "access": 895,
+                "access": 1201,
                 "category": []
             },
             {
                 "pid": "10567",
                 "name": "10567: Common Permutation",
-                "subs": 2283,
-                "ACs": 567,
-                "AcceptRate": 24.84,
+                "subs": 2288,
+                "ACs": 568,
+                "AcceptRate": 24.83,
                 "onsite": 11,
-                "access": 6198,
+                "access": 6213,
                 "category": []
             },
             {
@@ -2923,27 +2996,27 @@
                 "ACs": 21,
                 "AcceptRate": 20.0,
                 "onsite": 5,
-                "access": 1225,
+                "access": 1242,
                 "category": []
             },
             {
                 "pid": "22171",
                 "name": "22171: Dungeon Master",
-                "subs": 718,
-                "ACs": 178,
-                "AcceptRate": 24.79,
+                "subs": 727,
+                "ACs": 180,
+                "AcceptRate": 24.76,
                 "onsite": 15,
-                "access": 3892,
+                "access": 3936,
                 "category": []
             },
             {
                 "pid": "10602",
                 "name": "10602: Longest Paths",
-                "subs": 308,
-                "ACs": 50,
-                "AcceptRate": 16.23,
+                "subs": 318,
+                "ACs": 53,
+                "AcceptRate": 16.67,
                 "onsite": 6,
-                "access": 2573,
+                "access": 2693,
                 "category": [
                     "DP",
                     "LCS"
@@ -2959,51 +3032,51 @@
             {
                 "pid": "10517",
                 "name": "10517: Hartals",
-                "subs": 2171,
-                "ACs": 931,
-                "AcceptRate": 42.88,
+                "subs": 2175,
+                "ACs": 934,
+                "AcceptRate": 42.94,
                 "onsite": 19,
-                "access": 7056,
+                "access": 7074,
                 "category": []
             },
             {
                 "pid": "11067",
                 "name": "11067: Cola",
-                "subs": 5002,
-                "ACs": 1178,
-                "AcceptRate": 23.55,
+                "subs": 5004,
+                "ACs": 1180,
+                "AcceptRate": 23.58,
                 "onsite": 16,
-                "access": 12432,
+                "access": 12443,
                 "category": []
             },
             {
                 "pid": "10501",
                 "name": "10501: Safe Salutations",
-                "subs": 2268,
-                "ACs": 364,
-                "AcceptRate": 16.05,
+                "subs": 2285,
+                "ACs": 369,
+                "AcceptRate": 16.15,
                 "onsite": 6,
-                "access": 7477,
+                "access": 7564,
                 "category": []
             },
             {
                 "pid": "10637",
                 "name": "10637: Tight words",
-                "subs": 185,
-                "ACs": 50,
-                "AcceptRate": 27.03,
+                "subs": 188,
+                "ACs": 52,
+                "AcceptRate": 27.66,
                 "onsite": 6,
-                "access": 1493,
+                "access": 1539,
                 "category": []
             },
             {
                 "pid": "23681",
                 "name": "23681: Bachet's Game",
-                "subs": 175,
-                "ACs": 81,
-                "AcceptRate": 46.29,
+                "subs": 177,
+                "ACs": 83,
+                "AcceptRate": 46.89,
                 "onsite": 8,
-                "access": 1744,
+                "access": 1781,
                 "category": [
                     "\u80cc\u5305"
                 ]
@@ -3011,11 +3084,11 @@
             {
                 "pid": "10608",
                 "name": "10608: Minimal coverage",
-                "subs": 969,
-                "ACs": 122,
-                "AcceptRate": 12.59,
+                "subs": 971,
+                "ACs": 124,
+                "AcceptRate": 12.77,
                 "onsite": 25,
-                "access": 3452,
+                "access": 3491,
                 "category": []
             }
         ]
@@ -3032,17 +3105,17 @@
                 "ACs": 341,
                 "AcceptRate": 31.66,
                 "onsite": 22,
-                "access": 5420,
+                "access": 5426,
                 "category": []
             },
             {
                 "pid": "10429",
                 "name": "10429: Contest Scoreboard",
-                "subs": 961,
-                "ACs": 170,
-                "AcceptRate": 17.69,
+                "subs": 964,
+                "ACs": 171,
+                "AcceptRate": 17.74,
                 "onsite": 16,
-                "access": 4649,
+                "access": 4681,
                 "category": [
                     "DP"
                 ]
@@ -3050,11 +3123,11 @@
             {
                 "pid": "10416",
                 "name": "10416: Last Digit",
-                "subs": 4151,
-                "ACs": 623,
-                "AcceptRate": 15.01,
+                "subs": 4154,
+                "ACs": 625,
+                "AcceptRate": 15.05,
                 "onsite": 21,
-                "access": 10218,
+                "access": 10245,
                 "category": [
                     "\u6578\u5b78"
                 ]
@@ -3062,31 +3135,31 @@
             {
                 "pid": "10413",
                 "name": "10413: An Easy Problem!",
-                "subs": 1374,
-                "ACs": 328,
-                "AcceptRate": 23.87,
+                "subs": 1384,
+                "ACs": 332,
+                "AcceptRate": 23.99,
                 "onsite": 6,
-                "access": 5401,
+                "access": 5430,
                 "category": []
             },
             {
                 "pid": "23671",
                 "name": "23671: Camel trading",
-                "subs": 1350,
-                "ACs": 272,
-                "AcceptRate": 20.15,
+                "subs": 1353,
+                "ACs": 274,
+                "AcceptRate": 20.25,
                 "onsite": 18,
-                "access": 4894,
+                "access": 4939,
                 "category": []
             },
             {
                 "pid": "2008-28",
                 "name": "2008-28: Longest monotonically increasing subsequence",
-                "subs": 390,
+                "subs": 393,
                 "ACs": 68,
-                "AcceptRate": 17.44,
+                "AcceptRate": 17.3,
                 "onsite": 33,
-                "access": 3276,
+                "access": 3347,
                 "category": [
                     "DP",
                     "LCS"
@@ -3102,51 +3175,51 @@
             {
                 "pid": "23771",
                 "name": "23771: Lexicographic Order",
-                "subs": 322,
-                "ACs": 65,
-                "AcceptRate": 20.19,
+                "subs": 323,
+                "ACs": 66,
+                "AcceptRate": 20.43,
                 "onsite": 25,
-                "access": 2360,
+                "access": 2380,
                 "category": []
             },
             {
                 "pid": "22821",
                 "name": "22821: Oil Deposits",
-                "subs": 1825,
-                "ACs": 499,
-                "AcceptRate": 27.34,
+                "subs": 1832,
+                "ACs": 503,
+                "AcceptRate": 27.46,
                 "onsite": 16,
-                "access": 5549,
+                "access": 5594,
                 "category": []
             },
             {
                 "pid": "23661",
                 "name": "23661: Bit Mask",
-                "subs": 396,
-                "ACs": 104,
-                "AcceptRate": 26.26,
+                "subs": 397,
+                "ACs": 105,
+                "AcceptRate": 26.45,
                 "onsite": 8,
-                "access": 2654,
+                "access": 2670,
                 "category": []
             },
             {
                 "pid": "23551",
                 "name": "23551: Largest Square",
-                "subs": 2348,
-                "ACs": 481,
-                "AcceptRate": 20.49,
+                "subs": 2363,
+                "ACs": 488,
+                "AcceptRate": 20.65,
                 "onsite": 15,
-                "access": 5972,
+                "access": 6057,
                 "category": []
             },
             {
                 "pid": "23781",
                 "name": "23781: Making Change",
-                "subs": 252,
-                "ACs": 49,
-                "AcceptRate": 19.44,
+                "subs": 254,
+                "ACs": 50,
+                "AcceptRate": 19.69,
                 "onsite": 19,
-                "access": 2251,
+                "access": 2303,
                 "category": [
                     "DP",
                     "Greedy",
@@ -3157,11 +3230,11 @@
             {
                 "pid": "10606",
                 "name": "10606: How Big Is It?",
-                "subs": 479,
-                "ACs": 47,
-                "AcceptRate": 9.81,
+                "subs": 480,
+                "ACs": 48,
+                "AcceptRate": 10.0,
                 "onsite": 34,
-                "access": 4883,
+                "access": 4912,
                 "category": [
                     "Circle",
                     "Geometry",
@@ -3178,31 +3251,31 @@
             {
                 "pid": "10038",
                 "name": "10038: Disk Tree",
-                "subs": 232,
-                "ACs": 65,
-                "AcceptRate": 28.02,
+                "subs": 246,
+                "ACs": 67,
+                "AcceptRate": 27.24,
                 "onsite": 32,
-                "access": 2662,
+                "access": 2719,
                 "category": []
             },
             {
                 "pid": "10503",
                 "name": "10503: Show the Sequence",
-                "subs": 954,
-                "ACs": 135,
-                "AcceptRate": 14.15,
-                "onsite": 18,
-                "access": 6340,
+                "subs": 963,
+                "ACs": 137,
+                "AcceptRate": 14.23,
+                "onsite": 19,
+                "access": 6450,
                 "category": []
             },
             {
                 "pid": "11174",
                 "name": "11174: Homer Simpson",
-                "subs": 3597,
-                "ACs": 450,
-                "AcceptRate": 12.51,
+                "subs": 3601,
+                "ACs": 453,
+                "AcceptRate": 12.58,
                 "onsite": 11,
-                "access": 8340,
+                "access": 8354,
                 "category": [
                     "DP\u3001Greedy"
                 ]
@@ -3210,11 +3283,11 @@
             {
                 "pid": "24461",
                 "name": "24461: Sum of Consecutive Prime Numbers",
-                "subs": 619,
-                "ACs": 360,
-                "AcceptRate": 58.16,
+                "subs": 630,
+                "ACs": 364,
+                "AcceptRate": 57.78,
                 "onsite": 11,
-                "access": 3614,
+                "access": 3688,
                 "category": []
             },
             {
@@ -3224,17 +3297,17 @@
                 "ACs": 47,
                 "AcceptRate": 8.26,
                 "onsite": 30,
-                "access": 4196,
+                "access": 4223,
                 "category": []
             },
             {
                 "pid": "22181",
                 "name": "22181: Dollars",
-                "subs": 735,
-                "ACs": 172,
-                "AcceptRate": 23.4,
+                "subs": 762,
+                "ACs": 179,
+                "AcceptRate": 23.49,
                 "onsite": 19,
-                "access": 4355,
+                "access": 4557,
                 "category": [
                     "\u627e\u96f6\u554f\u984c"
                 ]
@@ -3242,11 +3315,11 @@
             {
                 "pid": "23781",
                 "name": "23781: Making Change",
-                "subs": 252,
-                "ACs": 49,
-                "AcceptRate": 19.44,
+                "subs": 254,
+                "ACs": 50,
+                "AcceptRate": 19.69,
                 "onsite": 19,
-                "access": 2251,
+                "access": 2303,
                 "category": [
                     "DP",
                     "Greedy",
@@ -3264,21 +3337,21 @@
             {
                 "pid": "10437",
                 "name": "10437: Zeros and Ones",
-                "subs": 1528,
-                "ACs": 426,
-                "AcceptRate": 27.88,
+                "subs": 1538,
+                "ACs": 431,
+                "AcceptRate": 28.02,
                 "onsite": 7,
-                "access": 4592,
+                "access": 4638,
                 "category": []
             },
             {
                 "pid": "10582",
                 "name": "10582: Power Strings",
-                "subs": 1526,
-                "ACs": 265,
-                "AcceptRate": 17.37,
+                "subs": 1529,
+                "ACs": 266,
+                "AcceptRate": 17.4,
                 "onsite": 17,
-                "access": 4114,
+                "access": 4166,
                 "category": [
                     "\u641c\u5c0b",
                     "\u8cea\u56e0\u6578\u5206\u89e3"
@@ -3287,21 +3360,21 @@
             {
                 "pid": "2009-24",
                 "name": "2009-24: Unique lines",
-                "subs": 1219,
-                "ACs": 157,
-                "AcceptRate": 12.88,
+                "subs": 1243,
+                "ACs": 162,
+                "AcceptRate": 13.03,
                 "onsite": 41,
-                "access": 6162,
+                "access": 6349,
                 "category": []
             },
             {
                 "pid": "24941",
                 "name": "24941: Uncompress",
-                "subs": 496,
-                "ACs": 161,
-                "AcceptRate": 32.46,
+                "subs": 507,
+                "ACs": 168,
+                "AcceptRate": 33.14,
                 "onsite": 21,
-                "access": 3680,
+                "access": 3811,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406"
                 ]
@@ -3309,21 +3382,21 @@
             {
                 "pid": "10615",
                 "name": "10615: Divisibility",
-                "subs": 588,
-                "ACs": 184,
-                "AcceptRate": 31.29,
+                "subs": 589,
+                "ACs": 185,
+                "AcceptRate": 31.41,
                 "onsite": 9,
-                "access": 3013,
+                "access": 3026,
                 "category": []
             },
             {
                 "pid": "10658",
                 "name": "10658: Is Bigger Smarter?",
-                "subs": 277,
-                "ACs": 20,
-                "AcceptRate": 7.22,
+                "subs": 295,
+                "ACs": 21,
+                "AcceptRate": 7.12,
                 "onsite": 6,
-                "access": 1479,
+                "access": 1638,
                 "category": []
             }
         ]
@@ -3336,11 +3409,11 @@
             {
                 "pid": "10500",
                 "name": "10500: Brick Wall Patterns",
-                "subs": 2108,
-                "ACs": 528,
-                "AcceptRate": 25.05,
+                "subs": 2115,
+                "ACs": 531,
+                "AcceptRate": 25.11,
                 "onsite": 5,
-                "access": 7689,
+                "access": 7723,
                 "category": [
                     "DP",
                     "\u8cbb\u6c0f\u6578\u5217"
@@ -3353,27 +3426,27 @@
                 "ACs": 166,
                 "AcceptRate": 24.81,
                 "onsite": 12,
-                "access": 2429,
+                "access": 2433,
                 "category": []
             },
             {
                 "pid": "10655",
                 "name": "10655: Sumsets",
-                "subs": 2608,
-                "ACs": 360,
-                "AcceptRate": 13.8,
+                "subs": 2653,
+                "ACs": 371,
+                "AcceptRate": 13.98,
                 "onsite": 17,
-                "access": 9881,
+                "access": 10137,
                 "category": []
             },
             {
                 "pid": "11017",
                 "name": "11017: Longest Common Subsequence",
-                "subs": 1291,
-                "ACs": 256,
-                "AcceptRate": 19.83,
+                "subs": 1296,
+                "ACs": 260,
+                "AcceptRate": 20.06,
                 "onsite": 12,
-                "access": 3861,
+                "access": 3903,
                 "category": [
                     "DP",
                     "LCS"
@@ -3386,17 +3459,17 @@
                 "ACs": 47,
                 "AcceptRate": 8.26,
                 "onsite": 30,
-                "access": 4196,
+                "access": 4223,
                 "category": []
             },
             {
                 "pid": "10603",
                 "name": "10603: Cutting Sticks",
-                "subs": 245,
-                "ACs": 84,
-                "AcceptRate": 34.29,
+                "subs": 249,
+                "ACs": 87,
+                "AcceptRate": 34.94,
                 "onsite": 9,
-                "access": 2098,
+                "access": 2149,
                 "category": []
             }
         ]
@@ -3409,31 +3482,31 @@
             {
                 "pid": "10038",
                 "name": "10038: Disk Tree",
-                "subs": 232,
-                "ACs": 65,
-                "AcceptRate": 28.02,
+                "subs": 246,
+                "ACs": 67,
+                "AcceptRate": 27.24,
                 "onsite": 32,
-                "access": 2662,
+                "access": 2719,
                 "category": []
             },
             {
                 "pid": "10520",
                 "name": "10520: Conformity",
-                "subs": 1589,
-                "ACs": 440,
-                "AcceptRate": 27.69,
+                "subs": 1594,
+                "ACs": 444,
+                "AcceptRate": 27.85,
                 "onsite": 32,
-                "access": 9156,
+                "access": 9222,
                 "category": []
             },
             {
                 "pid": "24931",
                 "name": "24931: Extend to Palindromes",
-                "subs": 1881,
-                "ACs": 266,
-                "AcceptRate": 14.14,
-                "onsite": 21,
-                "access": 5655,
+                "subs": 1887,
+                "ACs": 269,
+                "AcceptRate": 14.26,
+                "onsite": 22,
+                "access": 5756,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406",
                     "\u8ff4\u6587"
@@ -3442,21 +3515,21 @@
             {
                 "pid": "2009-24",
                 "name": "2009-24: Unique lines",
-                "subs": 1219,
-                "ACs": 157,
-                "AcceptRate": 12.88,
+                "subs": 1243,
+                "ACs": 162,
+                "AcceptRate": 13.03,
                 "onsite": 41,
-                "access": 6162,
+                "access": 6349,
                 "category": []
             },
             {
                 "pid": "10679",
                 "name": "10679: Irreducible Basic Fractions",
-                "subs": 883,
-                "ACs": 134,
-                "AcceptRate": 15.18,
+                "subs": 906,
+                "ACs": 139,
+                "AcceptRate": 15.34,
                 "onsite": 11,
-                "access": 3530,
+                "access": 3653,
                 "category": []
             },
             {
@@ -3466,7 +3539,7 @@
                 "ACs": 16,
                 "AcceptRate": 44.44,
                 "onsite": 3,
-                "access": 746,
+                "access": 751,
                 "category": [
                     "DP",
                     "\u8cea\u56e0\u6578\u5206\u89e3"
@@ -3482,31 +3555,31 @@
             {
                 "pid": "10502",
                 "name": "10502: Product of digits",
-                "subs": 2668,
-                "ACs": 610,
-                "AcceptRate": 22.86,
+                "subs": 2678,
+                "ACs": 614,
+                "AcceptRate": 22.93,
                 "onsite": 18,
-                "access": 7146,
+                "access": 7183,
                 "category": []
             },
             {
                 "pid": "10409",
                 "name": "10409: A mid-summer night\u00e2\u0080\u0099s dream",
-                "subs": 3721,
-                "ACs": 685,
-                "AcceptRate": 18.41,
+                "subs": 3727,
+                "ACs": 687,
+                "AcceptRate": 18.43,
                 "onsite": 18,
-                "access": 14830,
+                "access": 14857,
                 "category": []
             },
             {
                 "pid": "24941",
                 "name": "24941: Uncompress",
-                "subs": 496,
-                "ACs": 161,
-                "AcceptRate": 32.46,
+                "subs": 507,
+                "ACs": 168,
+                "AcceptRate": 33.14,
                 "onsite": 21,
-                "access": 3680,
+                "access": 3811,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406"
                 ]
@@ -3514,11 +3587,11 @@
             {
                 "pid": "24931",
                 "name": "24931: Extend to Palindromes",
-                "subs": 1881,
-                "ACs": 266,
-                "AcceptRate": 14.14,
-                "onsite": 21,
-                "access": 5655,
+                "subs": 1887,
+                "ACs": 269,
+                "AcceptRate": 14.26,
+                "onsite": 22,
+                "access": 5756,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406",
                     "\u8ff4\u6587"
@@ -3527,11 +3600,11 @@
             {
                 "pid": "10601",
                 "name": "10601: Eternal Truths",
-                "subs": 251,
+                "subs": 253,
                 "ACs": 42,
-                "AcceptRate": 16.73,
+                "AcceptRate": 16.6,
                 "onsite": 13,
-                "access": 1868,
+                "access": 1913,
                 "category": []
             },
             {
@@ -3541,7 +3614,7 @@
                 "ACs": 47,
                 "AcceptRate": 8.26,
                 "onsite": 30,
-                "access": 4196,
+                "access": 4223,
                 "category": []
             },
             {
@@ -3551,7 +3624,7 @@
                 "ACs": 0,
                 "AcceptRate": 0.0,
                 "onsite": 2,
-                "access": 181,
+                "access": 187,
                 "category": []
             }
         ]
@@ -3564,11 +3637,11 @@
             {
                 "pid": "10567",
                 "name": "10567: Common Permutation",
-                "subs": 2283,
-                "ACs": 567,
-                "AcceptRate": 24.84,
+                "subs": 2288,
+                "ACs": 568,
+                "AcceptRate": 24.83,
                 "onsite": 11,
-                "access": 6198,
+                "access": 6213,
                 "category": []
             },
             {
@@ -3578,17 +3651,17 @@
                 "ACs": 166,
                 "AcceptRate": 24.81,
                 "onsite": 12,
-                "access": 2429,
+                "access": 2433,
                 "category": []
             },
             {
                 "pid": "10429",
                 "name": "10429: Contest Scoreboard",
-                "subs": 961,
-                "ACs": 170,
-                "AcceptRate": 17.69,
+                "subs": 964,
+                "ACs": 171,
+                "AcceptRate": 17.74,
                 "onsite": 16,
-                "access": 4649,
+                "access": 4681,
                 "category": [
                     "DP"
                 ]
@@ -3596,31 +3669,31 @@
             {
                 "pid": "2008-37",
                 "name": "2008-37: Prefix expression evaluation",
-                "subs": 1097,
-                "ACs": 223,
-                "AcceptRate": 20.33,
+                "subs": 1121,
+                "ACs": 226,
+                "AcceptRate": 20.16,
                 "onsite": 39,
-                "access": 5185,
+                "access": 5255,
                 "category": []
             },
             {
                 "pid": "10607",
                 "name": "10607: Joseph's Cousin",
-                "subs": 1262,
-                "ACs": 264,
-                "AcceptRate": 20.92,
+                "subs": 1264,
+                "ACs": 266,
+                "AcceptRate": 21.04,
                 "onsite": 13,
-                "access": 7671,
+                "access": 7686,
                 "category": []
             },
             {
                 "pid": "10603",
                 "name": "10603: Cutting Sticks",
-                "subs": 245,
-                "ACs": 84,
-                "AcceptRate": 34.29,
+                "subs": 249,
+                "ACs": 87,
+                "AcceptRate": 34.94,
                 "onsite": 9,
-                "access": 2098,
+                "access": 2149,
                 "category": []
             }
         ]
@@ -3633,11 +3706,11 @@
             {
                 "pid": "10500",
                 "name": "10500: Brick Wall Patterns",
-                "subs": 2108,
-                "ACs": 528,
-                "AcceptRate": 25.05,
+                "subs": 2115,
+                "ACs": 531,
+                "AcceptRate": 25.11,
                 "onsite": 5,
-                "access": 7689,
+                "access": 7723,
                 "category": [
                     "DP",
                     "\u8cbb\u6c0f\u6578\u5217"
@@ -3646,11 +3719,11 @@
             {
                 "pid": "10416",
                 "name": "10416: Last Digit",
-                "subs": 4151,
-                "ACs": 623,
-                "AcceptRate": 15.01,
+                "subs": 4154,
+                "ACs": 625,
+                "AcceptRate": 15.05,
                 "onsite": 21,
-                "access": 10218,
+                "access": 10245,
                 "category": [
                     "\u6578\u5b78"
                 ]
@@ -3658,11 +3731,11 @@
             {
                 "pid": "2015-09",
                 "name": "2015-09: Longest Increasing Subsequence",
-                "subs": 1250,
-                "ACs": 266,
-                "AcceptRate": 21.28,
+                "subs": 1254,
+                "ACs": 268,
+                "AcceptRate": 21.37,
                 "onsite": 8,
-                "access": 3595,
+                "access": 3643,
                 "category": [
                     "DP",
                     "LCS"
@@ -3671,31 +3744,31 @@
             {
                 "pid": "2008-37",
                 "name": "2008-37: Prefix expression evaluation",
-                "subs": 1097,
-                "ACs": 223,
-                "AcceptRate": 20.33,
+                "subs": 1121,
+                "ACs": 226,
+                "AcceptRate": 20.16,
                 "onsite": 39,
-                "access": 5185,
+                "access": 5255,
                 "category": []
             },
             {
                 "pid": "10644",
                 "name": "10644: The Tourist Guide",
-                "subs": 221,
-                "ACs": 55,
-                "AcceptRate": 24.89,
+                "subs": 244,
+                "ACs": 62,
+                "AcceptRate": 25.41,
                 "onsite": 5,
-                "access": 1971,
+                "access": 2135,
                 "category": []
             },
             {
                 "pid": "10675",
                 "name": "10675: Urn-ball Probabilities!",
-                "subs": 52,
-                "ACs": 20,
-                "AcceptRate": 38.46,
+                "subs": 54,
+                "ACs": 21,
+                "AcceptRate": 38.89,
                 "onsite": 2,
-                "access": 528,
+                "access": 537,
                 "category": []
             }
         ]
@@ -3708,31 +3781,31 @@
             {
                 "pid": "10406",
                 "name": "10406: Vito's family",
-                "subs": 3170,
-                "ACs": 900,
-                "AcceptRate": 28.39,
+                "subs": 3173,
+                "ACs": 901,
+                "AcceptRate": 28.4,
                 "onsite": 9,
-                "access": 8890,
+                "access": 8899,
                 "category": []
             },
             {
                 "pid": "10528",
                 "name": "10528: Light, more light",
-                "subs": 1074,
-                "ACs": 243,
-                "AcceptRate": 22.63,
-                "onsite": 8,
-                "access": 3461,
+                "subs": 1154,
+                "ACs": 261,
+                "AcceptRate": 22.62,
+                "onsite": 9,
+                "access": 3805,
                 "category": []
             },
             {
                 "pid": "24941",
                 "name": "24941: Uncompress",
-                "subs": 496,
-                "ACs": 161,
-                "AcceptRate": 32.46,
+                "subs": 507,
+                "ACs": 168,
+                "AcceptRate": 33.14,
                 "onsite": 21,
-                "access": 3680,
+                "access": 3811,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406"
                 ]
@@ -3740,21 +3813,21 @@
             {
                 "pid": "10413",
                 "name": "10413: An Easy Problem!",
-                "subs": 1374,
-                "ACs": 328,
-                "AcceptRate": 23.87,
+                "subs": 1384,
+                "ACs": 332,
+                "AcceptRate": 23.99,
                 "onsite": 6,
-                "access": 5401,
+                "access": 5430,
                 "category": []
             },
             {
                 "pid": "22171",
                 "name": "22171: Dungeon Master",
-                "subs": 718,
-                "ACs": 178,
-                "AcceptRate": 24.79,
+                "subs": 727,
+                "ACs": 180,
+                "AcceptRate": 24.76,
                 "onsite": 15,
-                "access": 3892,
+                "access": 3936,
                 "category": []
             },
             {
@@ -3764,7 +3837,7 @@
                 "ACs": 11,
                 "AcceptRate": 17.46,
                 "onsite": 3,
-                "access": 846,
+                "access": 864,
                 "category": []
             }
         ]
@@ -3777,21 +3850,21 @@
             {
                 "pid": "10409",
                 "name": "10409: A mid-summer night\u00e2\u0080\u0099s dream",
-                "subs": 3721,
-                "ACs": 685,
-                "AcceptRate": 18.41,
+                "subs": 3727,
+                "ACs": 687,
+                "AcceptRate": 18.43,
                 "onsite": 18,
-                "access": 14830,
+                "access": 14857,
                 "category": []
             },
             {
                 "pid": "10421",
                 "name": "10421: All You Need Is Love",
-                "subs": 2585,
-                "ACs": 763,
-                "AcceptRate": 29.52,
+                "subs": 2588,
+                "ACs": 766,
+                "AcceptRate": 29.6,
                 "onsite": 21,
-                "access": 7403,
+                "access": 7419,
                 "category": [
                     "\u6700\u5927\u516c\u56e0\u6578",
                     "\u9032\u5236\u8f49\u63db"
@@ -3800,11 +3873,11 @@
             {
                 "pid": "10582",
                 "name": "10582: Power Strings",
-                "subs": 1526,
-                "ACs": 265,
-                "AcceptRate": 17.37,
+                "subs": 1529,
+                "ACs": 266,
+                "AcceptRate": 17.4,
                 "onsite": 17,
-                "access": 4114,
+                "access": 4166,
                 "category": [
                     "\u641c\u5c0b",
                     "\u8cea\u56e0\u6578\u5206\u89e3"
@@ -3813,11 +3886,11 @@
             {
                 "pid": "10615",
                 "name": "10615: Divisibility",
-                "subs": 588,
-                "ACs": 184,
-                "AcceptRate": 31.29,
+                "subs": 589,
+                "ACs": 185,
+                "AcceptRate": 31.41,
                 "onsite": 9,
-                "access": 3013,
+                "access": 3026,
                 "category": []
             },
             {
@@ -3827,17 +3900,17 @@
                 "ACs": 341,
                 "AcceptRate": 31.66,
                 "onsite": 22,
-                "access": 5420,
+                "access": 5426,
                 "category": []
             },
             {
                 "pid": "2015-07",
                 "name": "2015-07: Minimum Path Sum",
-                "subs": 920,
-                "ACs": 244,
-                "AcceptRate": 26.52,
+                "subs": 922,
+                "ACs": 245,
+                "AcceptRate": 26.57,
                 "onsite": 7,
-                "access": 2323,
+                "access": 2332,
                 "category": []
             }
         ]
@@ -3850,51 +3923,51 @@
             {
                 "pid": "11058",
                 "name": "11058: Exact Sum",
-                "subs": 1011,
-                "ACs": 180,
-                "AcceptRate": 17.8,
+                "subs": 1015,
+                "ACs": 182,
+                "AcceptRate": 17.93,
                 "onsite": 7,
-                "access": 2461,
+                "access": 2484,
                 "category": []
             },
             {
                 "pid": "23661",
                 "name": "23661: Bit Mask",
-                "subs": 396,
-                "ACs": 104,
-                "AcceptRate": 26.26,
+                "subs": 397,
+                "ACs": 105,
+                "AcceptRate": 26.45,
                 "onsite": 8,
-                "access": 2654,
+                "access": 2670,
                 "category": []
             },
             {
                 "pid": "11179",
                 "name": "11179: Wavio Sequence",
-                "subs": 627,
-                "ACs": 118,
-                "AcceptRate": 18.82,
+                "subs": 639,
+                "ACs": 120,
+                "AcceptRate": 18.78,
                 "onsite": 22,
-                "access": 2912,
+                "access": 2938,
                 "category": []
             },
             {
                 "pid": "10600",
                 "name": "10600: Network Connections",
-                "subs": 479,
-                "ACs": 78,
-                "AcceptRate": 16.28,
+                "subs": 536,
+                "ACs": 88,
+                "AcceptRate": 16.42,
                 "onsite": 9,
-                "access": 2714,
+                "access": 3171,
                 "category": []
             },
             {
                 "pid": "10621",
                 "name": "10621: Luggage",
-                "subs": 1173,
-                "ACs": 286,
-                "AcceptRate": 24.38,
+                "subs": 1201,
+                "ACs": 297,
+                "AcceptRate": 24.73,
                 "onsite": 18,
-                "access": 5889,
+                "access": 6090,
                 "category": [
                     "DP",
                     "\u5b50\u96c6\u548c\u554f\u984c"
@@ -3907,7 +3980,7 @@
                 "ACs": 17,
                 "AcceptRate": 9.19,
                 "onsite": 51,
-                "access": 3188,
+                "access": 3202,
                 "category": []
             }
         ]
@@ -3920,31 +3993,31 @@
             {
                 "pid": "24921",
                 "name": "24921: Guard the Land",
-                "subs": 4002,
-                "ACs": 657,
-                "AcceptRate": 16.42,
+                "subs": 4006,
+                "ACs": 659,
+                "AcceptRate": 16.45,
                 "onsite": 13,
-                "access": 5963,
+                "access": 5980,
                 "category": []
             },
             {
                 "pid": "24461",
                 "name": "24461: Sum of Consecutive Prime Numbers",
-                "subs": 619,
-                "ACs": 360,
-                "AcceptRate": 58.16,
+                "subs": 630,
+                "ACs": 364,
+                "AcceptRate": 57.78,
                 "onsite": 11,
-                "access": 3614,
+                "access": 3688,
                 "category": []
             },
             {
                 "pid": "10602",
                 "name": "10602: Longest Paths",
-                "subs": 308,
-                "ACs": 50,
-                "AcceptRate": 16.23,
+                "subs": 318,
+                "ACs": 53,
+                "AcceptRate": 16.67,
                 "onsite": 6,
-                "access": 2573,
+                "access": 2693,
                 "category": [
                     "DP",
                     "LCS"
@@ -3953,11 +4026,11 @@
             {
                 "pid": "21944",
                 "name": "21944: Power Crisis",
-                "subs": 2004,
-                "ACs": 458,
-                "AcceptRate": 22.85,
+                "subs": 2027,
+                "ACs": 462,
+                "AcceptRate": 22.79,
                 "onsite": 27,
-                "access": 7311,
+                "access": 7468,
                 "category": []
             },
             {
@@ -3973,11 +4046,11 @@
             {
                 "pid": "10645",
                 "name": "10645: Euclid Problem",
-                "subs": 143,
-                "ACs": 35,
-                "AcceptRate": 24.48,
+                "subs": 144,
+                "ACs": 36,
+                "AcceptRate": 25.0,
                 "onsite": 3,
-                "access": 1303,
+                "access": 1320,
                 "category": [
                     "\u6578\u8ad6",
                     "\u8f3e\u8f49\u76f8\u9664\u6cd5"
@@ -3993,21 +4066,21 @@
             {
                 "pid": "10551",
                 "name": "10551: Bee Maja",
-                "subs": 861,
-                "ACs": 315,
-                "AcceptRate": 36.59,
+                "subs": 870,
+                "ACs": 322,
+                "AcceptRate": 37.01,
                 "onsite": 20,
-                "access": 3983,
+                "access": 4068,
                 "category": []
             },
             {
                 "pid": "11017",
                 "name": "11017: Longest Common Subsequence",
-                "subs": 1291,
-                "ACs": 256,
-                "AcceptRate": 19.83,
+                "subs": 1296,
+                "ACs": 260,
+                "AcceptRate": 20.06,
                 "onsite": 12,
-                "access": 3861,
+                "access": 3903,
                 "category": [
                     "DP",
                     "LCS"
@@ -4016,21 +4089,21 @@
             {
                 "pid": "23651",
                 "name": "23651: The jackpot",
-                "subs": 2129,
-                "ACs": 420,
-                "AcceptRate": 19.73,
+                "subs": 2134,
+                "ACs": 423,
+                "AcceptRate": 19.82,
                 "onsite": 12,
-                "access": 4117,
+                "access": 4139,
                 "category": []
             },
             {
                 "pid": "24931",
                 "name": "24931: Extend to Palindromes",
-                "subs": 1881,
-                "ACs": 266,
-                "AcceptRate": 14.14,
-                "onsite": 21,
-                "access": 5655,
+                "subs": 1887,
+                "ACs": 269,
+                "AcceptRate": 14.26,
+                "onsite": 22,
+                "access": 5756,
                 "category": [
                     "\u5b57\u4e32\u8655\u7406",
                     "\u8ff4\u6587"
@@ -4039,21 +4112,21 @@
             {
                 "pid": "23671",
                 "name": "23671: Camel trading",
-                "subs": 1350,
-                "ACs": 272,
-                "AcceptRate": 20.15,
+                "subs": 1353,
+                "ACs": 274,
+                "AcceptRate": 20.25,
                 "onsite": 18,
-                "access": 4894,
+                "access": 4939,
                 "category": []
             },
             {
                 "pid": "10608",
                 "name": "10608: Minimal coverage",
-                "subs": 969,
-                "ACs": 122,
-                "AcceptRate": 12.59,
+                "subs": 971,
+                "ACs": 124,
+                "AcceptRate": 12.77,
                 "onsite": 25,
-                "access": 3452,
+                "access": 3491,
                 "category": []
             },
             {
@@ -4063,7 +4136,7 @@
                 "ACs": 3,
                 "AcceptRate": 17.65,
                 "onsite": 1,
-                "access": 530,
+                "access": 535,
                 "category": []
             }
         ]
@@ -4076,11 +4149,11 @@
             {
                 "pid": "11019",
                 "name": "11019: Die Game",
-                "subs": 3241,
-                "ACs": 1058,
-                "AcceptRate": 32.64,
+                "subs": 3245,
+                "ACs": 1061,
+                "AcceptRate": 32.7,
                 "onsite": 15,
-                "access": 12785,
+                "access": 12821,
                 "category": [
                     "\u6a21\u64ec"
                 ]
@@ -4088,51 +4161,51 @@
             {
                 "pid": "11041",
                 "name": "11041: Children's Game",
-                "subs": 2381,
-                "ACs": 449,
-                "AcceptRate": 18.86,
+                "subs": 2385,
+                "ACs": 451,
+                "AcceptRate": 18.91,
                 "onsite": 19,
-                "access": 6627,
+                "access": 6643,
                 "category": []
             },
             {
                 "pid": "10533",
                 "name": "10533: The Trip",
-                "subs": 608,
-                "ACs": 70,
-                "AcceptRate": 11.51,
+                "subs": 633,
+                "ACs": 73,
+                "AcceptRate": 11.53,
                 "onsite": 5,
-                "access": 2276,
+                "access": 2325,
                 "category": []
             },
             {
                 "pid": "10465",
                 "name": "10465: Necklace",
-                "subs": 830,
-                "ACs": 164,
-                "AcceptRate": 19.76,
+                "subs": 834,
+                "ACs": 167,
+                "AcceptRate": 20.02,
                 "onsite": 13,
-                "access": 3222,
+                "access": 3243,
                 "category": []
             },
             {
                 "pid": "2008-37",
                 "name": "2008-37: Prefix expression evaluation",
-                "subs": 1097,
-                "ACs": 223,
-                "AcceptRate": 20.33,
+                "subs": 1121,
+                "ACs": 226,
+                "AcceptRate": 20.16,
                 "onsite": 39,
-                "access": 5185,
+                "access": 5255,
                 "category": []
             },
             {
                 "pid": "10658",
                 "name": "10658: Is Bigger Smarter?",
-                "subs": 277,
-                "ACs": 20,
-                "AcceptRate": 7.22,
+                "subs": 295,
+                "ACs": 21,
+                "AcceptRate": 7.12,
                 "onsite": 6,
-                "access": 1479,
+                "access": 1638,
                 "category": []
             }
         ]
@@ -4149,47 +4222,47 @@
                 "ACs": 647,
                 "AcceptRate": 29.21,
                 "onsite": 11,
-                "access": 5623,
+                "access": 5627,
                 "category": []
             },
             {
                 "pid": "10501",
                 "name": "10501: Safe Salutations",
-                "subs": 2268,
-                "ACs": 364,
-                "AcceptRate": 16.05,
+                "subs": 2285,
+                "ACs": 369,
+                "AcceptRate": 16.15,
                 "onsite": 6,
-                "access": 7477,
+                "access": 7564,
                 "category": []
             },
             {
                 "pid": "11192",
                 "name": "11192: Simple Minded Hashing",
-                "subs": 249,
-                "ACs": 95,
-                "AcceptRate": 38.15,
+                "subs": 330,
+                "ACs": 124,
+                "AcceptRate": 37.58,
                 "onsite": 6,
-                "access": 1889,
+                "access": 2337,
                 "category": []
             },
             {
                 "pid": "22821",
                 "name": "22821: Oil Deposits",
-                "subs": 1825,
-                "ACs": 499,
-                "AcceptRate": 27.34,
+                "subs": 1832,
+                "ACs": 503,
+                "AcceptRate": 27.46,
                 "onsite": 16,
-                "access": 5549,
+                "access": 5594,
                 "category": []
             },
             {
                 "pid": "10655",
                 "name": "10655: Sumsets",
-                "subs": 2608,
-                "ACs": 360,
-                "AcceptRate": 13.8,
+                "subs": 2653,
+                "ACs": 371,
+                "AcceptRate": 13.98,
                 "onsite": 17,
-                "access": 9881,
+                "access": 10137,
                 "category": []
             },
             {
@@ -4199,7 +4272,7 @@
                 "ACs": 47,
                 "AcceptRate": 8.26,
                 "onsite": 30,
-                "access": 4196,
+                "access": 4223,
                 "category": []
             }
         ]
@@ -4212,11 +4285,11 @@
             {
                 "pid": "10528",
                 "name": "10528: Light, more light",
-                "subs": 1074,
-                "ACs": 243,
-                "AcceptRate": 22.63,
-                "onsite": 8,
-                "access": 3461,
+                "subs": 1154,
+                "ACs": 261,
+                "AcceptRate": 22.62,
+                "onsite": 9,
+                "access": 3805,
                 "category": []
             },
             {
@@ -4226,37 +4299,37 @@
                 "ACs": 340,
                 "AcceptRate": 30.22,
                 "onsite": 10,
-                "access": 3758,
+                "access": 3759,
                 "category": []
             },
             {
                 "pid": "2008-37",
                 "name": "2008-37: Prefix expression evaluation",
-                "subs": 1097,
-                "ACs": 223,
-                "AcceptRate": 20.33,
+                "subs": 1121,
+                "ACs": 226,
+                "AcceptRate": 20.16,
                 "onsite": 39,
-                "access": 5185,
+                "access": 5255,
                 "category": []
             },
             {
                 "pid": "22171",
                 "name": "22171: Dungeon Master",
-                "subs": 718,
-                "ACs": 178,
-                "AcceptRate": 24.79,
+                "subs": 727,
+                "ACs": 180,
+                "AcceptRate": 24.76,
                 "onsite": 15,
-                "access": 3892,
+                "access": 3936,
                 "category": []
             },
             {
                 "pid": "10679",
                 "name": "10679: Irreducible Basic Fractions",
-                "subs": 883,
-                "ACs": 134,
-                "AcceptRate": 15.18,
+                "subs": 906,
+                "ACs": 139,
+                "AcceptRate": 15.34,
                 "onsite": 11,
-                "access": 3530,
+                "access": 3653,
                 "category": []
             },
             {
@@ -4266,7 +4339,7 @@
                 "ACs": 17,
                 "AcceptRate": 9.94,
                 "onsite": 8,
-                "access": 2156,
+                "access": 2165,
                 "category": []
             }
         ]

@@ -21,9 +21,8 @@ const problemReducer = (state, action) => {
 
       return {
         column: action.column,
-        data: _.sortBy(state.data, [action.column]),
-        direction:
-          state.direction === 'ascending' ? 'descending' : 'ascending',
+        data: _.sortBy(state.data, [action.column]).reverse(),
+        direction: 'descending',
       };
     default:
       throw new Error();

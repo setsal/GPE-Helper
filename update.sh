@@ -4,7 +4,7 @@ echo "[*] Execute update script"
 
 # Use Guest cookie
 # ACMICPCTW=$(python pybin/getGuestCookie.py)
-ACMICPCTW=$(curl --silent -X POST --data "login=guest&passwd=guest" --output /dev/null --insecure --cookie-jar - https://gpe3.acm-icpc.tw/checkpasswd.php | tail -n 1 | awk '{print $7}')
+ACMICPCTW=$(curl --silent -X POST --data "login=guest&passwd=guest" --output /dev/null --insecure --cookie-jar - https://gpe3.acm-icpc.tw/checkpasswd.php | tail -n 2 | head -n 1 | awk '{print $7}')
 echo "Get cookie" $ACMICPCTW
 
 # Crawler.py
@@ -20,6 +20,13 @@ echo "[*] Execute getCategory.py"
 python pybin/genCategory.py -ef frontend/public/exams.json -pf frontend/public/problems.json
 
 # Commit & push file
-git add .
-git commit -m "Update data at `date '+%b %d  %H:%M'`"
-git push
+echo -n "Push to gitub repo (y/n)? "  # make some check
+read answer
+if [ "$answer" != "${answer#[Yy]}" ] ;then
+    git add .
+    git commit -m "Update data at `date '+%b %d  %H:%M'`"
+    git push
+    echo "Success"
+else
+    echo "Abort Git Push"
+fi

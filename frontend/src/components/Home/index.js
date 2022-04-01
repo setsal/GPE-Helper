@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import styled from 'styled-components';
 
 import {
@@ -15,9 +15,9 @@ import {
 import { Link } from 'react-router-dom';
 
 function Home({ className }) {
-  function onScrollDown() {
+  const onScrollDown = useCallback(() => {
     window.scroll({ top: 600, behavior: 'smooth' });
-  }
+  });
 
   return (
     <div className={className}>

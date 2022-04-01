@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useCallback } from 'react';
 import styled from 'styled-components';
 
 import {
@@ -57,14 +57,13 @@ function Problems({ className, ProblemData }) {
     filter: undefined,
   });
 
-  // I am not sure is this a good handle data from props
-  function handleFilter(e) {
+  const handleFilter = useCallback((e) => {
     state.filter = e.target.value;
     dispatch({
       type: 'CHANGE_FILTER',
       data: ProblemData.filter((problems) => problems.name.includes(state.filter)),
     });
-  }
+  });
 
   function addFavorite(pid) {
     const pidData = JSON.parse(localStorage.getItem('gpe-favorite'));

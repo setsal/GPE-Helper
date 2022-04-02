@@ -19,6 +19,9 @@ python pybin/genProblems.py --no-net -f frontend/public/exams.json -o frontend/p
 echo "[*] Execute getCategory.py"
 python pybin/genCategory.py -ef frontend/public/exams.json -pf frontend/public/problems.json
 
+echo "[*] Execute genQuestionSnapshot.py"
+python3 pybin/genQuestionSnapshot.py -f frontend/public/exams.json -o frontend/public/question_snapshots
+
 # Commit & push file
 echo -n "Push to gitub repo (y/n)? "  # make some check
 read answer

@@ -14,6 +14,7 @@ import {
   Label,
 } from 'semantic-ui-react';
 import _ from 'lodash';
+import { useHistory } from 'react-router-dom';
 
 const problemReducer = (state, action) => {
   switch (action.type) {
@@ -64,6 +65,8 @@ function Problems({ className, ProblemData }) {
       data: ProblemData.filter((problems) => problems.name.includes(state.filter)),
     });
   });
+  const history = useHistory();
+  const navigateTo = (pid) => history.push(`/problems/${pid}`);
 
   function addFavorite(pid) {
     const pidData = JSON.parse(localStorage.getItem('gpe-favorite'));
@@ -115,6 +118,13 @@ function Problems({ className, ProblemData }) {
         <Table sortable celled padded>
           <Table.Header>
             <Table.Row>
+              <Table.HeaderCell
+                width={1}
+                sorted={state.column === 'pid' ? state.direction : null}
+                onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'favorite' })}
+              >
+                Snapshot
+              </Table.HeaderCell>
               <Table.HeaderCell
                 sorted={state.column === 'pid' ? state.direction : null}
                 onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'pid' })}
@@ -184,6 +194,15 @@ function Problems({ className, ProblemData }) {
             {state.data
               && state.data.map((problem, i) => (
                 <Table.Row key={problem.pid}>
+                  <Table.Cell textAlign="center">
+                    <Button
+                      onClick={() => {
+                        navigateTo(problem.pid);
+                      }}
+                      color="orange"
+                      icon="save outline"
+                    />
+                  </Table.Cell>
                   <Table.Cell singleLine>
                     <a className="problem-name" href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
                       &nbsp;&nbsp;

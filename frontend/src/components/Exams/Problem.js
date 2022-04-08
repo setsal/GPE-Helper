@@ -1,13 +1,13 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useState } from 'react';
 import styled from 'styled-components';
 import {
   Header,
   Table,
   Label,
-  Button,
 } from 'semantic-ui-react';
 import _ from 'lodash';
-import { useHistory } from 'react-router-dom';
+
+import ProblemSnapshots from '../ProblemSnapshots';
 
 const problemReducer = (state, action) => {
   switch (action.type) {
@@ -34,9 +34,10 @@ const problemReducer = (state, action) => {
 const Problem = ({
   className, problems,
 }) => {
-  const history = useHistory();
-  // eslint-disable-next-line no-unused-vars
-  const navigateTo = (pid) => history.push(`/problems/${pid}`);
+  const [modalSnapshotData, setModal] = useState({
+    visible: false,
+    id: null,
+  });
 
   const [state, dispatch] = useReducer(problemReducer, {
     column: null,
@@ -44,18 +45,18 @@ const Problem = ({
     direction: null,
   });
 
+  function handleModalStatusCallback(status) {
+    setModal({
+      visible: status,
+      id: null,
+    });
+  }
+
   return (
     <div className={className}>
       <Table sortable celled padded>
         <Table.Header>
           <Table.Row>
-            <Table.HeaderCell
-              width={1}
-              sorted={state.column === 'pid' ? state.direction : null}
-              onClick={() => dispatch({ type: 'CHANGE_SORT', column: 'favorite' })}
-            >
-              Snapshot
-            </Table.HeaderCell>
             <Table.HeaderCell singleLine>Problem</Table.HeaderCell>
             <Table.HeaderCell
               sorted={state.column === 'AcceptRate' ? state.direction : null}
@@ -88,20 +89,22 @@ const Problem = ({
         <Table.Body>
           {state.data.map((problem) => (
             <Table.Row key={problem.pid}>
-              <Table.Cell textAlign="center">
-                <Button
-                  onClick={() => {
-                    console.log(problem);
-                    history.push(`/problems/${problem.pid}`);
-                    // navigateTo(problem.pid);
-                  }}
-                  color="orange"
-                  icon="save outline"
-                />
-              </Table.Cell>
+
               <Table.Cell singleLine>
-                <a className="problem-name" href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
-                      &nbsp;&nbsp;
+                <i
+                  aria-hidden
+                  className="problem-name"
+                  style={{ display: 'inline', color: '#0000EE' }}
+                  onClick={() => {
+                    setModal({
+                      visible: true,
+                      id: problem.pid,
+                    });
+                  }}
+                >
+                  {problem.name}
+                  &nbsp;&nbsp;
+                </i>
                 <div className="category">
                   {problem.category.map((item) => (
                     <Label circular size="small" key={item}>
@@ -132,7 +135,16 @@ const Problem = ({
           ))}
         </Table.Body>
       </Table>
+      {modalSnapshotData.visible
+        ? (
+          <ProblemSnapshots
+            modalData={modalSnapshotData}
+            handleStatusCallback={(s) => { handleModalStatusCallback(s); }}
+          />
+        )
+        : null}
     </div>
+
   );
 };
 

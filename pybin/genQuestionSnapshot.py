@@ -37,12 +37,21 @@ logging.basicConfig(
     default="result",
     show_default=True,
 )
-def main(filename: str, net: bool, output: str):
+@click.option(
+    "-fp",
+    "--frontend_assets_path",
+    "frontend_assets_path",
+    help="assets path (html image src dir path)",
+    type=str,
+    default="result",
+    show_default=True,
+)
+def main(filename: str, net: bool, output: str, frontend_assets_path: str):
 
     if os.path.isfile(output):
         logging.error("output folder is file not folder.")
         return
-
+    assets_path = f"{frontend_assets_path}/assets/"
     image_path = os.path.join(output, "assets")
     question_path = os.path.join(output, "contents")
     if not os.path.exists(image_path):
@@ -78,6 +87,7 @@ def main(filename: str, net: bool, output: str):
                 question_id=pid,
                 image_path=image_path,
                 content_path=question_path,
+                assets_path=assets_path,
             )
 
 
@@ -85,7 +95,7 @@ def download_img(session: requests.Session, url: str, filename: str):
     req = session.get(url)
     if req.status_code != 200:
         logging.error(f"Download image assets fail : {url}")
-        return
+        return None
     open(filename, "wb").write(req.content)
 
 
@@ -94,6 +104,7 @@ def question_parser(
     question_id: str = None,
     image_path: str = None,
     content_path: str = None,
+    assets_path: str = None,
 ) -> dict:
 
     host_url = "https://gpe3.acm-icpc.tw"
@@ -107,7 +118,9 @@ def question_parser(
 
     html = question_req.text
 
-    result = {"content": None, "image_list": []}
+    question_link = question_req.request.url
+
+    result = {"content": None}
 
     html = html[html.find("\n") :]  # Remove first line <xml> tag
 
@@ -123,7 +136,7 @@ def question_parser(
         return
 
     for index, img_element in enumerate(problem_content.xpath("//img")):
-        # img_element: "etree._Element" = img_element
+        img_element: "etree._Element" = img_element
         # image_filename = f"{uuid4().hex}.jpg"
         # image_filename = f"{md5(img_element.get('src'))}.jpg"
 
@@ -135,18 +148,26 @@ def question_parser(
             url=f"{host_url}/pct/images/{image_filename}",
             filename=_image_path,
         )
-        result["image_list"].append(image_filename)
 
-        # remove/replace img element
-        parent: etree._Element = img_element.getparent()
-
-        parent.replace(img_element, etree.HTML(f"<p>(Image:{index+1})<p>"))
+        # replace img element
+        if img_element.attrib.get("src"):
+            img_element.attrib["src"] = f"{assets_path}{image_filename}"
 
     # Remove all hyperlink avoid link fail
     for any_element in problem_content.xpath("//*[@href]"):
         del any_element.attrib["href"]
+
+    # add hyperlink on title
+    for i in problem_content.xpath("./h2/a")[:1]:
+        i.attrib["href"] = question_link
+        i.attrib["target"] = "_blank"
+
     # Remove form
     for i in problem_content.xpath("//form"):
+        i.getparent().remove(i)
+
+    # Remove script
+    for i in problem_content.xpath("//script"):
         i.getparent().remove(i)
 
     result["content"] = etree.tostring(problem_content).decode("utf-8")

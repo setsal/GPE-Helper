@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ReactGA from 'react-ga'; // Google Analytics
 import {
-  Header, Footer, Home, NoMatch, Exams, Problems,
+  Header, Footer, Home, NoMatch, Exams, Problems, ProblemSnapshots,
 } from './components';
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
@@ -53,7 +53,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/exams" component={() => <Exams ExamData={data.ExamData} />} />
-            <Route path="/problems" component={() => <Problems ProblemData={data.ProblemData} />} />
+            <Route exact path="/problems" component={() => <Problems ProblemData={data.ProblemData} />} />
+            <Route path="/problems/:id" component={() => <ProblemSnapshots />} />
             <Route path="*" component={NoMatch} />
           </Switch>
         </div>

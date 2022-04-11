@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import styled from 'styled-components';
 
 import {
@@ -22,9 +22,9 @@ function Footer({ className }) {
     };
   }, []);
 
-  function onScrollTop() {
+  const onScrollTop = useCallback(() => {
     window.scroll({ top: 0, behavior: 'smooth' });
-  }
+  });
 
   return (
     <div className={className}>

@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useCallback, useState } from 'react';
 import styled from 'styled-components';
 
 import {
@@ -14,6 +14,7 @@ import {
   Label,
 } from 'semantic-ui-react';
 import _ from 'lodash';
+import ProblemSnapshots from '../ProblemSnapshots';
 
 const problemReducer = (state, action) => {
   switch (action.type) {
@@ -57,12 +58,23 @@ function Problems({ className, ProblemData }) {
     filter: undefined,
   });
 
-  // I am not sure is this a good handle data from props
-  function handleFilter(e) {
+  const handleFilter = useCallback((e) => {
     state.filter = e.target.value;
     dispatch({
       type: 'CHANGE_FILTER',
       data: ProblemData.filter((problems) => problems.name.includes(state.filter)),
+    });
+  });
+
+  const [modalSnapshotData, setModal] = useState({
+    visible: false,
+    id: null,
+  });
+
+  function handleModalStatusCallback(status) {
+    setModal({
+      visible: status,
+      id: null,
     });
   }
 
@@ -186,8 +198,20 @@ function Problems({ className, ProblemData }) {
               && state.data.map((problem, i) => (
                 <Table.Row key={problem.pid}>
                   <Table.Cell singleLine>
-                    <a className="problem-name" href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
-                      &nbsp;&nbsp;
+                    <i
+                      aria-hidden
+                      className="problem-name"
+                      style={{ display: 'inline', color: '#0000EE' }}
+                      onClick={() => {
+                        setModal({
+                          visible: true,
+                          id: problem.pid,
+                        });
+                      }}
+                    >
+                      {problem.name}
+                  &nbsp;&nbsp;
+                    </i>
                     <div className="category">
                       {problem.category.map((item) => (
                         <Label circular size="small" key={item}>
@@ -238,6 +262,14 @@ function Problems({ className, ProblemData }) {
           </Table.Body>
         </Table>
       </Container>
+      {modalSnapshotData.visible
+        ? (
+          <ProblemSnapshots
+            modalData={modalSnapshotData}
+            handleStatusCallback={(s) => { handleModalStatusCallback(s); }}
+          />
+        )
+        : null}
     </div>
   );
 }

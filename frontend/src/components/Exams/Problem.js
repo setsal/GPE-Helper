@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useState } from 'react';
 import styled from 'styled-components';
 import {
   Header,
@@ -6,6 +6,8 @@ import {
   Label,
 } from 'semantic-ui-react';
 import _ from 'lodash';
+
+import ProblemSnapshots from '../ProblemSnapshots';
 
 const problemReducer = (state, action) => {
   switch (action.type) {
@@ -32,11 +34,23 @@ const problemReducer = (state, action) => {
 const Problem = ({
   className, problems,
 }) => {
+  const [modalSnapshotData, setModal] = useState({
+    visible: false,
+    id: null,
+  });
+
   const [state, dispatch] = useReducer(problemReducer, {
     column: null,
     data: problems,
     direction: null,
   });
+
+  function handleModalStatusCallback(status) {
+    setModal({
+      visible: status,
+      id: null,
+    });
+  }
 
   return (
     <div className={className}>
@@ -75,9 +89,22 @@ const Problem = ({
         <Table.Body>
           {state.data.map((problem) => (
             <Table.Row key={problem.pid}>
+
               <Table.Cell singleLine>
-                <a className="problem-name" href={`https://gpe3.acm-icpc.tw/showproblemtab.php?probid=${problem.pid}&cid=5\n`} rel="noreferrer" target="_blank">{problem.name}</a>
-                      &nbsp;&nbsp;
+                <i
+                  aria-hidden
+                  className="problem-name"
+                  style={{ display: 'inline', color: '#0000EE' }}
+                  onClick={() => {
+                    setModal({
+                      visible: true,
+                      id: problem.pid,
+                    });
+                  }}
+                >
+                  {problem.name}
+                  &nbsp;&nbsp;
+                </i>
                 <div className="category">
                   {problem.category.map((item) => (
                     <Label circular size="small" key={item}>
@@ -108,7 +135,16 @@ const Problem = ({
           ))}
         </Table.Body>
       </Table>
+      {modalSnapshotData.visible
+        ? (
+          <ProblemSnapshots
+            modalData={modalSnapshotData}
+            handleStatusCallback={(s) => { handleModalStatusCallback(s); }}
+          />
+        )
+        : null}
     </div>
+
   );
 };
 

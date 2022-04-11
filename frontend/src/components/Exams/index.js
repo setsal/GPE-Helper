@@ -43,6 +43,7 @@ function Exams({ className, ExamData }) {
                 <Accordion.Title
                   active={activeIndex === i}
                   index={i}
+                  // eslint-disable-next-line react/jsx-no-bind
                   onClick={handleClick}
                 >
                   <Icon name="dropdown" />

@@ -1,0 +1,524 @@
+
+body {
+	color:black;
+	background-color:white;
+	font-family:sans-serif;
+	text-align: left;
+
+}
+
+img {
+	border:0;
+}
+
+.sol {
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+.sol_correct {
+	color:green;
+}
+
+.sol_incorrect {
+	color:red;
+}
+
+.sol_partialcorrect {
+	color:#fc6;
+}
+
+.sol_queued {
+	color:gray;
+}
+
+tr.sub_ignore td {
+	text-decoration:line-through;
+}
+
+a:link, a:visited {
+	color:blue;
+}
+
+a:hover {
+	color:purple;
+}
+
+a:active {
+	color:red;
+}
+
+.disabled {
+	color:silver;
+}
+
+.disabled a {
+	color:gray;
+}
+
+table {
+	border-collapse:separate;
+	border-spacing:2px;
+}
+
+th {
+	vertical-align:bottom;
+	border-bottom:1px dashed gray;
+}
+
+caption {
+	font-weight:bold;
+	margin-bottom:1ex;
+}
+
+hr {
+	border:0;
+	height:1px;
+	background-color:gray;
+	margin-top:2em;
+}
+
+address {
+	font-size:smaller;
+}
+
+tr.unread td {
+	font-weight:bold;
+}
+
+.list {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+.list td, .list th {
+	padding:3px;
+	padding-left:5px;
+	padding-right:5px;
+	vertical-align:bottom;
+}
+
+.output_text {
+	border-top:1px dotted #c0c0c0;
+	border-bottom:1px dotted #c0c0c0;
+	background-color:#fafafa;
+	margin:0;
+	padding:5px;
+	font-family:monospace;
+}
+
+pre.sampleio {
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.overallrank {
+	border:1px solid black;
+	background-color:#fafafa;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:0;
+	padding-left:5px;
+	padding-right:0;
+	padding-bottom:5px;
+	padding-top:5px;
+	text-align:left;
+	float:left;
+}
+
+.onsiterank {
+	border:1px solid black;
+	background-color:#fafafa;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:0;
+	padding-left:5px;
+	padding-right:0;
+	padding-bottom:5px;
+	padding-top:5px;
+	text-align:left;
+	float:right;
+}
+
+.inputoutput {
+	border:1px solid black;
+	background-color:#fafafa;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:0;
+	padding-left:5px;
+	padding-right:0;
+	padding-bottom:5px;
+	padding-top:5px;
+	text-align:left;
+}
+
+.SampleCaption {
+	background-color:#fafafa;
+	margin:0;
+	padding-left:0;
+	padding-right:10%;
+	text-align:left;
+}
+
+span.differ {
+	color:Red;
+}
+
+span.endline {
+	color:Orange;
+}
+
+span.extra {
+	color:Red;
+}
+
+.teamid {
+	font-family:monospace;
+}
+
+.probid, .langid {
+	font-variant:small-caps;
+}
+
+.rank {
+	font-size:62.5%;
+}
+
+.rank td {
+	font-size:small;
+}
+
+.pfile {
+	font-size:62.5%;
+}
+
+.pfile td {
+	font-size:small;
+}
+
+.rank2 {
+	font-size:90%;
+}
+
+.rank2 td {
+	font-size:small;
+}
+
+#problemtext {
+	text-decoration:none;
+	background-color:#fffff0;
+	border:1px solid black;
+	margin:0 auto;
+	padding:2px;
+	padding-left:5px;
+	padding-right:5px;
+	width:85%;
+	font-size:normal;
+	font-family:Times New Roman;
+}
+
+#problemtext td {
+	font-size:normal;
+}
+
+#problemlist {
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#fffff0;
+	border:1px solid black;
+	margin:2px;
+	padding:22px;
+	padding-left:5px;
+	padding-right:5px;
+	width:80%;
+}
+
+#menutop a {
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#fffff0;
+	border:1px solid black;
+	margin:2px;
+	padding:2px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#menutop a.new {
+	color:#f00;
+}
+
+#clock {
+	position:absolute;
+	right:1ex;
+	top:1ex;
+	font-size:small;
+	font-family:monospace;
+	border:1px dashed #ccc;
+	padding:4px;
+	color:gray;
+	text-align:right;
+}
+
+#timeleft {
+	color:#800080;
+	font-size:x-large;
+}
+
+fieldset {
+	margin:2em;
+	padding:1em;
+}
+
+.error {
+	color:red;
+	font-family:monospace;
+	border:1px dotted red;
+}
+
+legend {
+	font-variant:small-caps;
+	font-weight:bold;
+	padding:.1ex .5ex;
+}
+
+.error legend {
+	font-size:x-large;
+	border-right:1px solid gray;
+	border-bottom:1px solid gray;
+}
+
+.scoreboard {
+	border-collapse:collapse;
+}
+
+.scoreboard td {
+	font-size:small;
+}
+
+.scoreboard tr {
+	border-bottom:1px solid silver;
+}
+
+.scoreboard td, .scoreboard th {
+	border-right:1px solid black;
+	padding:3px;
+}
+
+.scoreboard a {
+	display:block;
+	padding:3px;
+	text-decoration:none;
+	color:black;
+}
+
+.scoreboard .scoretn {
+	padding:0;
+	width:25ex;
+}
+
+.scoreboard .scoreaf {
+	white-space:nowrap;
+}
+
+.scoreheader {
+	font-variant:small-caps;
+	border-bottom:2px solid black;
+}
+
+.score_correct {
+	background:#3f6;
+}
+
+.score_incorrect {
+	background:#f66;
+}
+
+.score_partialcorrect {
+	background:#ff3;
+}
+
+.score_neutral {
+	background:white;
+}
+
+#scoresolv, #scoretotal {
+	width:5em;
+}
+
+.scorenc, .scorett, .scorepl {
+	text-align:right;
+	width:2ex;
+}
+
+td.scorenc {
+	border-color:silver;
+}
+
+.scoreprob {
+	width:7em;
+}
+
+.scoreaffil {
+	text-align:center;
+}
+
+#scoresummary {
+	border-top:2px solid black;
+	border-bottom:0;
+	font-variant:small-caps;
+}
+
+#scorethisisme .scoretn {
+	background:#f60;
+	font-weight:bold;
+}
+
+#lastmod {
+	color:gray;
+	font-size:x-small;
+	position:absolute;
+	right:1ex;
+	margin-top:1em;
+}
+
+#camqrcode {
+	position:absolute;
+	right:2ex;
+	top:48ex;
+}
+
+#camphoto {
+	position:absolute;
+	right:2ex;
+	top:80ex;
+}
+
+#largetotalscore {
+	color:#008000;
+	font-size: 2.8cm;
+}
+
+#largetotalscore2 {
+	color:#808000;
+	font-size: 2.0cm;
+}
+
+#largetotalscore3 {
+	color:#200000;
+	font-size: 1.4cm;
+}
+
+#exampass {
+	color:#800080;
+        text-decoration:blink;
+}
+
+#teamscoresummary {
+	position:absolute;
+	right:2ex;
+	top:7ex;
+}
+
+#teamscoresummary td {
+	padding:3px;
+}
+
+#teamscoresummary th {
+	padding:3px;
+}
+
+#sysstat {
+	position:absolute;
+	right:2ex;
+	top:7ex;
+}
+
+#sysstat td {
+	padding:3px;
+}
+
+#sysstat th {
+	padding:3px;
+}
+
+#teampicture {
+	position:absolute;
+	right:2ex;
+	top:7ex;
+	width:70%;
+}
+
+.sortorderswitch {
+	border-top:2px solid black;
+}
+
+.sortorderswitchthisisme {
+	border-top:2px solid black;
+	background:#f60;
+	font-weight:bold;
+}
+
+.thisisme {
+	background:#f60;
+	font-weight:bold;
+}
+
+.contestswitch {
+	border-top:1px solid black;
+}
+
+p.MsoNormal, li.MsoNormal, div.MsoNormal {
+	mso-style-parent:"";
+	margin:0;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+}
+
+p.preformatted, li.preformatted, div.preformatted {
+	mso-style-name:preformatted;
+	margin:0;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+}
+
+span.GramE {
+	mso-style-name:"";
+	mso-gram-e:yes;
+}
+
+@page Section1 {
+	size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;
+}
+
+div.Section1 {
+	page:Section1;
+}
+
+.ui-tabs .ui-tabs-hide {
+	display:none;
+}
+
+#djlogo {
+	position:absolute;
+	right:1ex;
+	width:93px;
+	height:196px;
+}
+
+

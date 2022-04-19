@@ -104,9 +104,9 @@ function Problems({ className, ProblemData }) {
           <Message.List>
             <Message.Item>點擊欄位名稱就可以了～</Message.Item>
             <Message.Item>
-              目前提供 ProblemID、AC 率、OnSite 次數、題目 Access 次數、2019~現在正式考試出現次數、最後出現時間排序
+              提供 ProblemID、AC 率、OnSite 次數、題目 Access 次數、2019~現在正式考試出現次數、最後出現時間排序，另有不負責任題目練習推薦度0 - 0
             </Message.Item>
-            <Message.Item>另外提供亂統計的不負責任題目練習推薦度0 - 0</Message.Item>
+            <Message.Item>由於 GPE 網站限制校外連線因素，新增題目快照功能🥳 (如果還是想連回去學校 Judge，點擊快照的標題就可以囉)</Message.Item>
             <Message.Item>P.S. 純前端網站，我的最愛功能透過瀏覽器儲存實現，如果你清掉資料或換台電腦，我的最愛就會消失囉😌</Message.Item>
           </Message.List>
         </Message>
@@ -198,10 +198,9 @@ function Problems({ className, ProblemData }) {
               && state.data.map((problem, i) => (
                 <Table.Row key={problem.pid}>
                   <Table.Cell singleLine>
-                    <i
+                    <span
                       aria-hidden
                       className="problem-name"
-                      style={{ display: 'inline', color: '#0000EE' }}
                       onClick={() => {
                         setModal({
                           visible: true,
@@ -210,8 +209,8 @@ function Problems({ className, ProblemData }) {
                       }}
                     >
                       {problem.name}
-                  &nbsp;&nbsp;
-                    </i>
+                      &nbsp;&nbsp;
+                    </span>
                     <div className="category">
                       {problem.category.map((item) => (
                         <Label circular size="small" key={item}>
@@ -278,6 +277,9 @@ export default styled(Problems)`
 .problem-name {
   font-size: 1.1rem;
   font-weight: 500;
+  padding: 0!important;
+  color: #1d1df0;
+  cursor: pointer;  
 }
 .category {
   display: inline;

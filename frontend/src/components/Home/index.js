@@ -54,13 +54,13 @@ function Home({ className }) {
           <Grid.Row>
             <Grid.Column width={16}>
               <Header as="h3" style={{ fontSize: '2em' }}>
-                <Image src="/afraid.gif" style={{ width: '100px' }} />
+                <Image src="/happy.gif" style={{ width: '100px' }} />
                 作者的廢話
               </Header>
               <div style={{ fontSize: '1.33em' }}>
                 <p>不好好寫扣和練 GPE 在這邊寫奇怪的東西啊= =</p>
                 <p>
-                  總之是個小專案，統計一下近來學校舉辦的程式檢定考題型和相關出題頻率
+                  總之是個小專案，統計一下近來學校舉辦的程式檢定考題型和相關出題頻率，另外提供題目快照功能
                 </p>
                 <p>
                   資料來源皆來自於學校的 gpe3.acm-icpc.tw，題目分類來自於 zero judge，然後保佑我 GPE 能過.. (耶 過惹🥳)

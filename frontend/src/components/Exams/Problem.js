@@ -91,10 +91,9 @@ const Problem = ({
             <Table.Row key={problem.pid}>
 
               <Table.Cell singleLine>
-                <i
+                <span
                   aria-hidden
                   className="problem-name"
-                  style={{ display: 'inline', color: '#0000EE' }}
                   onClick={() => {
                     setModal({
                       visible: true,
@@ -104,7 +103,7 @@ const Problem = ({
                 >
                   {problem.name}
                   &nbsp;&nbsp;
-                </i>
+                </span>
                 <div className="category">
                   {problem.category.map((item) => (
                     <Label circular size="small" key={item}>
@@ -152,6 +151,9 @@ export default styled(Problem)`
 .problem-name {
   font-size: 1.1rem;
   font-weight: 500;
+  padding: 0!important;
+  color: #1d1df0;
+  cursor: pointer;  
 }
 .category {
   display: inline;
